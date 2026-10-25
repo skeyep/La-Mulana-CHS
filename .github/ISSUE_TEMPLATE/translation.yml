@@ -1,0 +1,38 @@
+name: 翻译问题
+description: 反馈错漏译、谜题歧义、术语或文字显示问题。
+title: '[翻译] '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 汉化版本
+      description: 请填写游戏首页左下角的版本号。
+      placeholder: 例如 0.2.3
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 出现位置或触发条件
+      description: 请写区域、房间、人物或邮件编号，以及看到这句话时的游戏状态。
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: 游戏中的原句
+      description: 请贴出完整句子；文字无法抄录时可以上传截图。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题与修改建议
+      description: 请说明哪里有问题，以及是否影响对剧情或谜题的理解；有建议译法或外文依据也请附上。
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图或补充资料
+      description: 可拖入截图，尽量保留完整游戏画面，方便定位上下文。

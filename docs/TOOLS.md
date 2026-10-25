@@ -30,3 +30,11 @@ python tools/lm1_phonetic_stroke_full_v1.py --catalog --output catalog.png
 
 
 `dialogue_timing.py`只补13项缺少关键前置或截止信息的对话提示，其余98项保持原样。简要使用正常短句，具体操作放在详情中。
+
+## 仓库维护
+
+提交到`main`、向`main`提出Pull Request或手动运行工作流时，GitHub Actions会使用Python 3.14执行`python -B scripts/check_sources.py`，检查译文稳定键、颜色范围、逐字读音、原符绑定和古字数据。检查使用Python标准库，可在公开仓库内独立运行。
+
+`main`允许正常提交，禁止强制推送和删除；自动检查暂不设为发布硬门槛，现有GitHub API发布入口继续使用。`v*`标签禁止更新和删除，管理员保留例外，用于现有草稿发布流程及必要恢复。已正式发布的版本继续沿用逐批递增版本号的约定。
+
+反馈入口提供“翻译问题”和“安装或运行问题”表单，分别收集文本位置与上下文，以及安装包、运行环境和复现步骤。

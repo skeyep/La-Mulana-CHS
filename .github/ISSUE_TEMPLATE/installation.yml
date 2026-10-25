@@ -1,0 +1,41 @@
+name: 安装或运行问题
+description: 反馈安装、检查、还原、升级、文字显示或冒险记录运行异常。
+title: '[运行] '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 汉化版本
+      description: 请填写下载的安装包版本；升级时也请填写旧版本。
+      placeholder: 例如 0.2.3，或从 0.2.2 升级到 0.2.3
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: 安装包
+      options:
+        - Translation Only（纯汉化）
+        - Translation + Adventure Log（汉化＋冒险记录）
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 游戏与运行环境
+      description: 请填写 Windows 版本、游戏来源，以及是否安装过 MOD 或其他资源包。
+      placeholder: 例如 Windows 11、Steam 重制版、未安装 MOD
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 操作步骤与异常
+      description: 请按顺序写出操作、预期结果与实际结果；游戏内问题请写明位置或触发条件。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 错误信息、检查结果或截图
+      description: 可粘贴 Install.cmd、Check.cmd 或 Restore.cmd 的输出，或拖入截图；提交前请遮去个人信息。
