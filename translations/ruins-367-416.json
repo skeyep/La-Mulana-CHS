@@ -5247,6 +5247,20 @@
           "source_tokens_sha256": "a1aef6a7f54b82ebe15d617e36e5a65f4aa2bb8b9fec1c33e2d3e59bb89fbea0",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 1,
+          "start": 6,
+          "end": 8,
+          "text": "陶笛",
+          "color": [
+            150,
+            0,
+            100
+          ]
+        }
       ]
     },
     {

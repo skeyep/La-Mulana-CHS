@@ -96,9 +96,10 @@ static std::wstring shortTiming(const Dialogue& d) {
         int last=0;for(auto& r:d.randomWindows)last=std::max(last,r[1]);
         return L"最后窗口：流程点数≤"+std::to_wstring(last);
     }
-    if(storyBlock(d.person)>=0)return L"当前会触发剧情对白。";
     if(randomBlocked(d)){
-        for(auto& r:d.randomWindows)if(r[1]>=0&&r[0]>flag(123))return L"流程点数≥"+std::to_wstring(r[0])+L"可再尝试";
+        bool inWindow=false;for(auto& r:d.randomWindows)if(r[0]<=flag(123)&&flag(123)<=r[1])inWindow=true;
+        if(inWindow)return L"剧情对白优先，本条暂不可。";
+        for(auto& r:d.randomWindows)if(r[1]>=0&&r[0]>flag(123))return L"本条暂不可。\n流程点数≥"+std::to_wstring(r[0])+L"可再尝试。";
         return L"剧情重设流程点数后可再尝试。";
     }
     return L"在当前窗口反复交谈。";
@@ -257,10 +258,11 @@ static void initCanvas() {
 static void paintRandomWindows(const Dialogue& d) {
     int score=flag(123),nextLo=-1,nextHi=-1;
     for(auto& r:d.randomWindows)if(r[1]>=score){nextLo=r[0];nextHi=r[1];break;}
+    bool available=!missed(d)&&!randomBlocked(d);
     auto interval=[](int lo,int hi){return std::to_wstring(lo)+(lo==hi?L"":L"—"+std::to_wstring(hi));};
-    std::wstring lead=nextLo<0?L"可触发的流程点数":(nextLo<=score?L"当前窗口":L"下次机会");
+    std::wstring lead=missed(d)?L"已错过":nextLo<0?L"可触发的流程点数":(nextLo<=score?(available?L"当前窗口":L"当前窗口暂不可"):L"下次流程窗口");
     text(352,110,256,lead,muted,smallFont);
-    if(nextLo>=0)text(352,132,256,L"流程点数"+interval(nextLo,nextHi),ink);
+    if(nextLo>=0)text(352,132,256,L"流程点数"+interval(nextLo,nextHi),available?ink:muted);
     int y=165;
     const int mulBounds[][2]={{56,120},{121,199},{200,255}};
     const int elderBounds[][2]={{0,70},{71,140},{141,199}};
@@ -273,7 +275,7 @@ static void paintRandomWindows(const Dialogue& d) {
         if(spans.empty())continue;
         text(352,y,256,labels[phase],muted,smallFont);y+=22;
         for(size_t i=0;i<spans.size();i++){
-            auto span=spans[i];bool highlighted=nextLo>=0&&span.second>=nextLo&&span.first<=nextHi;
+            auto span=spans[i];bool highlighted=available&&span.first<=score&&score<=span.second;
             text(352+(int)(i%3)*86,y+(int)(i/3)*23,84,interval(span.first,span.second),highlighted?ink:RGB(145,145,145),smallFont);
         }
         y+=(int)((spans.size()+2)/3)*23+12;

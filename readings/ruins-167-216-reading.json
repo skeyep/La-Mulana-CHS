@@ -8526,7 +8526,7 @@
       "resource_id": "data/language/script_code.dat::block:0193",
       "block_index": 193,
       "source_segment_index": 0,
-      "zh": "第１子幸存的双子。",
+      "zh": "第１子中幸存的双子。",
       "units": [
         {
           "character": "第",
@@ -8541,6 +8541,11 @@
         {
           "character": "子",
           "reading": "zi3",
+          "route": "phonetic"
+        },
+        {
+          "character": "中",
+          "reading": "zhong1",
           "route": "phonetic"
         },
         {
@@ -8582,7 +8587,7 @@
       "resource_id": "data/language/script_code.dat::block:0193",
       "block_index": 193,
       "source_segment_index": 2,
-      "zh": "第３子的英雄将其生擒。",
+      "zh": "第３子的英雄将其生擒，",
       "units": [
         {
           "character": "第",
@@ -8636,7 +8641,7 @@
           "route": "phonetic"
         },
         {
-          "character": "。",
+          "character": "，",
           "reading": null,
           "route": "literal"
         }
@@ -9063,7 +9068,7 @@
       "resource_id": "data/language/script_code.dat::block:0196",
       "block_index": 196,
       "source_segment_index": 0,
-      "zh": "骷髅的彼方，",
+      "zh": "骷髅的彼方，是",
       "units": [
         {
           "character": "骷",
@@ -9094,6 +9099,11 @@
           "character": "，",
           "reading": null,
           "route": "literal"
+        },
+        {
+          "character": "是",
+          "reading": "shi4",
+          "route": "phonetic"
         }
       ],
       "source_tokens_sha256": "cc74c16c902f58aaa0c7263aeba599998c90a4e0507b34ad4f20db99f15bf82f"
@@ -9103,7 +9113,7 @@
       "resource_id": "data/language/script_code.dat::block:0196",
       "block_index": 196,
       "source_segment_index": 10,
-      "zh": "的表侧。",
+      "zh": "的入口。",
       "units": [
         {
           "character": "的",
@@ -9111,13 +9121,13 @@
           "route": "phonetic"
         },
         {
-          "character": "表",
-          "reading": "biao3",
+          "character": "入",
+          "reading": "ru4",
           "route": "phonetic"
         },
         {
-          "character": "侧",
-          "reading": "ce4",
+          "character": "口",
+          "reading": "kou3",
           "route": "phonetic"
         },
         {
@@ -16313,7 +16323,7 @@
     {
       "block_index": 193,
       "source_segment_index": 0,
-      "unit_index0": 4,
+      "unit_index0": 5,
       "character": "存",
       "reading": "cun2",
       "route": "source-copy",

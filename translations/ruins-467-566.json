@@ -1505,6 +1505,38 @@
           "source_tokens_sha256": "fe7f522bdb3f39a1c0f3007356250bf15910a15c0934a3e9217ff6c6398aea58",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "replace-control",
+          "source_control_segment_index": 19,
+          "from_color": [
+            0,
+            50,
+            150
+          ],
+          "color": [
+            150,
+            0,
+            100
+          ],
+          "text": "ＭｏｂｉｌｅＳｕｐｅｒＸ２"
+        },
+        {
+          "kind": "replace-control",
+          "source_control_segment_index": 39,
+          "from_color": [
+            150,
+            0,
+            100
+          ],
+          "color": [
+            0,
+            50,
+            150
+          ],
+          "text": "谷度地图"
+        }
       ]
     },
     {

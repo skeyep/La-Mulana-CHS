@@ -6,6 +6,8 @@
 
 破损提示按日文语义和其他语言的残文安排缺字，保留可供推断的词根。译段内ASCII空格对应`literal`／`reading: null`，编译为原生布局token32；两个空格占一汉字宽，译读与古字状态均留白。47保留“暗、店、金、力”，隐藏“中、铺、钱、量”。
 
+`color_adjustments`保存经四语对照确定的中文着色调整。`range`按稳定段内的中文词义范围设置原生COL参数，`replace-control`修正指定源颜色；原始源段和锚点保持。着色对齐对象名与关键词，中文新增的“向、将、前往”等功能词单独判断。
+
 `phonetic/inventory.json`给出426基音与五调，`stroke-full-v1/`保存当前笔画部件、2130个音码和透明库存PNG。`preservation.json`记录表义符、数字和咒文保护规则；`source-components.json`记录部件坐标。普通同音同调共享古字，原符优先。`chinese_binding_proposals`的状态字段区分已用规则与候选。
 
 从现有工作工程更新公开数据：

@@ -1517,6 +1517,20 @@
           "source_tokens_sha256": "c3d2656a886cd3aff8cedf1f3870d85941a36b9e11f4f540bcee4c15d8be0acb",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 8,
+          "end": 10,
+          "text": "肩甲",
+          "color": [
+            150,
+            0,
+            100
+          ]
+        }
       ]
     },
     {
@@ -1576,6 +1590,20 @@
           "source_token_offset": 22,
           "source_tokens_sha256": "82fc4e68ef25c351e47900038134b4bc8bc87db88c2febd87330b584317a4c8a",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 3,
+          "start": 2,
+          "end": 6,
+          "text": "创造之神",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },
@@ -2410,7 +2438,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0296::s1",
           "source_segment_index": 1,
-          "zh": "笛音将赐予怀孕的女子。",
+          "zh": "只有怀孕的女性才能听到的笛声。",
           "source_token_offset": 3,
           "source_tokens_sha256": "68686d2a338a36d9bc65400f2b3aa543ed7d1964917f34dc9c4b1b90a48a21aa",
           "source_kind": "glyph_run"
@@ -3553,6 +3581,20 @@
           "source_tokens_sha256": "ec7f6d9b6569d44bf859a84e9fd797f0d86e653585b2c87bfff93040dfa22adc",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 1,
+          "start": 0,
+          "end": 1,
+          "text": "向",
+          "color": [
+            0,
+            0,
+            0
+          ]
+        }
       ]
     },
     {
@@ -3750,6 +3792,20 @@
           "source_token_offset": 78,
           "source_tokens_sha256": "8d4c3f549986e343792436197a9f4f29e86fbc035d4e79cb259f2515e8fc5c23",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 11,
+          "start": 0,
+          "end": 2,
+          "text": "前往",
+          "color": [
+            0,
+            0,
+            0
+          ]
         }
       ]
     }

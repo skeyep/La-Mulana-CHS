@@ -21147,7 +21147,7 @@
       "resource_id": "data/language/script_code.dat::block:0096",
       "block_index": 96,
       "source_segment_index": 52,
-      "zh": "」之子只有心灵，将它放进",
+      "zh": "」之子只有灵魂，将它放进",
       "units": [
         {
           "character": "」",
@@ -21175,13 +21175,13 @@
           "route": "phonetic"
         },
         {
-          "character": "心",
-          "reading": "xin1",
+          "character": "灵",
+          "reading": "ling2",
           "route": "phonetic"
         },
         {
-          "character": "灵",
-          "reading": "ling2",
+          "character": "魂",
+          "reading": "hun2",
           "route": "phonetic"
         },
         {

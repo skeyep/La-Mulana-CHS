@@ -66,7 +66,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0118::s5",
           "source_segment_index": 5,
-          "zh": "将提亚马特、",
+          "zh": "封印提亚马特、",
           "source_token_offset": 21,
           "source_tokens_sha256": "4d98898f3966218a86acb356456c25b970986b2ea8588f725a7fc46a6f903289",
           "source_kind": "glyph_run"
@@ -122,7 +122,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0118::s19",
           "source_segment_index": 19,
-          "zh": "以及安菲斯巴耶纳封印。",
+          "zh": "以及安菲斯巴耶纳。",
           "source_token_offset": 66,
           "source_tokens_sha256": "2bc06688ff33067e49a6b13c70c228f8880a7f52fb8dbb50c959f0baba5b4219",
           "source_kind": "glyph_run"
@@ -1298,7 +1298,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0134::s41",
           "source_segment_index": 41,
-          "zh": "于是，汝等第８子",
+          "zh": "于是，我等没有赋予汝等第８子",
           "source_token_offset": 269,
           "source_tokens_sha256": "2b591a2718b3b5227e644cf3705bb7a79dae154aa5da8c390f45d02772139d25",
           "source_kind": "glyph_run"
@@ -1306,7 +1306,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0134::s43",
           "source_segment_index": 43,
-          "zh": "没有被赋予关于母亲的记忆。",
+          "zh": "关于母亲的记忆。",
           "source_token_offset": 281,
           "source_tokens_sha256": "263c1378a2377c217b17b26390a622b62adda1e919ce9c5a919cd5fb37fb3edd",
           "source_kind": "glyph_run"
@@ -1442,7 +1442,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0134::s78",
           "source_segment_index": 78,
-          "zh": "在手，",
+          "zh": "在手，须吟诵",
           "source_token_offset": 481,
           "source_tokens_sha256": "1915d72b74585fbeaf8c07da8cfee3aa2e3c5926b14f1fcb02908a1ce36dcac8",
           "source_kind": "glyph_run"
@@ -1458,7 +1458,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0134::s83",
           "source_segment_index": 83,
-          "zh": "须吟诵。",
+          "zh": "。",
           "source_token_offset": 499,
           "source_tokens_sha256": "a62a767df12ff94e059457105ad36c6a4747acb22a54d0f4544136ade7b880ee",
           "source_kind": "glyph_run"
@@ -1588,6 +1588,20 @@
           "source_token_offset": 56,
           "source_tokens_sha256": "1408d17ecdd4aebcd208644c0dafcc64907643e314d827b6c44cdfe3ef1b8990",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 3,
+          "start": 2,
+          "end": 6,
+          "text": "太阳神殿",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },
@@ -1724,6 +1738,44 @@
           "source_token_offset": 58,
           "source_tokens_sha256": "f7a576b8092759898f6f8da29f1f75ee4ba4aa69497d7935e3859c2c38766365",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 7,
+          "start": 0,
+          "end": 2,
+          "text": "妖精",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        },
+        {
+          "kind": "range",
+          "source_segment_index": 9,
+          "start": 0,
+          "end": 2,
+          "text": "妖精",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        },
+        {
+          "kind": "range",
+          "source_segment_index": 11,
+          "start": 0,
+          "end": 2,
+          "text": "妖精",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

@@ -475,6 +475,20 @@
           "source_tokens_sha256": "ab8335568c94e06d83c893ffe488f3873bb699655663024e74a39bb1687df487",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 24,
+          "start": 3,
+          "end": 6,
+          "text": "第３子",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {
@@ -694,6 +708,20 @@
           "source_token_offset": 131,
           "source_tokens_sha256": "3c6196c420a462a40961a50592b8469fff425893534af4d4218858fe871bcf1d",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 20,
+          "start": 0,
+          "end": 2,
+          "text": "传给",
+          "color": [
+            0,
+            0,
+            0
+          ]
         }
       ]
     },
@@ -930,6 +958,20 @@
           "source_token_offset": 156,
           "source_tokens_sha256": "5512ad99ae13c260365c65e03a55e07c3cf53ce98473d0b1b7296ef8a5914abf",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 6,
+          "start": 2,
+          "end": 5,
+          "text": "第５子",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

@@ -4380,6 +4380,20 @@
           "source_kind": "glyph_run",
           "disposition": "translate"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 5,
+          "end": 9,
+          "text": "幽灵之王",
+          "color": [
+            0,
+            120,
+            120
+          ]
+        }
       ]
     },
     {
@@ -4917,7 +4931,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0096::s52",
           "source_segment_index": 52,
-          "zh": "」之子只有心灵，将它放进",
+          "zh": "」之子只有灵魂，将它放进",
           "source_token_offset": 110,
           "source_tokens_sha256": "13528642a08a77fcadf8134dc220fd532b07e4721f6a9ad4d5bb237fdbae9764",
           "source_kind": "glyph_run",
@@ -6629,6 +6643,20 @@
           "source_tokens_sha256": "c232ba362271947884cb9874bf74b01b9e0cf23a485fa009a7292f357a326601",
           "source_kind": "glyph_run",
           "disposition": "translate"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 6,
+          "start": 7,
+          "end": 11,
+          "text": "月见地穴",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

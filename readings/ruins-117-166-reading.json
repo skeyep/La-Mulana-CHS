@@ -233,11 +233,16 @@
       "resource_id": "data/language/script_code.dat::block:0118",
       "block_index": 118,
       "source_segment_index": 5,
-      "zh": "将提亚马特、",
+      "zh": "封印提亚马特、",
       "units": [
         {
-          "character": "将",
-          "reading": "jiang1",
+          "character": "封",
+          "reading": "feng1",
+          "route": "phonetic"
+        },
+        {
+          "character": "印",
+          "reading": "yin4",
           "route": "phonetic"
         },
         {
@@ -458,7 +463,7 @@
       "resource_id": "data/language/script_code.dat::block:0118",
       "block_index": 118,
       "source_segment_index": 19,
-      "zh": "以及安菲斯巴耶纳封印。",
+      "zh": "以及安菲斯巴耶纳。",
       "units": [
         {
           "character": "以",
@@ -498,16 +503,6 @@
         {
           "character": "纳",
           "reading": "na4",
-          "route": "phonetic"
-        },
-        {
-          "character": "封",
-          "reading": "feng1",
-          "route": "phonetic"
-        },
-        {
-          "character": "印",
-          "reading": "yin4",
           "route": "phonetic"
         },
         {
@@ -6468,7 +6463,7 @@
       "resource_id": "data/language/script_code.dat::block:0134",
       "block_index": 134,
       "source_segment_index": 41,
-      "zh": "于是，汝等第８子",
+      "zh": "于是，我等没有赋予汝等第８子",
       "units": [
         {
           "character": "于",
@@ -6484,6 +6479,36 @@
           "character": "，",
           "reading": null,
           "route": "literal"
+        },
+        {
+          "character": "我",
+          "reading": "wo3",
+          "route": "phonetic"
+        },
+        {
+          "character": "等",
+          "reading": "deng3",
+          "route": "phonetic"
+        },
+        {
+          "character": "没",
+          "reading": "mei2",
+          "route": "phonetic"
+        },
+        {
+          "character": "有",
+          "reading": "you3",
+          "route": "phonetic"
+        },
+        {
+          "character": "赋",
+          "reading": "fu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "予",
+          "reading": "yu3",
+          "route": "phonetic"
         },
         {
           "character": "汝",
@@ -6518,33 +6543,8 @@
       "resource_id": "data/language/script_code.dat::block:0134",
       "block_index": 134,
       "source_segment_index": 43,
-      "zh": "没有被赋予关于母亲的记忆。",
+      "zh": "关于母亲的记忆。",
       "units": [
-        {
-          "character": "没",
-          "reading": "mei2",
-          "route": "phonetic"
-        },
-        {
-          "character": "有",
-          "reading": "you3",
-          "route": "phonetic"
-        },
-        {
-          "character": "被",
-          "reading": "bei4",
-          "route": "phonetic"
-        },
-        {
-          "character": "赋",
-          "reading": "fu4",
-          "route": "phonetic"
-        },
-        {
-          "character": "予",
-          "reading": "yu3",
-          "route": "phonetic"
-        },
         {
           "character": "关",
           "reading": "guan1",
@@ -7431,7 +7431,7 @@
       "resource_id": "data/language/script_code.dat::block:0134",
       "block_index": 134,
       "source_segment_index": 78,
-      "zh": "在手，",
+      "zh": "在手，须吟诵",
       "units": [
         {
           "character": "在",
@@ -7447,6 +7447,21 @@
           "character": "，",
           "reading": null,
           "route": "literal"
+        },
+        {
+          "character": "须",
+          "reading": "xu1",
+          "route": "phonetic"
+        },
+        {
+          "character": "吟",
+          "reading": "yin2",
+          "route": "phonetic"
+        },
+        {
+          "character": "诵",
+          "reading": "song4",
+          "route": "phonetic"
         }
       ],
       "source_tokens_sha256": "1915d72b74585fbeaf8c07da8cfee3aa2e3c5926b14f1fcb02908a1ce36dcac8"
@@ -7476,23 +7491,8 @@
       "resource_id": "data/language/script_code.dat::block:0134",
       "block_index": 134,
       "source_segment_index": 83,
-      "zh": "须吟诵。",
+      "zh": "。",
       "units": [
-        {
-          "character": "须",
-          "reading": "xu1",
-          "route": "phonetic"
-        },
-        {
-          "character": "吟",
-          "reading": "yin2",
-          "route": "phonetic"
-        },
-        {
-          "character": "诵",
-          "reading": "song4",
-          "route": "phonetic"
-        },
         {
           "character": "。",
           "reading": null,
@@ -14127,7 +14127,7 @@
     {
       "block_index": 134,
       "source_segment_index": 43,
-      "unit_index0": 7,
+      "unit_index0": 2,
       "character": "母",
       "reading": "mu3",
       "route": "source-copy",
@@ -14643,7 +14643,7 @@
     {
       "block_index": 134,
       "source_segment_index": 41,
-      "unit_index0": 6,
+      "unit_index0": 12,
       "character": "８",
       "source_character": "８",
       "source_character_index0": 6,

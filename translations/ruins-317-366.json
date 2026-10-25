@@ -735,6 +735,20 @@
           "source_tokens_sha256": "949ef3533d82cdd7770c4409a9f8f5b22e0c673e989763edc9c441685a14b53e",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 1,
+          "start": 0,
+          "end": 1,
+          "text": "向",
+          "color": [
+            0,
+            0,
+            0
+          ]
+        }
       ]
     },
     {
@@ -1759,6 +1773,20 @@
           "source_tokens_sha256": "1eaa310376171683d7e9b52fcae4ca5332d69959159cb86fc5823bdd4f621b4f",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 1,
+          "start": 0,
+          "end": 1,
+          "text": "将",
+          "color": [
+            0,
+            0,
+            0
+          ]
+        }
       ]
     },
     {
@@ -1924,6 +1952,32 @@
           "source_token_offset": 16,
           "source_tokens_sha256": "56867645f274cb26582858e85b448abf0a71383fa5e4e3d2f42565f7df43bd5a",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 0,
+          "end": 3,
+          "text": "毗湿奴",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        },
+        {
+          "kind": "range",
+          "source_segment_index": 2,
+          "start": 3,
+          "end": 6,
+          "text": "阿修罗",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },
@@ -2432,6 +2486,20 @@
           "source_token_offset": 46,
           "source_tokens_sha256": "e95dac17a3a16f614ed4af717572981bcfdc156dd556a7c5fb097eeacef9933a",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 2,
+          "start": 0,
+          "end": 1,
+          "text": "将",
+          "color": [
+            0,
+            0,
+            0
+          ]
         }
       ]
     },

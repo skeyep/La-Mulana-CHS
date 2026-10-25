@@ -79,6 +79,32 @@
           "source_tokens_sha256": "cc9a92fe43ad088d78e6e8a1b88def06ccda1442fcedeccadaa8d649bbdd4e87",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 5,
+          "end": 7,
+          "text": "圣杯",
+          "color": [
+            150,
+            0,
+            100
+          ]
+        },
+        {
+          "kind": "range",
+          "source_segment_index": 4,
+          "start": 4,
+          "end": 6,
+          "text": "圣杯",
+          "color": [
+            150,
+            0,
+            100
+          ]
+        }
       ]
     },
     {

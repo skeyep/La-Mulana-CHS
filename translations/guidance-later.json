@@ -207,6 +207,20 @@
           "source_tokens_sha256": "aac1ec544da4c3030bed69419767dbf73dcac20c1d6bcf7698616d0b9d7070db",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 9,
+          "start": 4,
+          "end": 8,
+          "text": "献祭之穴",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {
@@ -274,6 +288,20 @@
           "source_token_offset": 41,
           "source_tokens_sha256": "c887c01bccd2e7964467710da17112d6325676cbc909823d465836cf043f120c",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 3,
+          "end": 7,
+          "text": "太阳神殿",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

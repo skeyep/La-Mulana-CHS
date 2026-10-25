@@ -97,6 +97,20 @@
           "source_tokens_sha256": "4536befc21d6e0d7a9de75ef3d54a723647d88a4eba64a2b714e9f7640b7a100",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 20,
+          "start": 4,
+          "end": 9,
+          "text": "光辉屏风岩",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {
@@ -652,6 +666,20 @@
           "source_token_offset": 32,
           "source_tokens_sha256": "20af443c8d3f0e017306434bf89de4cfafce148aa812bdb033603711cfc1de2a",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 6,
+          "start": 2,
+          "end": 4,
+          "text": "圣池",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

@@ -103,6 +103,8 @@ def project_translation(data, source_name, namespace):
         for key in ['resource', 'ex_mode', 'content_category']:
             if key in source_record:
                 record[key] = source_record[key]
+        if source_record.get('color_adjustments'):
+            record['color_adjustments'] = clean_data(source_record['color_adjustments'])
         for source_run in source_record['translation_runs']:
             run = {
                 'stable_key': f"{resource_id}::s{source_run['source_segment_index']}",

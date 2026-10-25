@@ -11848,31 +11848,16 @@
       "resource_id": "data/language/script_code.dat::block:0296",
       "block_index": 296,
       "source_segment_index": 1,
-      "zh": "笛音将赐予怀孕的女子。",
+      "zh": "只有怀孕的女性才能听到的笛声。",
       "units": [
         {
-          "character": "笛",
-          "reading": "di2",
+          "character": "只",
+          "reading": "zhi3",
           "route": "phonetic"
         },
         {
-          "character": "音",
-          "reading": "yin1",
-          "route": "phonetic"
-        },
-        {
-          "character": "将",
-          "reading": "jiang1",
-          "route": "phonetic"
-        },
-        {
-          "character": "赐",
-          "reading": "ci4",
-          "route": "phonetic"
-        },
-        {
-          "character": "予",
-          "reading": "yu3",
+          "character": "有",
+          "reading": "you3",
           "route": "phonetic"
         },
         {
@@ -11896,8 +11881,43 @@
           "route": "phonetic"
         },
         {
-          "character": "子",
-          "reading": "zi3",
+          "character": "性",
+          "reading": "xing4",
+          "route": "phonetic"
+        },
+        {
+          "character": "才",
+          "reading": "cai2",
+          "route": "phonetic"
+        },
+        {
+          "character": "能",
+          "reading": "neng2",
+          "route": "phonetic"
+        },
+        {
+          "character": "听",
+          "reading": "ting1",
+          "route": "phonetic"
+        },
+        {
+          "character": "到",
+          "reading": "dao4",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "笛",
+          "reading": "di2",
+          "route": "phonetic"
+        },
+        {
+          "character": "声",
+          "reading": "sheng1",
           "route": "phonetic"
         },
         {

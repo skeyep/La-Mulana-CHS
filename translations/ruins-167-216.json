@@ -1435,6 +1435,20 @@
           "source_tokens_sha256": "82aaedadd6d8ce5245d8b8b28059569de50702b5658f821f964624f98c2db0df",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 8,
+          "start": 1,
+          "end": 5,
+          "text": "双连迷宫",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {
@@ -1952,7 +1966,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0193::s0",
           "source_segment_index": 0,
-          "zh": "第１子幸存的双子。",
+          "zh": "第１子中幸存的双子。",
           "source_token_offset": 0,
           "source_tokens_sha256": "d928a6dc8f391999c86611abe28bfaba82303b6ac7607a492e70f8dac6e98f2e",
           "source_kind": "glyph_run"
@@ -1960,7 +1974,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0193::s2",
           "source_segment_index": 2,
-          "zh": "第３子的英雄将其生擒。",
+          "zh": "第３子的英雄将其生擒，",
           "source_token_offset": 14,
           "source_tokens_sha256": "797a5c03dfa5685ea5b2f75968f2445dce8262ddd637bcdbbf846c5de1502284",
           "source_kind": "glyph_run"
@@ -2082,7 +2096,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0196::s0",
           "source_segment_index": 0,
-          "zh": "骷髅的彼方，",
+          "zh": "骷髅的彼方，是",
           "source_token_offset": 0,
           "source_tokens_sha256": "cc74c16c902f58aaa0c7263aeba599998c90a4e0507b34ad4f20db99f15bf82f",
           "source_kind": "glyph_run"
@@ -2090,7 +2104,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0196::s10",
           "source_segment_index": 10,
-          "zh": "的表侧。",
+          "zh": "的入口。",
           "source_token_offset": 15,
           "source_tokens_sha256": "219e34f97da384a278eeef8081f95e51d4762b1d701aaf391799aad12a16ac1d",
           "source_kind": "glyph_run"
@@ -2917,6 +2931,20 @@
           "source_tokens_sha256": "d0d9f77d110fd903b37f67c4b256e686acce99b69c5194fe8a7b79560ff95a64",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 21,
+          "start": 1,
+          "end": 5,
+          "text": "圣母之祠",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {
@@ -3160,6 +3188,20 @@
           "source_token_offset": 56,
           "source_tokens_sha256": "5d2213a1dd82aefb720d4da136ebee28eba98b06f9bd5fce6af64bf5aee0ca39",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 6,
+          "start": 1,
+          "end": 3,
+          "text": "安卡",
+          "color": [
+            150,
+            50,
+            0
+          ]
         }
       ]
     },

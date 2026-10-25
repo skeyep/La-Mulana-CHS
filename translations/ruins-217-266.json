@@ -1237,6 +1237,20 @@
           "source_tokens_sha256": "6943f57981876d82584bd366a49f2c9f78c7f932efb2e36a94d00ebf8d988e1d",
           "source_kind": "glyph_run"
         }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 0,
+          "start": 0,
+          "end": 3,
+          "text": "四贤者",
+          "color": [
+            150,
+            50,
+            0
+          ]
+        }
       ]
     },
     {

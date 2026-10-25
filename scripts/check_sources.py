@@ -34,6 +34,15 @@ def check_sources(root: Path, workspace: Path | None = None):
         assert data['schema'] == 'lm1-public-translations-v1'
         for record in data['records']:
             assert 'baseline' not in record and 'source_languages' not in record
+            runs = {r['source_segment_index']: r for r in record['translation_runs']}
+            for adjustment in record.get('color_adjustments', []):
+                assert len(adjustment['color']) == 3 and all(type(v) is int and 0 <= v <= 255 for v in adjustment['color'])
+                if adjustment['kind'] == 'range':
+                    text = runs[adjustment['source_segment_index']]['zh']
+                    a, b = adjustment['start'], adjustment['end']
+                    assert 0 <= a < b <= len(text) and text[a:b] == adjustment['text']
+                else:
+                    assert adjustment['kind'] == 'replace-control' and len(adjustment['from_color']) == 3
             for run in record['translation_runs']:
                 expected = f"{record['resource_id']}::s{run['source_segment_index']}"
                 assert run['stable_key'] == expected

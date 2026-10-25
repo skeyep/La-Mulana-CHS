@@ -9,7 +9,6 @@ import struct
 
 import pefile
 from PIL import Image, ImageDraw, ImageFont
-from keystone import Ks, KS_ARCH_X86, KS_MODE_32
 
 ROOT = Path(__file__).resolve().parents[1]
 ATLAS_BOX = (720, 224, 1024, 240)
@@ -24,6 +23,7 @@ def identity(raw):
 
 
 def stamp_executable(raw):
+    from keystone import Ks, KS_ARCH_X86, KS_MODE_32
     pe = pefile.PE(data=raw)
     section = next(s for s in pe.sections if s.Name.rstrip(b'\0') == b'.lmcred')
     start = section.PointerToRawData
