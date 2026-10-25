@@ -208,18 +208,17 @@ static void cursor(int x,int y,int w,int h) {
         q=(r<<16)|(g<<8)|b;
     }
 }
-static std::vector<std::wstring> wrap(const wchar_t* s,int width,HFONT f=nullptr) {
-    if(!f)f=body;
-    selectFont(f);primeWidths(s,wcslen(s),f);std::vector<std::wstring> result;std::wstring line;float lineWidth=0;
+static std::vector<std::wstring> wrap(const wchar_t* s,int width) {
+    selectFont(body);primeWidths(s,wcslen(s),body);std::vector<std::wstring> result;std::wstring line;float lineWidth=0;
     for(const wchar_t* p=s;*p;p++) {
         if(*p==L'\n') {result.push_back(line);line.clear();lineWidth=0;continue;}
         auto numeric=[](wchar_t c){return (c>=L'0'&&c<=L'9')||(c>=L'０'&&c<=L'９');};
         if(numeric(*p) && (p==s || (!numeric(p[-1])&&p[-1]!=L'—'))){
             const wchar_t* end=p;while(numeric(*end)||*end==L'—'||*end==L'%'||*end==L'％')end++;
-            std::wstring number(p,end);float numberWidth=measure(number,f);
+            std::wstring number(p,end);float numberWidth=measure(number,body);
             if(!line.empty() && numberWidth<=width && lineWidth+numberWidth>width){result.push_back(line);line.clear();lineWidth=0;}
         }
-        float nextWidth=advance(*p,f);
+        float nextWidth=advance(*p,body);
         if(lineWidth+nextWidth>width && !line.empty()){
             std::wstring carry;
             if(line.size()>1 && (wcschr(L"，。！？、：；）》】」』…",*p) || wcschr(L"（《【「『",line.back()))) {
@@ -227,7 +226,7 @@ static std::vector<std::wstring> wrap(const wchar_t* s,int width,HFONT f=nullptr
                 if(numeric(line.back()))while(start>0 && (numeric(line[start-1])||line[start-1]==L'—'))start--;
                 carry=line.substr(start);line.erase(start);
             }
-            result.push_back(line);line=carry;lineWidth=measure(line,f);
+            result.push_back(line);line=carry;lineWidth=measure(line,body);
         }
         line+=*p;lineWidth+=nextWidth;
     }
@@ -264,10 +263,7 @@ static void paintRandomWindows(const Dialogue& d) {
     std::wstring lead=missed(d)?L"已错过":nextLo<0?L"可触发的流程点数":(nextLo<=score?(available?L"当前窗口":L"当前窗口暂不可"):L"下次流程窗口");
     text(352,110,256,lead,muted,smallFont);
     if(nextLo>=0)text(352,132,256,L"流程点数"+interval(nextLo,nextHi),available?ink:muted);
-    const wchar_t* pre=d.person==0?L"先唤醒穆尔并听完优先剧情。":L"先听完优先剧情，取消装备展示道具。";
-    int y=155;
-    for(const auto& line:wrap(pre,256,smallFont)){text(352,y,256,line,muted,smallFont);y+=17;}
-    y+=8;
+    int y=165;
     const int mulBounds[][2]={{56,120},{121,199},{200,255}};
     const int elderBounds[][2]={{0,70},{71,140},{141,199}};
     const wchar_t* labels[]={L"前期",L"中期",L"后期"};
@@ -277,17 +273,13 @@ static void paintRandomWindows(const Dialogue& d) {
         std::vector<std::pair<int,int>> spans;
         for(auto& r:d.randomWindows)if(r[1]>=lo&&r[0]<=hi)spans.push_back({std::max(lo,r[0]),std::min(hi,r[1])});
         if(spans.empty())continue;
-        text(352,y,256,labels[phase],muted,smallFont);y+=18;
+        text(352,y,256,labels[phase],muted,smallFont);y+=22;
         for(size_t i=0;i<spans.size();i++){
             auto span=spans[i];bool highlighted=available&&span.first<=score&&score<=span.second;
-            text(352+(int)(i%3)*86,y+(int)(i/3)*20,84,interval(span.first,span.second),highlighted?ink:RGB(145,145,145),smallFont);
+            text(352+(int)(i%3)*86,y+(int)(i/3)*23,84,interval(span.first,span.second),highlighted?ink:RGB(145,145,145),smallFont);
         }
-        y+=(int)((spans.size()+2)/3)*20+6;
+        y+=(int)((spans.size()+2)/3)*23+12;
     }
-    int last=0;for(auto& r:d.randomWindows)last=std::max(last,r[1]);
-    std::wstring deadline=L"截止：最后窗口到"+std::to_wstring(last)+L"点。";
-    if(d.person==0)deadline+=L"终战或交回危险泳装后关闭。";
-    for(const auto& line:wrap(deadline.c_str(),256,smallFont)){text(352,y,256,line,muted,smallFont);y+=17;}
 }
 static void paintDialogue() {
     int total=0;for(int i:rows)if(flag(DIALOGUES[i].flag))total++;

@@ -28,4 +28,5 @@ python tools/lm1_phonetic_stroke_full_v1.py --catalog --output catalog.png
 
 每批交付改动都递增版本号，不再覆盖同版本附件。发布时同步`docs/release.json`、README、两个安装包与Release，并用同一份版本／日期元数据更新游戏首页。日期按实际发布日期填写。
 
-`dialogue_timing.py`为113项对话补全前置、操作和截止条件，供`trigger_hints.py`生成目录。简短提示与详情分开，前置的剧情对白、出门再返回的步骤及失效事件均在提示中说明。
+
+`dialogue_timing.py`只补13项缺少关键前置或截止信息的对话提示，其余98项保持原样。简要使用正常短句，具体操作放在详情中。
