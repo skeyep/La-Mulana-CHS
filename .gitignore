@@ -1,0 +1,12 @@
+build/
+dist/
+local/
+releases/
+references/
+evidence/
+__pycache__/
+*.pyc
+*.sav
+*.log
+*.psd
+.env

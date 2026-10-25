@@ -1,0 +1,124 @@
+{
+  "schema": "lm1-public-translations-v1",
+  "target_language": "zh-CN",
+  "namespace": "main",
+  "source_name": "reader-bilingual.json",
+  "credit": "Skeyep_目目",
+  "records": [
+    {
+      "resource_id": "data/language/script_code.dat::block:0239",
+      "block_index": 239,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0239::s1",
+          "source_segment_index": 1,
+          "zh": "看汝手中的武器。",
+          "source_token_offset": 3,
+          "source_tokens_sha256": "a333447f145e9df0a26ef4e43a60326cf17bd06db25f5b05aa31605901217a1b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0239::s3",
+          "source_segment_index": 3,
+          "zh": "觉醒之钥就在那里。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "7489efb7aac4527ddd8601ede9014e1611e2eb860d8f94844f281605dbe6c556",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s2",
+          "source_segment_index": 2,
+          "zh": "山之女神",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "025e58eb73ece93409458a2dbc29f1d1e14a84fb690bf554398dcfc41c8f2cc4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s4",
+          "source_segment_index": 4,
+          "zh": "变换姿态，成为",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "971fd81f21141cf10953a8d90f256944c2585841cb9b1034a17e3e63dcbb13b3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s7",
+          "source_segment_index": 7,
+          "zh": "嗜血好战的女神",
+          "source_token_offset": 27,
+          "source_tokens_sha256": "29d9effd73c2caa359ad4c81456e07c209bc8ef0313f66572753b648350d03ea",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s9",
+          "source_segment_index": 9,
+          "zh": "。",
+          "source_token_offset": 40,
+          "source_tokens_sha256": "e0ad2e9fad81293c4cfe4a737db051f73448e2c6b4084079dfab94ee2230e7df",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s11",
+          "source_segment_index": 11,
+          "zh": "欲平息她的愤怒，",
+          "source_token_offset": 44,
+          "source_tokens_sha256": "0d65adbaf6b385e454a24e49c4496a3c8e81fbc79f5341ead2fa87b478b84063",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0333::s13",
+          "source_segment_index": 13,
+          "zh": "唯有伏地祈祷。",
+          "source_token_offset": 57,
+          "source_tokens_sha256": "b8a03b78d669a2ae0698f5e98adf680538367987c75591a6a3c6241022e6651f",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0353",
+      "block_index": 353,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0353::s1",
+          "source_segment_index": 1,
+          "zh": "母亲一次次重复。",
+          "source_token_offset": 3,
+          "source_tokens_sha256": "839bd56ec68db4be3ce2abf583b43f34959cf7fc4d44c1659c7eb074e5f2591d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0353::s3",
+          "source_segment_index": 3,
+          "zh": "毁灭不合心意的孩子，",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "bfdf52082f8cdf62e4544e69b8c1ae2a4f1e9d5d28a346d72eabb27a6795cf15",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0353::s5",
+          "source_segment_index": 5,
+          "zh": "生下新的孩子。",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "387096ee487dc980acc61eee856ac39fb2c46671e6c7069570a1d0e616871fee",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0353::s7",
+          "source_segment_index": 7,
+          "zh": "她会不断重复，直至实现自己的愿望。",
+          "source_token_offset": 35,
+          "source_tokens_sha256": "e47aa52a0aded3b3e349cf1f955746699567adf91508145d62e6547245f4bd9f",
+          "source_kind": "glyph_run"
+        }
+      ]
+    }
+  ],
+  "game_build_id": "5968359"
+}

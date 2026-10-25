@@ -1,0 +1,2053 @@
+{
+  "schema": "lm1-public-translations-v1",
+  "target_language": "zh-CN",
+  "namespace": "ex",
+  "source_name": "ex-modes.json",
+  "credit": "Skeyep_目目",
+  "records": [
+    {
+      "resource_id": "data/ex/01guardian1c/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/01guardian1c/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/01guardian1c/language/script_code.dat",
+      "ex_mode": "01guardian1c",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/01guardian1c/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/01guardian1c/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "守护者连战·极限篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "762ffc94b592987c2a868a19ae0b5c95bdb3ac5e349f7885fdecf16deeefa310",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/01guardian1c/language/title.dat",
+      "ex_mode": "01guardian1c",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/01guardian1c/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/01guardian1c/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与所有守护者连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "14e46d33d05e6daa1666988b767db8178c092b5cf9af63920b050bb363ad1784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "不，",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "8cfa5495831e3a87495f269d866c5a9e87ce98b9f12096ae9ac2ab7f4771ae0d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "这回到底能不能通关，",
+          "source_token_offset": 23,
+          "source_tokens_sha256": "7ee7e328ee6ee6469d0c59dea406cdc095673abfbec5f9d2db2aee4e4e3330ff",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/01guardian1c/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "还真说不准。",
+          "source_token_offset": 39,
+          "source_tokens_sha256": "814038ed8063aa69369a6dcd44cfbe2a42ff56cb6b8587857bd19f3500e3a656",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/01guardian1c/language/title.dat",
+      "ex_mode": "01guardian1c",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/02guardian1b/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/02guardian1b/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/02guardian1b/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/02guardian1b/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/02guardian1b/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/02guardian1b/language/script_code.dat",
+      "ex_mode": "02guardian1b",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/02guardian1b/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/02guardian1b/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "守护者连战·挑战篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a943afdeb2518dcdd032db7c08bf372f178758cea41c844a6dfef6c1767a06c2",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/02guardian1b/language/title.dat",
+      "ex_mode": "02guardian1b",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/02guardian1b/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/02guardian1b/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与所有守护者连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "14e46d33d05e6daa1666988b767db8178c092b5cf9af63920b050bb363ad1784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/02guardian1b/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "副武器的存量可不怎么让人放心。",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "b58af358600e47f3137e51ff5fbeaa89414cadb0733d3a3f4a616573c6890d10",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/02guardian1b/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "要是能撑到最后，就很了不起了吧？",
+          "source_token_offset": 37,
+          "source_tokens_sha256": "dbbf391bc87ab2bd3128ff1f99d418668f4516498a4ded84488b153457aa446a",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/02guardian1b/language/title.dat",
+      "ex_mode": "02guardian1b",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/03guardian1a/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/03guardian1a/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/03guardian1a/language/script_code.dat",
+      "ex_mode": "03guardian1a",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/03guardian1a/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/03guardian1a/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "守护者连战·入门篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "d3904222da5dde3326b93bd9f868239000a32fc6e882d3a1ee0702e91d234c68",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/03guardian1a/language/title.dat",
+      "ex_mode": "03guardian1a",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/03guardian1a/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/03guardian1a/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与所有守护者连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "14e46d33d05e6daa1666988b767db8178c092b5cf9af63920b050bb363ad1784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "全副武装，秒杀昔日强敌。不过，",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "54a9843c4a109f14fecbe92645d79dd711f2c2f8359778dff3ab3585d5b60214",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "在迎战强敌前，能保留多少",
+          "source_token_offset": 38,
+          "source_tokens_sha256": "75f503db96e484e9ff9a4ac8d9f4af778947e541b716cdaf573bd0cc34e9bebb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/03guardian1a/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "力量，才是关键。",
+          "source_token_offset": 57,
+          "source_tokens_sha256": "bebf3435caf49e998a8562c6fd2b1d43515703adc6494036075ff1c4f32da981",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/03guardian1a/language/title.dat",
+      "ex_mode": "03guardian1a",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+      "ex_mode": "04roomguardian3c",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0011",
+      "block_index": 11,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0011::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0011::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0011::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/script_code.dat::block:0011::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+      "ex_mode": "04roomguardian3c",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/04roomguardian3c/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "强劲房间守卫·极限篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "2639d9ae1a85fe76e330710bcc90f32445de0ce1895bb92ea7ec51a6a09a6747",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/04roomguardian3c/language/title.dat",
+      "ex_mode": "04roomguardian3c",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/04roomguardian3c/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "挑战ＬＡ－ＭＵＬＡＮＡ中",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "60a5745e63fcf9f2b47b078e479b8c59eee6f1629cb0ee69ed349a347fc20ceb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "数一数二的房间守卫！",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "b07433f08ee201a92be0a1f888f649adbc7c26e64c30ddc6ccbe825fdb4745a7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "对手这么强，限制也严到了极限。",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "fe8910dd9caed2de71daaf4228fe114418397e5a30f945c1504e90f7181f0592",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/04roomguardian3c/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "只赏你一面圆盾！",
+          "source_token_offset": 50,
+          "source_tokens_sha256": "3fd044fb523af62361aa4b7fc38dd58f7415a7e6cab7a8c4bf23d4a34d2178a7",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/04roomguardian3c/language/title.dat",
+      "ex_mode": "04roomguardian3c",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+      "ex_mode": "05roomguardian3b",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0011",
+      "block_index": 11,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0011::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0011::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0011::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/script_code.dat::block:0011::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+      "ex_mode": "05roomguardian3b",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/05roomguardian3b/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "强劲房间守卫·挑战篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "39bf00d3f86715e19ecf6c8ce702c0dba25c416d9cf08e264357a61ae1c967c6",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/05roomguardian3b/language/title.dat",
+      "ex_mode": "05roomguardian3b",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/05roomguardian3b/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "挑战ＬＡ－ＭＵＬＡＮＡ中",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "60a5745e63fcf9f2b47b078e479b8c59eee6f1629cb0ee69ed349a347fc20ceb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "数一数二的房间守卫！",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "b07433f08ee201a92be0a1f888f649adbc7c26e64c30ddc6ccbe825fdb4745a7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "那把好用的",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "632b5f938f99d37cf7ae26d00ae00327a9cabafc0246aa4c14b68918f358abe0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "斧头，就没收了！",
+          "source_token_offset": 39,
+          "source_tokens_sha256": "01143163aad88bbad57f2b23f599a3d887bcaaaaa905754f45aec8a9bd45de76",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/05roomguardian3b/language/title.dat::block:0001::s8",
+          "source_segment_index": 8,
+          "zh": "这是考验操作本领的关卡。",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "62a86be1835fc954c77021bde2113f849af1c545e50b6b1bae6764423aca7182",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/05roomguardian3b/language/title.dat",
+      "ex_mode": "05roomguardian3b",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+      "ex_mode": "06roomguardian3a",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0011",
+      "block_index": 11,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0011::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0011::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0011::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/script_code.dat::block:0011::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+      "ex_mode": "06roomguardian3a",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/06roomguardian3a/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "强劲房间守卫·入门篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "2e3b57b35767decd7448c761016dec083c264fecbdc15aee12fa667d507ea4a3",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/06roomguardian3a/language/title.dat",
+      "ex_mode": "06roomguardian3a",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/06roomguardian3a/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "挑战ＬＡ－ＭＵＬＡＮＡ中",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "60a5745e63fcf9f2b47b078e479b8c59eee6f1629cb0ee69ed349a347fc20ceb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "数一数二的房间守卫！",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "b07433f08ee201a92be0a1f888f649adbc7c26e64c30ddc6ccbe825fdb4745a7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "就算全副武装一路硬闯，",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "09ceffafbd81d0543a147fa2585318cb72be1958803c727083d396bcf411a3c2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/06roomguardian3a/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "能不能冲过去呢？",
+          "source_token_offset": 52,
+          "source_tokens_sha256": "cc4bd27263a2a57d9cc4fed72b2ecce528c55a29db1c449d16432cccb17e6f1a",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/06roomguardian3a/language/title.dat",
+      "ex_mode": "06roomguardian3a",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/07roomguardian2c/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/07roomguardian2c/language/script_code.dat",
+      "ex_mode": "07roomguardian2c",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/07roomguardian2c/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫·极限篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "8acb7c90399e2376219d1f2b94b8554d63911d5f8fad999f90eda1cfbdea6d08",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/07roomguardian2c/language/title.dat",
+      "ex_mode": "07roomguardian2c",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/07roomguardian2c/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫在这关",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "fa17bcf8965a5c85c5eb5292c63cc297de38adec189efa43c2b75b43388ea7d3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "严阵以待。",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "0110ada0ab3640558851ad0fbd52ec79e47a231bd9549517f576702a511d469b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "连时之灯都不给你！",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "2766038461b14d80bc8361b46e017409b5f5af4a0ad3ff94a63ae02cb0c83b04",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/07roomguardian2c/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "只凭力量和技巧上吧！",
+          "source_token_offset": 40,
+          "source_tokens_sha256": "4a3e8c7666210f45fba7bbbdef1683fd6cb87273b1b8173c32c233e4f343368a",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/07roomguardian2c/language/title.dat",
+      "ex_mode": "07roomguardian2c",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/08roomguardian2b/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/08roomguardian2b/language/script_code.dat",
+      "ex_mode": "08roomguardian2b",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/08roomguardian2b/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫·挑战篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "2fa9e309ea60f6dcf49ba083673c7461c4afd00d14f5c508ad57b6267f824219",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/08roomguardian2b/language/title.dat",
+      "ex_mode": "08roomguardian2b",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/08roomguardian2b/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫在这关",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "fa17bcf8965a5c85c5eb5292c63cc297de38adec189efa43c2b75b43388ea7d3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "严阵以待。",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "0110ada0ab3640558851ad0fbd52ec79e47a231bd9549517f576702a511d469b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "要打到最后可有点吃力，带上这套",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "3643d90d6653616d1ae49ca4491ea44bd6d012fb3f0899fca4cfe617a362961e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/08roomguardian2b/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "不太靠谱的装备，出发吧！",
+          "source_token_offset": 45,
+          "source_tokens_sha256": "f70c52821eaad847b1c6f7addd5c6714d9788861611af2d32974208e897cead3",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/08roomguardian2b/language/title.dat",
+      "ex_mode": "08roomguardian2b",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/09roomguardian2a/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/09roomguardian2a/language/script_code.dat",
+      "ex_mode": "09roomguardian2a",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/09roomguardian2a/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫·入门篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "97610a676459dfbb6b441f1bf75db43f8c9f59e3f4c250d4d93bc9c635bfdf14",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/09roomguardian2a/language/title.dat",
+      "ex_mode": "09roomguardian2a",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/09roomguardian2a/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "中坚房间守卫在这关",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "fa17bcf8965a5c85c5eb5292c63cc297de38adec189efa43c2b75b43388ea7d3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "严阵以待。",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "0110ada0ab3640558851ad0fbd52ec79e47a231bd9549517f576702a511d469b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "如何对付最后等着你的祖，",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "4665701c9e33108f1dc3c26caffc1612104d6fa1201e1ee53d30a10fd29d5834",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/09roomguardian2a/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "或许才是关键？",
+          "source_token_offset": 44,
+          "source_tokens_sha256": "f27a40279f5a60da4edb51eda653e2f1a0bc979d8bb36b189bb9bc5be5052d4f",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/09roomguardian2a/language/title.dat",
+      "ex_mode": "09roomguardian2a",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/10roomguardian1c/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/10roomguardian1c/language/script_code.dat",
+      "ex_mode": "10roomguardian1c",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/10roomguardian1c/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "弱小房间守卫·极限篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "8790ce83d8a41020d06237ba2ba83ec36467ac91dfcd3f8b0e5d172ee3419e82",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/10roomguardian1c/language/title.dat",
+      "ex_mode": "10roomguardian1c",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/10roomguardian1c/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与弱小房间守卫连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4b9578757201feb87dd05df8f51bb9ea974d1fb632485edb2df0853053764fb2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "不过，这回可是一件装备都没有！",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "81f00104a2fbc09ccefb219a0f27b58247ecd4cd2035c41ec44ede4fe8743eb9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/10roomguardian1c/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "挑战自己的极限吧！",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "4e499f10e9d68eff449e920ae30f0742422f2fd9afa372507f3a836f0f409719",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/10roomguardian1c/language/title.dat",
+      "ex_mode": "10roomguardian1c",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/11roomguardian1b/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/11roomguardian1b/language/script_code.dat",
+      "ex_mode": "11roomguardian1b",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/11roomguardian1b/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "弱小房间守卫·挑战篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "78d0dbd14eaf00f8dd812a9c5cfd651494aa9cea4e470dcab57f1c42440d1848",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/11roomguardian1b/language/title.dat",
+      "ex_mode": "11roomguardian1b",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/11roomguardian1b/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与弱小房间守卫连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4b9578757201feb87dd05df8f51bb9ea974d1fb632485edb2df0853053764fb2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "以与本篇游戏相近的",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "5b48c5629782836dc942dd15de915f7a4ae392445c5592789a24a49d5e81c750",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/11roomguardian1b/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "装备和难度来挑战。",
+          "source_token_offset": 36,
+          "source_tokens_sha256": "346f515d32e13af96c4eefd5bd4a36ae8866b99ee5991e47f5460a8442a3e693",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/11roomguardian1b/language/title.dat",
+      "ex_mode": "11roomguardian1b",
+      "content_category": "ex-selection-description"
+    },
+    {
+      "resource_id": "data/ex/12roomguardian1a/language/script_code.dat::block:0010",
+      "block_index": 10,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/script_code.dat::block:0010::s2",
+          "source_segment_index": 2,
+          "zh": "时限圣堂",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1e9250607cc01299720d6420dbd6a6c4eeb9ca8e340ea61684821e2ad21f7fe1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/script_code.dat::block:0010::s4",
+          "source_segment_index": 4,
+          "zh": "Ｔｅｍｐｌｅ",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/script_code.dat::block:0010::s6",
+          "source_segment_index": 6,
+          "zh": "ｏｆ",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/script_code.dat::block:0010::s8",
+          "source_segment_index": 8,
+          "zh": "Ｔｉｍｅ",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/12roomguardian1a/language/script_code.dat",
+      "ex_mode": "12roomguardian1a",
+      "content_category": "ex-bilingual-area-card"
+    },
+    {
+      "resource_id": "data/ex/12roomguardian1a/language/title.dat::block:0000",
+      "block_index": 0,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/title.dat::block:0000::s0",
+          "source_segment_index": 0,
+          "zh": "弱小房间守卫·入门篇",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "5def634faf14a2de7ae6e02751848ea99d60b3cc0848928364320f833d88a428",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/12roomguardian1a/language/title.dat",
+      "ex_mode": "12roomguardian1a",
+      "content_category": "ex-selection-title"
+    },
+    {
+      "resource_id": "data/ex/12roomguardian1a/language/title.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/title.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "与弱小房间守卫连续交战的关卡。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4b9578757201feb87dd05df8f51bb9ea974d1fb632485edb2df0853053764fb2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/title.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "全副武装，想输都难？",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "17ce62ab6bc66f9978870d2394dfc93ef8970117d84f6dbd28e082442a302275",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/title.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "尽情欺负弱者，",
+          "source_token_offset": 36,
+          "source_tokens_sha256": "e3a69b74db58bfd3b323370d9620f45e74208d5faa301ae30b032516296026ef",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/ex/12roomguardian1a/language/title.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "比拼通关用时吧！",
+          "source_token_offset": 53,
+          "source_tokens_sha256": "00909fb50da5b7e3c747b86579544ffd448b4f935adebc065d4247af80a7a120",
+          "source_kind": "glyph_run"
+        }
+      ],
+      "resource": "data/ex/12roomguardian1a/language/title.dat",
+      "ex_mode": "12roomguardian1a",
+      "content_category": "ex-selection-description"
+    }
+  ],
+  "game_build_id": "5968359",
+  "source_identity_requirements": {
+    "namespace": "full resource_id + source_segment_index",
+    "resource_scoped": true,
+    "numeric_runs": [],
+    "protected_runs": [
+      {
+        "resource_id": "data/ex/01guardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/01guardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/01guardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/01guardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/01guardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/01guardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/02guardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/02guardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/02guardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/02guardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/02guardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/02guardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/03guardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/03guardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/03guardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/03guardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/03guardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/03guardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0010",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0010",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0010",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0011",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0011",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/script_code.dat::block:0011",
+        "resource": "data/ex/04roomguardian3c/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0010",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0010",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0010",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0011",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0011",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/script_code.dat::block:0011",
+        "resource": "data/ex/05roomguardian3b/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0010",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0010",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0010",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0011",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0011",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/script_code.dat::block:0011",
+        "resource": "data/ex/06roomguardian3a/language/script_code.dat",
+        "block_index": 11,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/07roomguardian2c/language/script_code.dat::block:0010",
+        "resource": "data/ex/07roomguardian2c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/07roomguardian2c/language/script_code.dat::block:0010",
+        "resource": "data/ex/07roomguardian2c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/07roomguardian2c/language/script_code.dat::block:0010",
+        "resource": "data/ex/07roomguardian2c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/08roomguardian2b/language/script_code.dat::block:0010",
+        "resource": "data/ex/08roomguardian2b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/08roomguardian2b/language/script_code.dat::block:0010",
+        "resource": "data/ex/08roomguardian2b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/08roomguardian2b/language/script_code.dat::block:0010",
+        "resource": "data/ex/08roomguardian2b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/09roomguardian2a/language/script_code.dat::block:0010",
+        "resource": "data/ex/09roomguardian2a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/09roomguardian2a/language/script_code.dat::block:0010",
+        "resource": "data/ex/09roomguardian2a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/09roomguardian2a/language/script_code.dat::block:0010",
+        "resource": "data/ex/09roomguardian2a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/10roomguardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/10roomguardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/10roomguardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/10roomguardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/10roomguardian1c/language/script_code.dat::block:0010",
+        "resource": "data/ex/10roomguardian1c/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/11roomguardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/11roomguardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/11roomguardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/11roomguardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/11roomguardian1b/language/script_code.dat::block:0010",
+        "resource": "data/ex/11roomguardian1b/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/12roomguardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/12roomguardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 4,
+        "text": "Ｔｅｍｐｌｅ",
+        "source_tokens": [
+          1272,
+          1281,
+          1286,
+          1288,
+          1285,
+          1281
+        ],
+        "source_tokens_sha256": "cca65dc98c6dba297a2a39fd53544e219b4d9239e66a076d3d8772b1ce22779e",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/12roomguardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/12roomguardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 6,
+        "text": "ｏｆ",
+        "source_tokens": [
+          1287,
+          1309
+        ],
+        "source_tokens_sha256": "12313b6eba11a4eda7cfc1dcb6e745310a152ca82c33bbb052a783593b870ba0",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      },
+      {
+        "resource_id": "data/ex/12roomguardian1a/language/script_code.dat::block:0010",
+        "resource": "data/ex/12roomguardian1a/language/script_code.dat",
+        "block_index": 10,
+        "source_segment_index": 8,
+        "text": "Ｔｉｍｅ",
+        "source_tokens": [
+          1272,
+          1284,
+          1286,
+          1281
+        ],
+        "source_tokens_sha256": "472b3b5026c19fd10eec9746f29ef7729b6cc7095516607e8d7ae044ce2f9120",
+        "policy": "exact original English bilingual subheading; EX font route pending"
+      }
+    ],
+    "literal_sequences": [
+      {
+        "resource_id": "data/ex/04roomguardian3c/language/title.dat::block:0001",
+        "resource": "data/ex/04roomguardian3c/language/title.dat",
+        "block_index": 1,
+        "source_segment_index": 0,
+        "text": "ＬＡ－ＭＵＬＡＮＡ",
+        "source_tokens": [
+          1265,
+          1254,
+          1319,
+          1266,
+          1273,
+          1265,
+          1254,
+          1267,
+          1254
+        ],
+        "source_character_index0": 0,
+        "target_character_index0": 2,
+        "policy": "preserve fullwidth brand including original U+FF0D hyphen"
+      },
+      {
+        "resource_id": "data/ex/05roomguardian3b/language/title.dat::block:0001",
+        "resource": "data/ex/05roomguardian3b/language/title.dat",
+        "block_index": 1,
+        "source_segment_index": 0,
+        "text": "ＬＡ－ＭＵＬＡＮＡ",
+        "source_tokens": [
+          1265,
+          1254,
+          1319,
+          1266,
+          1273,
+          1265,
+          1254,
+          1267,
+          1254
+        ],
+        "source_character_index0": 0,
+        "target_character_index0": 2,
+        "policy": "preserve fullwidth brand including original U+FF0D hyphen"
+      },
+      {
+        "resource_id": "data/ex/06roomguardian3a/language/title.dat::block:0001",
+        "resource": "data/ex/06roomguardian3a/language/title.dat",
+        "block_index": 1,
+        "source_segment_index": 0,
+        "text": "ＬＡ－ＭＵＬＡＮＡ",
+        "source_tokens": [
+          1265,
+          1254,
+          1319,
+          1266,
+          1273,
+          1265,
+          1254,
+          1267,
+          1254
+        ],
+        "source_character_index0": 0,
+        "target_character_index0": 2,
+        "policy": "preserve fullwidth brand including original U+FF0D hyphen"
+      }
+    ],
+    "control_and_layout_policy": "retain each JP resource control/layout token and order; no cross-resource deduplication"
+  }
+}

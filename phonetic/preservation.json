@@ -1,0 +1,1373 @@
+{
+  "schema": "lm1-public-symbol-preservation-v1",
+  "priority": [
+    "source numeric/semantic identities",
+    "literal token sequences",
+    "approved semantic Chinese bindings",
+    "ordinary contextual phonetic code"
+  ],
+  "source_groups": [
+    {
+      "id": "numeral-0",
+      "value": 0,
+      "meaning_zh": "无",
+      "source_characters": [
+        "0",
+        "０",
+        "無"
+      ],
+      "source_ideograph": "無",
+      "relation": "semantic association, different designs; keep zero and 無 distinct",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-1",
+      "value": 1,
+      "meaning_zh": "起始",
+      "source_characters": [
+        "1",
+        "１",
+        "始"
+      ],
+      "source_ideograph": "始",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-2",
+      "value": 2,
+      "meaning_zh": "诞生",
+      "source_characters": [
+        "2",
+        "２",
+        "生"
+      ],
+      "source_ideograph": "生",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-3",
+      "value": 3,
+      "meaning_zh": "生存",
+      "source_characters": [
+        "3",
+        "３",
+        "営"
+      ],
+      "source_ideograph": "営",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-4",
+      "value": 4,
+      "meaning_zh": "毁灭",
+      "source_characters": [
+        "4",
+        "４",
+        "壊"
+      ],
+      "source_ideograph": "壊",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-5",
+      "value": 5,
+      "meaning_zh": "再生",
+      "source_characters": [
+        "5",
+        "５",
+        "再"
+      ],
+      "source_ideograph": "再",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-6",
+      "value": 6,
+      "meaning_zh": "争斗",
+      "source_characters": [
+        "6",
+        "６",
+        "争"
+      ],
+      "source_ideograph": "争",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-7",
+      "value": 7,
+      "meaning_zh": "虚伪",
+      "source_characters": [
+        "7",
+        "７",
+        "偽"
+      ],
+      "source_ideograph": "偽",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-8",
+      "value": 8,
+      "meaning_zh": "永恒",
+      "source_characters": [
+        "8",
+        "８",
+        "永"
+      ],
+      "source_ideograph": "永",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "numeral-9",
+      "value": 9,
+      "meaning_zh": "升天",
+      "source_characters": [
+        "9",
+        "９",
+        "昇"
+      ],
+      "source_ideograph": "昇",
+      "relation": "same numeric/meaning design; keep separate source tokens and widths",
+      "rule": "copy original font01 per source token, never substitute a phonetic syllable"
+    },
+    {
+      "id": "mother-all",
+      "source_characters": [
+        "母",
+        "全"
+      ],
+      "relation": "same source semantic design; different token and pixels",
+      "rule": "retain mother/all relation; no phonetic override"
+    }
+  ],
+  "literal_sequences": [
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 72,
+      "source_token_offset": 49,
+      "text": "ＬＡＭＵＬＡＮＡ",
+      "tokens": [
+        1265,
+        1254,
+        1266,
+        1273,
+        1265,
+        1254,
+        1267,
+        1254
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 2,
+      "text": "①",
+      "tokens": [
+        1427
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 14,
+      "text": "②",
+      "tokens": [
+        1428
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 27,
+      "text": "③",
+      "tokens": [
+        1429
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 40,
+      "text": "④",
+      "tokens": [
+        1430
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 52,
+      "text": "⑤",
+      "tokens": [
+        1431
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 66,
+      "text": "⑥",
+      "tokens": [
+        1432
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 81,
+      "text": "⑦",
+      "tokens": [
+        1433
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 94,
+      "text": "⑧",
+      "tokens": [
+        1434
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 108,
+      "text": "⑨",
+      "tokens": [
+        1435
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "family-symbol-literal",
+      "block_index": 96,
+      "source_token_offset": 120,
+      "text": "⓪",
+      "tokens": [
+        1426
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 115,
+      "source_token_offset": 44,
+      "text": "ＷＥＤＪＥＴ",
+      "tokens": [
+        1275,
+        1258,
+        1257,
+        1263,
+        1258,
+        1272
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 153,
+      "source_token_offset": 47,
+      "text": "ＶＩＹ",
+      "tokens": [
+        1274,
+        1262,
+        1277
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 172,
+      "source_token_offset": 41,
+      "text": "ＭＵ",
+      "tokens": [
+        1266,
+        1273
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 200,
+      "source_token_offset": 50,
+      "text": "ＳＡＢＢＡＴ",
+      "tokens": [
+        1271,
+        1254,
+        1255,
+        1255,
+        1254,
+        1272
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 223,
+      "source_token_offset": 47,
+      "text": "ＭＡＲＤＵＫ",
+      "tokens": [
+        1266,
+        1254,
+        1270,
+        1257,
+        1273,
+        1264
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 282,
+      "source_token_offset": 48,
+      "text": "ＡＢＵＴＯ",
+      "tokens": [
+        1254,
+        1255,
+        1273,
+        1272,
+        1268
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 313,
+      "source_token_offset": 44,
+      "text": "ＢＡＨＲＵＮ",
+      "tokens": [
+        1255,
+        1254,
+        1261,
+        1270,
+        1273,
+        1267
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 1021,
+      "source_token_offset": 11,
+      "text": "ＢＩＲＴＨ",
+      "tokens": [
+        1255,
+        1262,
+        1270,
+        1272,
+        1261
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    },
+    {
+      "kind": "mantra-exact-spelling",
+      "block_index": 1022,
+      "source_token_offset": 11,
+      "text": "ＤＥＡＴＨ",
+      "tokens": [
+        1257,
+        1258,
+        1254,
+        1272,
+        1261
+      ],
+      "rule": "preserve token order, width and glyph identity"
+    }
+  ],
+  "protected_tokens": [
+    {
+      "token": 266,
+      "token_hex": "0x010A",
+      "source_character": "0",
+      "source_box_xyxy": [
+        210,
+        0,
+        231,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 10,
+      "font01_alpha_sha256": "e1855f242ea4deac0ffdfdb6ef43b014a75f112e10c985340a07478711957191",
+      "mirror_alpha_sha256": "15a2c2c95a310b79b207bc34864a075f09f4c2e23b23e010be03d4de75b43bb6"
+    },
+    {
+      "token": 267,
+      "token_hex": "0x010B",
+      "source_character": "1",
+      "source_box_xyxy": [
+        231,
+        0,
+        252,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 7,
+      "font01_alpha_sha256": "ce251bf5b885a8023925c89006025cc47db7f6f0c353fce92bdfcaa8b0a64548",
+      "mirror_alpha_sha256": "ff10d340c6ad63c7c0cc2c5dbed95b878150fcd576207e6e434a697f795770c1"
+    },
+    {
+      "token": 268,
+      "token_hex": "0x010C",
+      "source_character": "2",
+      "source_box_xyxy": [
+        252,
+        0,
+        273,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 9,
+      "font01_alpha_sha256": "c6d07e2a7ac052e7cbdc34b5a90ab3bc2a33f78a1728a9df3318613fc3589018",
+      "mirror_alpha_sha256": "16eb3c52a26a115e51573895e22b68d2887c32c4766698cfb67e402fd23e5c72"
+    },
+    {
+      "token": 269,
+      "token_hex": "0x010D",
+      "source_character": "3",
+      "source_box_xyxy": [
+        273,
+        0,
+        294,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 9,
+      "font01_alpha_sha256": "fce7fb70703a8ae5b957b738caf65216c3cddfe3ec641876b25747fd3b975dfe",
+      "mirror_alpha_sha256": "755fbc53692fa38a7352abef12047ae9e74500eda23e1323b86049e2d4a847b0"
+    },
+    {
+      "token": 270,
+      "token_hex": "0x010E",
+      "source_character": "4",
+      "source_box_xyxy": [
+        294,
+        0,
+        315,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 10,
+      "font01_alpha_sha256": "34321ad47d3ef33d4b017f928b853cf9302ff3cf84c9fdc7e8c426d5af231c10",
+      "mirror_alpha_sha256": "7bddd346d1e5dd5fb9c83b450e35f1395a4937ad07eaf567d32e67053fbd80f8"
+    },
+    {
+      "token": 271,
+      "token_hex": "0x010F",
+      "source_character": "5",
+      "source_box_xyxy": [
+        315,
+        0,
+        336,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 9,
+      "font01_alpha_sha256": "6938e2e46b6f7396db1ef87bb390bd684cde8eed885576cb9cec1a4d12e092f0",
+      "mirror_alpha_sha256": "b1666f0b85d965196475516fcecc2a8053febb06862e8954e34d580c95a8b0eb"
+    },
+    {
+      "token": 272,
+      "token_hex": "0x0110",
+      "source_character": "6",
+      "source_box_xyxy": [
+        336,
+        0,
+        357,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 10,
+      "font01_alpha_sha256": "21fc6dd867fe404e4e29653802bb3c7b1a11d4c27ae845dba4c768bbd4dac8ae",
+      "mirror_alpha_sha256": "99281995bbf5c632322ba9d5394d788105326ccbf37d698e33bc2e3aecd4ed59"
+    },
+    {
+      "token": 273,
+      "token_hex": "0x0111",
+      "source_character": "7",
+      "source_box_xyxy": [
+        357,
+        0,
+        378,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 10,
+      "font01_alpha_sha256": "6ffd99520f74e7ea1927d1c6a99c8824432672c536aa86f74993f79b566ae75c",
+      "mirror_alpha_sha256": "c56ca15f7865021e53e0df3e9b1757dafcdcdbf12ccbbb68f83f9b1f0aa58e6c"
+    },
+    {
+      "token": 274,
+      "token_hex": "0x0112",
+      "source_character": "8",
+      "source_box_xyxy": [
+        378,
+        0,
+        399,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 10,
+      "font01_alpha_sha256": "ed6bab72f02f4d3938c35687d8cf9fbd0c6e1ccef72c1bb4fb6408802624dae8",
+      "mirror_alpha_sha256": "e4e72ef7ad874fcad56fd6b842f91b34b80aa9069147df6a822ea4c59aa4c881"
+    },
+    {
+      "token": 275,
+      "token_hex": "0x0113",
+      "source_character": "9",
+      "source_box_xyxy": [
+        399,
+        0,
+        420,
+        21
+      ],
+      "crop_x": 0,
+      "advance_width": 9,
+      "font01_alpha_sha256": "749d352bf548727b0460e9ea31bc6b957cc63d15ce468b6b96382d3789d38af6",
+      "mirror_alpha_sha256": "a345351e4bcd6fcc2c36f5aff7076a0e21b9ba589d5f0f7c891bb35965d0d84b"
+    },
+    {
+      "token": 521,
+      "token_hex": "0x0209",
+      "source_character": "争",
+      "source_box_xyxy": [
+        525,
+        105,
+        546,
+        126
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "f70091eca13df103de6c64f4cea1058ced36deefd5c3409574778d5d9f967e2a",
+      "mirror_alpha_sha256": "b75ae356abd69905df8a0c050b7e0a6c67bec0bf77d916a5d98410b6c969fba4"
+    },
+    {
+      "token": 566,
+      "token_hex": "0x0236",
+      "source_character": "全",
+      "source_box_xyxy": [
+        462,
+        126,
+        483,
+        147
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "570ca328fe01d25561dbc8160a14562fab1c7b00610df7bdee88cb5475c4f6d5",
+      "mirror_alpha_sha256": "4bbef7029bb8b342e900b0c6c017e542b32df3a43b6a3e8296645fcac1e5d66f"
+    },
+    {
+      "token": 571,
+      "token_hex": "0x023B",
+      "source_character": "再",
+      "source_box_xyxy": [
+        567,
+        126,
+        588,
+        147
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "37a3f09579b5758c00911addea6eca6f3af244dee66bfe6ee049edbc4e263c63",
+      "mirror_alpha_sha256": "485dae2f3280547872ed27573d61660bd34152626e5c129f53f83d1c91d8791d"
+    },
+    {
+      "token": 632,
+      "token_hex": "0x0278",
+      "source_character": "営",
+      "source_box_xyxy": [
+        840,
+        147,
+        861,
+        168
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "28ebb9e0d5d548c2c00e2f28e9c5ebb0793c7f2bb50fa0fb3edb118e0a5d32f1",
+      "mirror_alpha_sha256": "47e741f0fdf12f7d8028ed0bb4c16e46d36dd3ee4632f29a1e6ea00235d125c2"
+    },
+    {
+      "token": 656,
+      "token_hex": "0x0290",
+      "source_character": "壊",
+      "source_box_xyxy": [
+        336,
+        168,
+        357,
+        189
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "6f9c5834420cd00ec4c8274c75e0b330629473b19d89cc8d62e1b7797279965f",
+      "mirror_alpha_sha256": "ae09f4fff0a4fabe2a8187e886a70955fc4e77672c2d87b2c37c548381565404"
+    },
+    {
+      "token": 679,
+      "token_hex": "0x02A7",
+      "source_character": "始",
+      "source_box_xyxy": [
+        819,
+        168,
+        840,
+        189
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "72e6a56be0497090fddbb675ae7f9910ada610effe181978f4c5787a6d7706a3",
+      "mirror_alpha_sha256": "1579ee725b1caa08bc5f55eb930d44ef698a23e1986d3a9bd5c2439016d4f414"
+    },
+    {
+      "token": 818,
+      "token_hex": "0x0332",
+      "source_character": "昇",
+      "source_box_xyxy": [
+        714,
+        231,
+        735,
+        252
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "40ba4814629ad08679010cfd2165c7eb3299cb49337ad9a75087981193795fa6",
+      "mirror_alpha_sha256": "328322a6f7a20fda39136b6c4f4a06aa805a4b68d510e23ab97e36ea2258c77d"
+    },
+    {
+      "token": 882,
+      "token_hex": "0x0372",
+      "source_character": "母",
+      "source_box_xyxy": [
+        42,
+        273,
+        63,
+        294
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "31205a80ba99bb2f20faa6e791a321ee1a4ded3af39d70ddb01554379fe3b4bb",
+      "mirror_alpha_sha256": "e9091682cc664066ba9761d93ddcb21b190839527fced6dc402974ea8a5f6bfc"
+    },
+    {
+      "token": 888,
+      "token_hex": "0x0378",
+      "source_character": "永",
+      "source_box_xyxy": [
+        168,
+        273,
+        189,
+        294
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "19fab56363a944b9a8ea8bc48b151df2a33efa122cb76e6c97dcf9f027743018",
+      "mirror_alpha_sha256": "8bbe9986d8252a970a310dfe57f156eaf2a4ef78097bec5fd50b7e3a17cc7c5b"
+    },
+    {
+      "token": 918,
+      "token_hex": "0x0396",
+      "source_character": "無",
+      "source_box_xyxy": [
+        798,
+        273,
+        819,
+        294
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "c68c398e7674c1764a1e33d85e5b5b758feda285c32bde13164ae7fae3383c5e",
+      "mirror_alpha_sha256": "2ccba5f2e85566a56bdd166424d61a0df23500a083fd37b5029cd1346500171d"
+    },
+    {
+      "token": 943,
+      "token_hex": "0x03AF",
+      "source_character": "生",
+      "source_box_xyxy": [
+        315,
+        294,
+        336,
+        315
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "116ff948d4d32ef3ad208140b4a7b3ea2b2fd57929cab14fb229af91aa349dec",
+      "mirror_alpha_sha256": "98004ec460448932e67b1e8fd05835ea12a126c26b64d6e148c47109356775b2"
+    },
+    {
+      "token": 1221,
+      "token_hex": "0x04C5",
+      "source_character": "偽",
+      "source_box_xyxy": [
+        105,
+        420,
+        126,
+        441
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "657936ccfc1152cbc69e563d14def054bfc9b957dec05a19f19ee1982e15a245",
+      "mirror_alpha_sha256": "3886a7970152b047e395115c18ce924da699ff89368b140580fec1c860c48b44"
+    },
+    {
+      "token": 1244,
+      "token_hex": "0x04DC",
+      "source_character": "０",
+      "source_box_xyxy": [
+        588,
+        420,
+        609,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "eda21a3c937caad18cae8e9242fe2705a6cc036c77f3bfe31e8c58c908a68636",
+      "mirror_alpha_sha256": "8d114272a83f33c60880e1673d6d1ae028b8cb69ef6b02d3fb203e93cef57023"
+    },
+    {
+      "token": 1245,
+      "token_hex": "0x04DD",
+      "source_character": "１",
+      "source_box_xyxy": [
+        609,
+        420,
+        630,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "9457e6137594014f4aca8f6587937f5924c28b8b577f3a2448bc4d4f8787a563",
+      "mirror_alpha_sha256": "456e74bc35d70f22f137007ff7a62888c17c2ebd867fb61984995ca2aa86c8f9"
+    },
+    {
+      "token": 1246,
+      "token_hex": "0x04DE",
+      "source_character": "２",
+      "source_box_xyxy": [
+        630,
+        420,
+        651,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "da5d20466e5cf372acf6214a4c4cd7db69559ee42848a3aabfbc1394d20cba57",
+      "mirror_alpha_sha256": "491ec9c236640f578ec52f9df36e8e166aa6bfb98bfd5589ff7002a97f86264f"
+    },
+    {
+      "token": 1247,
+      "token_hex": "0x04DF",
+      "source_character": "３",
+      "source_box_xyxy": [
+        651,
+        420,
+        672,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "1138aaec708bb8ce62040c16aba410bcb6148ae537f28e7a85f5e7f177adc87b",
+      "mirror_alpha_sha256": "84e96a8361b6215bca20475cd2813ea63332a7e9d889147c3ecc73f9eceb77fb"
+    },
+    {
+      "token": 1248,
+      "token_hex": "0x04E0",
+      "source_character": "４",
+      "source_box_xyxy": [
+        672,
+        420,
+        693,
+        441
+      ],
+      "crop_x": 3,
+      "advance_width": 13,
+      "font01_alpha_sha256": "ef4bc2279d431d8e7da30a8d715de8a6d88a4b9ec2a4a9eb2f7243a87e2facde",
+      "mirror_alpha_sha256": "27f1ef39fdc3c38624b9460cca90331f2ef7129c9d98e303aee69b18e468192a"
+    },
+    {
+      "token": 1249,
+      "token_hex": "0x04E1",
+      "source_character": "５",
+      "source_box_xyxy": [
+        693,
+        420,
+        714,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "45e9b2f431bb8d79f38fef404ea0a924b17e5d2da94dcdf552eed20830a413d2",
+      "mirror_alpha_sha256": "e9a976a04f64d49a411bcd0c93bed5d78ac4cf89c6b956ac9b8c4356b5000077"
+    },
+    {
+      "token": 1250,
+      "token_hex": "0x04E2",
+      "source_character": "６",
+      "source_box_xyxy": [
+        714,
+        420,
+        735,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "8778628116d5b013f3d093b619e5fcb2da514e1dabadbc1678397bdca1390c9c",
+      "mirror_alpha_sha256": "a58a3bb59293cd1554a2956304d8cb46bcc6096aca0eba8df7578ae385fd5f02"
+    },
+    {
+      "token": 1251,
+      "token_hex": "0x04E3",
+      "source_character": "７",
+      "source_box_xyxy": [
+        735,
+        420,
+        756,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "5622fa4061fc16d644cbc77734edf7c6ff70b46a30a999758150f030ef6348ab",
+      "mirror_alpha_sha256": "49e53bc7ee13c68e96d723bc79f49e48766f9e8408579de488bddfc42d7b5dfd"
+    },
+    {
+      "token": 1252,
+      "token_hex": "0x04E4",
+      "source_character": "８",
+      "source_box_xyxy": [
+        756,
+        420,
+        777,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "900cd8826ba01834289c87f83f39798b069a57b59c5c01dc971a659d272eadc3",
+      "mirror_alpha_sha256": "bacccd4bcbf73a546fdf0937ec86b4ebd01344465386634dafdd448de309e053"
+    },
+    {
+      "token": 1253,
+      "token_hex": "0x04E5",
+      "source_character": "９",
+      "source_box_xyxy": [
+        777,
+        420,
+        798,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 13,
+      "font01_alpha_sha256": "e8754d9b24279971f9bd80be3ec67f8cf2040a6ff3b3a826981630447752507d",
+      "mirror_alpha_sha256": "3d760dcce103bf4318478c99f3299d70439035cd073efb5aaf397cf914dd3b2d"
+    },
+    {
+      "token": 1254,
+      "token_hex": "0x04E6",
+      "source_character": "Ａ",
+      "source_box_xyxy": [
+        798,
+        420,
+        819,
+        441
+      ],
+      "crop_x": 2,
+      "advance_width": 17,
+      "font01_alpha_sha256": "266cd3fdfe9b0d794666836170c6e8466207b7eed308972b03dec444945cb06a",
+      "mirror_alpha_sha256": "168acbf43ac3ab74f94ad1744da07afa4021a7b57f4a8dc8c900c49f94b0fd1d"
+    },
+    {
+      "token": 1255,
+      "token_hex": "0x04E7",
+      "source_character": "Ｂ",
+      "source_box_xyxy": [
+        819,
+        420,
+        840,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 14,
+      "font01_alpha_sha256": "cdd8b1c7bdd01f731d62fe899ff025c3524c88b46309063c7ba4bc4f6139c197",
+      "mirror_alpha_sha256": "4a0fce75714524544d4fe31c4d67b4ad0487dd17135cd39cddd29f56b4823cf7"
+    },
+    {
+      "token": 1257,
+      "token_hex": "0x04E9",
+      "source_character": "Ｄ",
+      "source_box_xyxy": [
+        861,
+        420,
+        882,
+        441
+      ],
+      "crop_x": 3,
+      "advance_width": 16,
+      "font01_alpha_sha256": "389442b454cc67c0396e662ddc18a0e73f3e8c59906dd3273cce517778eb46da",
+      "mirror_alpha_sha256": "d52ab8a9c8de39d007c39206245f2d0b46e668a678bf59678eb809eb9391be3f"
+    },
+    {
+      "token": 1258,
+      "token_hex": "0x04EA",
+      "source_character": "Ｅ",
+      "source_box_xyxy": [
+        882,
+        420,
+        903,
+        441
+      ],
+      "crop_x": 4,
+      "advance_width": 14,
+      "font01_alpha_sha256": "87000cc3628ce633697a2e42873acf8d96cfb809f10f06d65f6d21aaadbafad3",
+      "mirror_alpha_sha256": "ff04230f7518688b248aef7f58f541ed71c56e404657bd2e095c06c606826e99"
+    },
+    {
+      "token": 1261,
+      "token_hex": "0x04ED",
+      "source_character": "Ｈ",
+      "source_box_xyxy": [
+        945,
+        420,
+        966,
+        441
+      ],
+      "crop_x": 2,
+      "advance_width": 18,
+      "font01_alpha_sha256": "4079b10f8133cd3771993531b270abb7ba1bfd629df9fe7acd6c0094efca2451",
+      "mirror_alpha_sha256": "b65603a2b4f1e886f77fad213415c3db6bfad22e00041460599ec872ad894702"
+    },
+    {
+      "token": 1262,
+      "token_hex": "0x04EE",
+      "source_character": "Ｉ",
+      "source_box_xyxy": [
+        966,
+        420,
+        987,
+        441
+      ],
+      "crop_x": 6,
+      "advance_width": 9,
+      "font01_alpha_sha256": "1eb3d38cdf958915dfa71330670dd7b51ef0411e1f730a7331af01c3938925b2",
+      "mirror_alpha_sha256": "59632d7f5a9fa8f8e22f5e3b5de07dad439a5ccb72f61cafce5e7fd91a426144"
+    },
+    {
+      "token": 1263,
+      "token_hex": "0x04EF",
+      "source_character": "Ｊ",
+      "source_box_xyxy": [
+        987,
+        420,
+        1008,
+        441
+      ],
+      "crop_x": 5,
+      "advance_width": 11,
+      "font01_alpha_sha256": "23a1ae81482e7303b0bb15afc800e22d27c621baa7da0e9b3bfd333acfb58132",
+      "mirror_alpha_sha256": "9b01a11f8e31e92e20dcbecdb9ef06aa784b0bd51ff6f051bc5b8dc3ec21b2ba"
+    },
+    {
+      "token": 1264,
+      "token_hex": "0x04F0",
+      "source_character": "Ｋ",
+      "source_box_xyxy": [
+        0,
+        441,
+        21,
+        462
+      ],
+      "crop_x": 3,
+      "advance_width": 17,
+      "font01_alpha_sha256": "1bb95237114506c26e6d20deca482035da34f1566ca07afa72333b96a3452ad1",
+      "mirror_alpha_sha256": "83980078b1bcbe0bf4c3ad01186e919e8a0a45a0562fcf5cb5b96cc04943821e"
+    },
+    {
+      "token": 1265,
+      "token_hex": "0x04F1",
+      "source_character": "Ｌ",
+      "source_box_xyxy": [
+        21,
+        441,
+        42,
+        462
+      ],
+      "crop_x": 5,
+      "advance_width": 13,
+      "font01_alpha_sha256": "2ca123fad0931b77c4d73ab71e758af043e12ca079bd5ffedaadb4dc3e283f46",
+      "mirror_alpha_sha256": "03c979d4676462b71e3e444dddb513e5bc955d43e35b945470374d914af15732"
+    },
+    {
+      "token": 1266,
+      "token_hex": "0x04F2",
+      "source_character": "Ｍ",
+      "source_box_xyxy": [
+        42,
+        441,
+        63,
+        462
+      ],
+      "crop_x": 1,
+      "advance_width": 20,
+      "font01_alpha_sha256": "c5a007f9c65c6a4180b55d458ccc33d87bd17ed522fd28f2ee417eac64d06eab",
+      "mirror_alpha_sha256": "aaf1e770085af906398361752ae0ab5d28f497c3104683fb2e60decc04658870"
+    },
+    {
+      "token": 1267,
+      "token_hex": "0x04F3",
+      "source_character": "Ｎ",
+      "source_box_xyxy": [
+        63,
+        441,
+        84,
+        462
+      ],
+      "crop_x": 2,
+      "advance_width": 18,
+      "font01_alpha_sha256": "8feedb4313edff161eadb205fd106095de7355b9ebdea00cb1cac445871991a6",
+      "mirror_alpha_sha256": "b68fedf83c1c0d4b367517319adc7279ebf0be9bc566890f0b41aff5cc5bd497"
+    },
+    {
+      "token": 1268,
+      "token_hex": "0x04F4",
+      "source_character": "Ｏ",
+      "source_box_xyxy": [
+        84,
+        441,
+        105,
+        462
+      ],
+      "crop_x": 2,
+      "advance_width": 18,
+      "font01_alpha_sha256": "f0ff62671e4591833326964885328ea2d56ce8d9acf7f245bfebe8635d24d540",
+      "mirror_alpha_sha256": "70739208429126cc43067eb1c091dd34dc9f24fb9d3bdc889b507dcc0ca3ccd2"
+    },
+    {
+      "token": 1270,
+      "token_hex": "0x04F6",
+      "source_character": "Ｒ",
+      "source_box_xyxy": [
+        126,
+        441,
+        147,
+        462
+      ],
+      "crop_x": 4,
+      "advance_width": 14,
+      "font01_alpha_sha256": "97d2785848586eb3413363a629f9e98e2898631fc6149426523b9b923272fefc",
+      "mirror_alpha_sha256": "3e9c067a92ac9531fba6cba140fbef13bb7bb905058b8873403331afd012e4aa"
+    },
+    {
+      "token": 1271,
+      "token_hex": "0x04F7",
+      "source_character": "Ｓ",
+      "source_box_xyxy": [
+        147,
+        441,
+        168,
+        462
+      ],
+      "crop_x": 5,
+      "advance_width": 12,
+      "font01_alpha_sha256": "00e13f039c13d55ed79534745ac2c84639332745f5eea2d6278a9b5c8e599503",
+      "mirror_alpha_sha256": "7a657a5c4aac93ae59f641185b29dade934341afb72cc092eb55b86fef64b38e"
+    },
+    {
+      "token": 1272,
+      "token_hex": "0x04F8",
+      "source_character": "Ｔ",
+      "source_box_xyxy": [
+        168,
+        441,
+        189,
+        462
+      ],
+      "crop_x": 3,
+      "advance_width": 15,
+      "font01_alpha_sha256": "d4069866e6ccef7ddd2413826ea1919f1c123b5c27b4eac354d8901b6c69c5f7",
+      "mirror_alpha_sha256": "84fe011a61ba0d4873cd31591d863e4a4c96c946f0f35c3b69d82db6c3dbd038"
+    },
+    {
+      "token": 1273,
+      "token_hex": "0x04F9",
+      "source_character": "Ｕ",
+      "source_box_xyxy": [
+        189,
+        441,
+        210,
+        462
+      ],
+      "crop_x": 2,
+      "advance_width": 18,
+      "font01_alpha_sha256": "8c79a06b8d20628c27a75244c6eb75508649a74b2dfeafc675b5c64e77093b4d",
+      "mirror_alpha_sha256": "c2ad57c0e82ae796ba00680fb22dd7f6ed5dedae5606f1cc4073dfecbf3eb59d"
+    },
+    {
+      "token": 1274,
+      "token_hex": "0x04FA",
+      "source_character": "Ｖ",
+      "source_box_xyxy": [
+        210,
+        441,
+        231,
+        462
+      ],
+      "crop_x": 2,
+      "advance_width": 17,
+      "font01_alpha_sha256": "4ce8b65da87a1884413ee1d92059120463458cf0b21fb007daf407c200e144ef",
+      "mirror_alpha_sha256": "f8a5edbacf3c8d03713f914c8e554b48d5d7170526dcc0b75d6f86001d4fd441"
+    },
+    {
+      "token": 1275,
+      "token_hex": "0x04FB",
+      "source_character": "Ｗ",
+      "source_box_xyxy": [
+        231,
+        441,
+        252,
+        462
+      ],
+      "crop_x": 0,
+      "advance_width": 21,
+      "font01_alpha_sha256": "1a812a266ad9be0bbfc1052178f75f6621909537e4cfe069086d099fe6a3ccf0",
+      "mirror_alpha_sha256": "9e73c07fb62199f070840cd3f0d7c0fc96d8812e73a865158f680c49bbe449e6"
+    },
+    {
+      "token": 1277,
+      "token_hex": "0x04FD",
+      "source_character": "Ｙ",
+      "source_box_xyxy": [
+        273,
+        441,
+        294,
+        462
+      ],
+      "crop_x": 3,
+      "advance_width": 16,
+      "font01_alpha_sha256": "3cd9fda5e61b3c780e2504c219fea01e26aaf5b5a519fcfa00c258b18c8c3a6a",
+      "mirror_alpha_sha256": "4a5a204d462c9a582e8b15163895bfb60405eb4508b2ed2cbdd7d25fd2d71ade"
+    },
+    {
+      "token": 1426,
+      "token_hex": "0x0592",
+      "source_character": "⓪",
+      "source_box_xyxy": [
+        378,
+        504,
+        399,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 13,
+      "font01_alpha_sha256": "86352af6c773ba065bf2a041c23c6170a8ca3d2d6cdc6db754667f03c9a78501",
+      "mirror_alpha_sha256": "8f43ff287a98baba999d90bce9a591b1acd3966ec71aaebc83a3ae7b4c493595"
+    },
+    {
+      "token": 1427,
+      "token_hex": "0x0593",
+      "source_character": "①",
+      "source_box_xyxy": [
+        399,
+        504,
+        420,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "44ddcdfde01addbd368565da190836b095577dc2fdd8b47ea625740e4cd3fadc",
+      "mirror_alpha_sha256": "fade9575a6fdb3921bf5afda37f94ea7c547a2387589307e6742e1f4dca2818f"
+    },
+    {
+      "token": 1428,
+      "token_hex": "0x0594",
+      "source_character": "②",
+      "source_box_xyxy": [
+        420,
+        504,
+        441,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "b72356ed054f34526ab2c2577c014cef6559c24ac27a2a2a5a745252bc3ef276",
+      "mirror_alpha_sha256": "b28d5a9b67c0ec5b9bf1867590270f7196134211da3e76c32665e67bd6e7896f"
+    },
+    {
+      "token": 1429,
+      "token_hex": "0x0595",
+      "source_character": "③",
+      "source_box_xyxy": [
+        441,
+        504,
+        462,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "bed0615b22b2aac297004363be2c9a3f8f45b4a91efca90b0fc7c12fefb1f3ea",
+      "mirror_alpha_sha256": "2178028ba9236f3ab68eec69a6ba1c80651367e64575c2a59bd477e8b61d8014"
+    },
+    {
+      "token": 1430,
+      "token_hex": "0x0596",
+      "source_character": "④",
+      "source_box_xyxy": [
+        462,
+        504,
+        483,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "dcb6edbc3c8f8a49b0092f0096bb99b3003e4b5a774ac1119f44e3f1c39417f1",
+      "mirror_alpha_sha256": "87489e8f1299d8f7043701187fefaba0d538b80526bc24bc02232b0483f10ef8"
+    },
+    {
+      "token": 1431,
+      "token_hex": "0x0597",
+      "source_character": "⑤",
+      "source_box_xyxy": [
+        483,
+        504,
+        504,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "98330447437ee5bb5e8e975f98bb3e4b9235f35e07e323b2d04de2f4b2e89743",
+      "mirror_alpha_sha256": "15ec07ed5a35ecc72b760f57abf6a3aced36c8606f0522f318a4cb9aa865a2a5"
+    },
+    {
+      "token": 1432,
+      "token_hex": "0x0598",
+      "source_character": "⑥",
+      "source_box_xyxy": [
+        504,
+        504,
+        525,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "cd087853f06c4c5f33405036ee2703a066768c91a43479b0b9b59f019cf8bd47",
+      "mirror_alpha_sha256": "12bfa46f69b23d1f464613596bc35942c5745e728b9945fd1e40bb59f49177c2"
+    },
+    {
+      "token": 1433,
+      "token_hex": "0x0599",
+      "source_character": "⑦",
+      "source_box_xyxy": [
+        525,
+        504,
+        546,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "d1e942161bcb06e88418702682b06e1b567a499502a91df76aa0ae22a3c909dc",
+      "mirror_alpha_sha256": "bdccfaad7b6d834105ef5d171a85213143d9d34f77245cf1ccb5594c0f09de2f"
+    },
+    {
+      "token": 1434,
+      "token_hex": "0x059A",
+      "source_character": "⑧",
+      "source_box_xyxy": [
+        546,
+        504,
+        567,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "c8fe20347ec89c1da6e8ce3c61d59a8796dff9e89fad9907d417d0bb5a76c8a0",
+      "mirror_alpha_sha256": "158a1522ded59e998b99f8f5adad9a110fa711a975902bf3e0ad92371923b9bb"
+    },
+    {
+      "token": 1435,
+      "token_hex": "0x059B",
+      "source_character": "⑨",
+      "source_box_xyxy": [
+        567,
+        504,
+        588,
+        525
+      ],
+      "crop_x": 0,
+      "advance_width": 14,
+      "font01_alpha_sha256": "7650f69afdb6f42c892f35fadaab1777b2f04fb995b3e4e67c7147916aa34386",
+      "mirror_alpha_sha256": "928e9ead3050c6d93abe421b862ed5a07a7dcc98a12a7a66844449cac1cd8d38"
+    }
+  ],
+  "chinese_binding_proposals": [
+    {
+      "zh": "存",
+      "original": "営",
+      "status": "existing Chinese glyph candidate"
+    },
+    {
+      "zh": "毁",
+      "original": "壊",
+      "status": "existing Chinese glyph candidate"
+    },
+    {
+      "zh": "骗",
+      "original": "偽",
+      "status": "existing Chinese glyph candidate"
+    },
+    {
+      "zh": "升",
+      "original": "昇",
+      "status": "existing Chinese glyph candidate"
+    },
+    {
+      "zh": "万",
+      "original": "全",
+      "status": "context proposal; no global replacement approved"
+    },
+    {
+      "zh": "钥",
+      "original": "鍵",
+      "status": "context proposal; source relation review pending"
+    }
+  ],
+  "seal_names": [
+    {
+      "block_index": 1,
+      "source_segment_index": 130,
+      "zh": "起始之印"
+    },
+    {
+      "block_index": 1,
+      "source_segment_index": 132,
+      "zh": "诞生之印"
+    },
+    {
+      "block_index": 1,
+      "source_segment_index": 134,
+      "zh": "生存之印"
+    },
+    {
+      "block_index": 1,
+      "source_segment_index": 136,
+      "zh": "毁灭之印"
+    }
+  ],
+  "graphic_policy": "retain original seal/gate/numeric graphics; match their existing sign identities; no texture writes here",
+  "counts": {
+    "source_groups": 11,
+    "unique_source_tokens": 61,
+    "mantra_sequences": 10,
+    "family_symbol_runs": 10,
+    "seal_names": 4
+  }
+}

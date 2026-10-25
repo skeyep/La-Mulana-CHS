@@ -1,0 +1,2734 @@
+{
+  "schema": "lm1-public-translations-v1",
+  "target_language": "zh-CN",
+  "namespace": "main",
+  "source_name": "items-software.json",
+  "credit": "Skeyep_目目",
+  "records": [
+    {
+      "resource_id": "data/language/script_code.dat::block:0001",
+      "block_index": 1,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s0",
+          "source_segment_index": 0,
+          "zh": "皮鞭",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "418bc709ee5596c2e618b6f8b0b6dd64fb4a6efad3dfc638c90aacbd5254d0d7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s2",
+          "source_segment_index": 2,
+          "zh": "锁链鞭",
+          "source_token_offset": 5,
+          "source_tokens_sha256": "3cc7f23641e395cf98ff49cd65007d6990b2f02f76c33a86e6e2387f56373735",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s4",
+          "source_segment_index": 4,
+          "zh": "铁球鞭",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "317079273d1e68498ae48147be666a4d3f8847e72a069fece6df4c845ede59d5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s6",
+          "source_segment_index": 6,
+          "zh": "匕首",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "cccb3b649ce6072c095fe97980dc8d3a559798e977cd9f56e1d18d814369ac90",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s8",
+          "source_segment_index": 8,
+          "zh": "钥匙剑",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "2e57660287bbfec88da2f2aa8844ddb56936c4741e3a2d3ce047f707a41fdcdf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s10",
+          "source_segment_index": 10,
+          "zh": "斧头",
+          "source_token_offset": 21,
+          "source_tokens_sha256": "1e96e7625241e9e19a5636af81d0857a06adc75f90d1ce457c4cafeca1525f3a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s12",
+          "source_segment_index": 12,
+          "zh": "武士刀",
+          "source_token_offset": 23,
+          "source_tokens_sha256": "4634c4b51a45e6b0eea6846ba9b8e20c32aa108fe67bb9cc0583ecc137e21818",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s14",
+          "source_segment_index": 14,
+          "zh": "钥匙剑",
+          "source_token_offset": 25,
+          "source_tokens_sha256": "2e57660287bbfec88da2f2aa8844ddb56936c4741e3a2d3ce047f707a41fdcdf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s16",
+          "source_segment_index": 16,
+          "zh": "手里剑",
+          "source_token_offset": 28,
+          "source_tokens_sha256": "fe9adfa78617f322455022e1a3ca9e9d179526ecc6f4a50dbc2f07cf6f554b54",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s18",
+          "source_segment_index": 18,
+          "zh": "风车手里剑",
+          "source_token_offset": 32,
+          "source_tokens_sha256": "b2feedffb9606dcc8f5474793554171955f017de01bea0cdb5f171e169712eb0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s20",
+          "source_segment_index": 20,
+          "zh": "大地之矛",
+          "source_token_offset": 37,
+          "source_tokens_sha256": "f51fc76953cd692b802f9ee663ab95cd271f02d8770320dc30229f83db3635a6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s22",
+          "source_segment_index": 22,
+          "zh": "信号弹筒",
+          "source_token_offset": 42,
+          "source_tokens_sha256": "19d7286b1e3f296de79c62831e703d647d73f4be26df6404c25174f18adfadca",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s24",
+          "source_segment_index": 24,
+          "zh": "炸弹",
+          "source_token_offset": 46,
+          "source_tokens_sha256": "df12ee0e94b4c8d7e923103cfe5a4ec0a1f34e732c85547af1d6c83f4ed3fd0a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s26",
+          "source_segment_index": 26,
+          "zh": "回旋刃",
+          "source_token_offset": 49,
+          "source_tokens_sha256": "97a04f24d2f77f26478c5594662f94490c7d76d99c38ee6f1f6997615db3d862",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s28",
+          "source_segment_index": 28,
+          "zh": "铁蒺藜",
+          "source_token_offset": 55,
+          "source_tokens_sha256": "d87684e2118faec14781e35e0f566652b7702dbe1549e628f941a4cc5b79f0d4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s30",
+          "source_segment_index": 30,
+          "zh": "手枪",
+          "source_token_offset": 60,
+          "source_tokens_sha256": "41ed089264a1a2c0afe5fb4b2d4e088b25dc3fe2803c3e22f7fa6c0dfef0ca28",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s32",
+          "source_segment_index": 32,
+          "zh": "圆盾",
+          "source_token_offset": 62,
+          "source_tokens_sha256": "168b6097ef805199d8d6df51578fe213b5dc75c32e88b68789607b1a8526ef16",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s34",
+          "source_segment_index": 34,
+          "zh": "白银之盾",
+          "source_token_offset": 68,
+          "source_tokens_sha256": "efadbdfb34d5983562a926cf3f208f93120a8b87240795cc56319cea608faab0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s36",
+          "source_segment_index": 36,
+          "zh": "天使之盾",
+          "source_token_offset": 73,
+          "source_tokens_sha256": "ed33a9d379759f8c9f6727389e14372e188d9917c2c2abef9cbea06a44ee646f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s38",
+          "source_segment_index": 38,
+          "zh": "安卡宝石",
+          "source_token_offset": 78,
+          "source_tokens_sha256": "44033650c44d758f97ab07f4b9b151452ece6798ab9bc29c7df70835bffecc87",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s40",
+          "source_segment_index": 40,
+          "zh": "手持扫描器",
+          "source_token_offset": 86,
+          "source_tokens_sha256": "673f47b7e8330512209115e8656ffd28aa31fb269b14105b99ca04307abe4efa",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s42",
+          "source_segment_index": 42,
+          "zh": "节德柱",
+          "source_token_offset": 95,
+          "source_tokens_sha256": "39eac5909a297a9342f3f6c584801d37b7047812629cf538f254aacc5d497021",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s44",
+          "source_segment_index": 44,
+          "zh": "小人人偶",
+          "source_token_offset": 100,
+          "source_tokens_sha256": "9e5960c6a01ace729f6760d07e72f23108f2d293bffa99390662a68f1b01a6e0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s46",
+          "source_segment_index": 46,
+          "zh": "勾玉",
+          "source_token_offset": 105,
+          "source_tokens_sha256": "de3a2fb9d73142a271c36a333e8c1c04563ee552ebfd4c917aa7d28c5bdee618",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s48",
+          "source_segment_index": 48,
+          "zh": "生命齿轮",
+          "source_token_offset": 109,
+          "source_tokens_sha256": "f3586ae6e3c2cef6a808ffc6fb963819d79d2b613b8f94951dc7c07a77627305",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s50",
+          "source_segment_index": 50,
+          "zh": "时之灯",
+          "source_token_offset": 115,
+          "source_tokens_sha256": "d9aed2151becb0f093ea2461ee4dc866e8c6e91bac5e7b31376e4176d0294a4a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s52",
+          "source_segment_index": 52,
+          "zh": "腰包钥匙",
+          "source_token_offset": 121,
+          "source_tokens_sha256": "7864f5f89e119a4e656c4c24ea983df6d32dc987f090de3546da093ce6b45ce0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s54",
+          "source_segment_index": 54,
+          "zh": "龙骨",
+          "source_token_offset": 129,
+          "source_tokens_sha256": "18f87c823af18f555870942f01bab446cc6e31d347878b0e1f46493baed41b66",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s56",
+          "source_segment_index": 56,
+          "zh": "水晶骷髅",
+          "source_token_offset": 133,
+          "source_tokens_sha256": "e0d30a381d69e02391f042ffaac0dd1cdad066d0136f16131ef9184bb44a2c0a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s58",
+          "source_segment_index": 58,
+          "zh": "容器",
+          "source_token_offset": 139,
+          "source_tokens_sha256": "e682653fb7a4bdd1273da568562634a199f42f3279a43663dea392147602f874",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s60",
+          "source_segment_index": 60,
+          "zh": "胡椒",
+          "source_token_offset": 141,
+          "source_tokens_sha256": "216fbba38524d2fbcb0529af4b8b7e6c245deb142d017a28d5db3c7cde0967a4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s62",
+          "source_segment_index": 62,
+          "zh": "女性像",
+          "source_token_offset": 146,
+          "source_tokens_sha256": "f58107daa0e814a6509b7328cedc47d3b2a17e4703e0a477f672d405cb8b1684",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s64",
+          "source_segment_index": 64,
+          "zh": "无限之钥",
+          "source_token_offset": 150,
+          "source_tokens_sha256": "71bbdde07b11dd2213b71232cbfff04272b465e81eee6cd46baae97e007b03d5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s66",
+          "source_segment_index": 66,
+          "zh": "蛇杖",
+          "source_token_offset": 155,
+          "source_tokens_sha256": "16a5afea8f60d5a08615054195474976c00a1eed0fdb84000595aae8643d61c7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s68",
+          "source_segment_index": 68,
+          "zh": "护身符",
+          "source_token_offset": 159,
+          "source_tokens_sha256": "bfd60767e41a10c25be34edca0e965554906d0773a66cccda68726ead641275a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s70",
+          "source_segment_index": 70,
+          "zh": "ＭｏｂｉｌｅＳｕｐｅｒＸ",
+          "source_token_offset": 163,
+          "source_tokens_sha256": "ae6a3c04d27fab914bdfaae31f7d425b6a41cb754448d9703566e6096180a22b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s72",
+          "source_segment_index": 72,
+          "zh": "防水护套",
+          "source_token_offset": 176,
+          "source_tokens_sha256": "2a4adb26d94b4550a69cbfb14b389fafa5c3e1de6e5e81afcc792af85ba2ce5b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s74",
+          "source_segment_index": 74,
+          "zh": "耐热护套",
+          "source_token_offset": 182,
+          "source_tokens_sha256": "8fed9117380c082c21998e8ebaf6d1deda9723c778fd5955c0d7995a24d6eed3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s76",
+          "source_segment_index": 76,
+          "zh": "法螺",
+          "source_token_offset": 188,
+          "source_tokens_sha256": "a6014967ad85ad916968d3e05ce3ccdd43eb7fe567852694bc40cf52d4acd9f8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s78",
+          "source_segment_index": 78,
+          "zh": "手套",
+          "source_token_offset": 192,
+          "source_tokens_sha256": "af66d47e4d6af524d507021124a9f0822a29565daa71c4b42bea3d668a3820b3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s80",
+          "source_segment_index": 80,
+          "zh": "圣杯",
+          "source_token_offset": 197,
+          "source_tokens_sha256": "d78168d0767f3e585755cd7f057c5510611f6f5e674ce454197fb35a6e969ee7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s82",
+          "source_segment_index": 82,
+          "zh": "伊西斯吊坠",
+          "source_token_offset": 200,
+          "source_tokens_sha256": "8edf4cea24207f5dc0926536ad934ce904663d29eda8fe28ebc1f9b7cdb90281",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s84",
+          "source_segment_index": 84,
+          "zh": "十字架",
+          "source_token_offset": 210,
+          "source_tokens_sha256": "9b5a1920c271b4ecf830c3bec90a9ea8fd96e95b4fe23204368082ed8f306f9c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s86",
+          "source_segment_index": 86,
+          "zh": "头盔",
+          "source_token_offset": 214,
+          "source_tokens_sha256": "fa9828c6077832118b65b033ce625945cf8d3ed0cb6478b4d5c13a911883bd10",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s88",
+          "source_segment_index": 88,
+          "zh": "钩爪",
+          "source_token_offset": 216,
+          "source_tokens_sha256": "b07cd554ef6821c20807f4b9938911753c16fee472f207341ff0d11b3cb72a4f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s90",
+          "source_segment_index": 90,
+          "zh": "铜镜",
+          "source_token_offset": 220,
+          "source_tokens_sha256": "5b9dd8857a66dbe8e2bea5ec3d8a5ef26284587125d162e0216f8f6b143bdc2b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s92",
+          "source_segment_index": 92,
+          "zh": "真实之眼",
+          "source_token_offset": 223,
+          "source_tokens_sha256": "826a095b01a99b5f6f5cb7e49d7504815ec9b2007a119d43ea4abb06f6d2b9a2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s94",
+          "source_segment_index": 94,
+          "zh": "戒指",
+          "source_token_offset": 228,
+          "source_tokens_sha256": "14dd87172014be03d4bc937bf429284c7727e0c5ac6a768e0f47b26a70e95428",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s96",
+          "source_segment_index": 96,
+          "zh": "鱼水晶",
+          "source_token_offset": 232,
+          "source_tokens_sha256": "5fd7782314ebe03c26b8d76df1a4a3af1aa1f2e064d59b76126812b0d8082508",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s98",
+          "source_segment_index": 98,
+          "zh": "护手",
+          "source_token_offset": 236,
+          "source_tokens_sha256": "a4cbb3a0de271fd4d3e078466d573fc8dd5b315cdce6a213eedf123feed435b7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s100",
+          "source_segment_index": 100,
+          "zh": "锚",
+          "source_token_offset": 243,
+          "source_tokens_sha256": "310e4591d667bf5b55d0b10bfae0ad114ac6e170e1cf3701eea249ea38fdd8fa",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s102",
+          "source_segment_index": 102,
+          "zh": "飞机模型",
+          "source_token_offset": 247,
+          "source_tokens_sha256": "18d8c4bf8726dad2776131b6cbfa9e0d92320b3987598bc00d851a686b179637",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s104",
+          "source_segment_index": 104,
+          "zh": "贤者陶笛",
+          "source_token_offset": 253,
+          "source_tokens_sha256": "ac82836b16f2c439e8dcf2a1895f42d5cfe62af4c012d89dab25e7b4d6cf398d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s106",
+          "source_segment_index": 106,
+          "zh": "羽毛",
+          "source_token_offset": 261,
+          "source_tokens_sha256": "9071864696bef44c2cb1e9c857c0525c50d16f1840a33d14334d49eb9f62671c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s108",
+          "source_segment_index": 108,
+          "zh": "死者之书",
+          "source_token_offset": 263,
+          "source_tokens_sha256": "c21fe5344332596f1de2a1026b7cfc1f3825f48d3b3642fea34f998f0a57f7fd",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s110",
+          "source_segment_index": 110,
+          "zh": "妖精之衣",
+          "source_token_offset": 268,
+          "source_tokens_sha256": "3817b8a751d4455cf65cb486ce836faf23d4d1a54e07bf04da071d4360dd9cf5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s112",
+          "source_segment_index": 112,
+          "zh": "驱魔之书",
+          "source_token_offset": 273,
+          "source_tokens_sha256": "45413736c64140b636b7b572fb353caece3bff2d328eaf8e693628a9e212f82d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s114",
+          "source_segment_index": 114,
+          "zh": "赫尔墨斯之靴",
+          "source_token_offset": 279,
+          "source_tokens_sha256": "473fe3122f116e7e84b2c64b527fec674c4406de4dc254434381bbd4e7bb0a4b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s116",
+          "source_segment_index": 116,
+          "zh": "伊甸果实",
+          "source_token_offset": 286,
+          "source_tokens_sha256": "f4599a9a4e0df58345b109c6784b3c988bcd6fafd4a6575ce9f0e5b427d8c866",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s118",
+          "source_segment_index": 118,
+          "zh": "双子像",
+          "source_token_offset": 293,
+          "source_tokens_sha256": "8a453944acc41ba20da38117b0d187c9c0956dc096b980322438185f1ef266bb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s120",
+          "source_segment_index": 120,
+          "zh": "手镯",
+          "source_token_offset": 298,
+          "source_tokens_sha256": "eca28793e7878a2de7b46327be6062e432a69ea26f735da62b6cbc7fad1767c7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s122",
+          "source_segment_index": 122,
+          "zh": "香水",
+          "source_token_offset": 305,
+          "source_tokens_sha256": "6bad7d88ccd8ea3fc83b8e81981ad8ecc4f2ee6f5879ddef0cb343d48e69fa3e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s124",
+          "source_segment_index": 124,
+          "zh": "斗气肩甲",
+          "source_token_offset": 308,
+          "source_tokens_sha256": "b23bbf15ea3256a97c1f5c62cdaf04ad3ce4b4f5ca16a37851bbc4e3aa15dbd4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s126",
+          "source_segment_index": 126,
+          "zh": "次元之钥",
+          "source_token_offset": 315,
+          "source_tokens_sha256": "96c411c5732453408de3d30be97d62884653ea7d74d6117697a5e0fab694b8dc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s128",
+          "source_segment_index": 128,
+          "zh": "冰之斗篷",
+          "source_token_offset": 320,
+          "source_tokens_sha256": "9ed7114ba3e9f23a5f82cb670fbd139c21cbb69c2261bdca6977762490418267",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s130",
+          "source_segment_index": 130,
+          "zh": "起始之印",
+          "source_token_offset": 326,
+          "source_tokens_sha256": "a667077157fd53a52f38afa79047b3064317d0c7af9be01e2fffacc1cfb47633",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s132",
+          "source_segment_index": 132,
+          "zh": "诞生之印",
+          "source_token_offset": 332,
+          "source_tokens_sha256": "dfb9488dfd37723e8ce11fa05953bd0422be6ae0a4cb6438a1588c084977206b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s134",
+          "source_segment_index": 134,
+          "zh": "生存之印",
+          "source_token_offset": 337,
+          "source_tokens_sha256": "2a7a3adcf6e315b3b6cdbce159987099dbfcf63bfdb9e25bc26b3e4c266a98a0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s136",
+          "source_segment_index": 136,
+          "zh": "毁灭之印",
+          "source_token_offset": 342,
+          "source_tokens_sha256": "1f5aabf20da9a4ed17bf069e3de640f8f5d818fce1a275d8f0c9a1a3a1a48274",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s138",
+          "source_segment_index": 138,
+          "zh": "生命宝珠",
+          "source_token_offset": 347,
+          "source_tokens_sha256": "48d8724c9939cc499ccc9dd1f6dd8f94e74fd5ba4c61942ca218b99d9c90d4dc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s140",
+          "source_segment_index": 140,
+          "zh": "地图",
+          "source_token_offset": 353,
+          "source_tokens_sha256": "5a930f5db99935324c9af2609a5e5ef3008b741a805e859e71f18ee340154e50",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s142",
+          "source_segment_index": 142,
+          "zh": "财宝",
+          "source_token_offset": 356,
+          "source_tokens_sha256": "6bd9418c20a7c2d3e2d5b6e10725f178b8cbbe48c83f7be5c19750a90636b6d5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s144",
+          "source_segment_index": 144,
+          "zh": "日记",
+          "source_token_offset": 359,
+          "source_tokens_sha256": "b41052720b6475325d295db8093b02a10e63322b88856e41b8d9b59aee5fcaa0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s146",
+          "source_segment_index": 146,
+          "zh": "穆拉纳护符",
+          "source_token_offset": 362,
+          "source_tokens_sha256": "ff512a2b14f7cd216b9b148d98cb62a77e748c3e74b26b27fa6fc020d10a9f86",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s148",
+          "source_segment_index": 148,
+          "zh": "危险泳装",
+          "source_token_offset": 370,
+          "source_tokens_sha256": "90cd38dc048a7a2289c0da9bb991d341de0a8824eb17c05cdc7d714b397978c3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s150",
+          "source_segment_index": 150,
+          "zh": "白银之盾",
+          "source_token_offset": 377,
+          "source_tokens_sha256": "efadbdfb34d5983562a926cf3f208f93120a8b87240795cc56319cea608faab0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s152",
+          "source_segment_index": 152,
+          "zh": "ＭｏｂｉｌｅＳｕｐｅｒＸ２",
+          "source_token_offset": 382,
+          "source_tokens_sha256": "385ffbc73fe7de362f1b38a29f42b5a09b877438d9cc61f78a9a79817d4272e9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s154",
+          "source_segment_index": 154,
+          "zh": "精神之药",
+          "source_token_offset": 396,
+          "source_tokens_sha256": "009e58417e5979408f206d42eac1abdbc210f219a08ca846932f2efd502f30a6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s156",
+          "source_segment_index": 156,
+          "zh": "精神之药",
+          "source_token_offset": 401,
+          "source_tokens_sha256": "009e58417e5979408f206d42eac1abdbc210f219a08ca846932f2efd502f30a6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s158",
+          "source_segment_index": 158,
+          "zh": "精神之药",
+          "source_token_offset": 406,
+          "source_tokens_sha256": "009e58417e5979408f206d42eac1abdbc210f219a08ca846932f2efd502f30a6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s160",
+          "source_segment_index": 160,
+          "zh": "时之灯",
+          "source_token_offset": 411,
+          "source_tokens_sha256": "d9aed2151becb0f093ea2461ee4dc866e8c6e91bac5e7b31376e4176d0294a4a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s162",
+          "source_segment_index": 162,
+          "zh": "孕妇像",
+          "source_token_offset": 417,
+          "source_tokens_sha256": "56f4dd545977321da27c4d96b03014723b88915845e266b221fb30575b5297b6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s164",
+          "source_segment_index": 164,
+          "zh": "圣杯",
+          "source_token_offset": 421,
+          "source_tokens_sha256": "d78168d0767f3e585755cd7f057c5510611f6f5e674ce454197fb35a6e969ee7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s166",
+          "source_segment_index": 166,
+          "zh": "圣杯",
+          "source_token_offset": 424,
+          "source_tokens_sha256": "d78168d0767f3e585755cd7f057c5510611f6f5e674ce454197fb35a6e969ee7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s168",
+          "source_segment_index": 168,
+          "zh": "生命秘宝",
+          "source_token_offset": 427,
+          "source_tokens_sha256": "a913fa04826deb61f84fc9d3e4f4f93083ecb960dd716b7326065369d78f743c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s170",
+          "source_segment_index": 170,
+          "zh": "古文书阅读器",
+          "source_token_offset": 433,
+          "source_tokens_sha256": "f158f61838155b99895af4342fb707abe50e669cc941aa57e56293d50805cafd",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s172",
+          "source_segment_index": 172,
+          "zh": "长老邮箱",
+          "source_token_offset": 441,
+          "source_tokens_sha256": "b7941be99f3cee30d310e483dac2a2168649e2d3aa5377ed151d393501e52f3f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s174",
+          "source_segment_index": 174,
+          "zh": "谷度地图",
+          "source_token_offset": 455,
+          "source_tokens_sha256": "1b28ef33b7c65ae3298e42df9c8f54c25a3c2dc84315ae86877dd67afc16ca12",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s176",
+          "source_segment_index": 176,
+          "zh": "百歌地图",
+          "source_token_offset": 463,
+          "source_tokens_sha256": "99f701e936a66b5f88e8ff51b56190e068633f23a397e46830d8262fe2fc0cf5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s178",
+          "source_segment_index": 178,
+          "zh": "文章右卫门",
+          "source_token_offset": 473,
+          "source_tokens_sha256": "01706d9b12a8a567f7ae6392657a9cab3657ebe1140183b134020cbb6b48a453",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s180",
+          "source_segment_index": 180,
+          "zh": "扩展文本内存",
+          "source_token_offset": 479,
+          "source_tokens_sha256": "4961405a2bf41f10ba91d11e268135d64273ef5af5b98605558f1fb1b9b9495b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s182",
+          "source_segment_index": 182,
+          "zh": "拍拍读读",
+          "source_token_offset": 487,
+          "source_tokens_sha256": "ed2462377eb8dc79ccbb855220fa0fb905243cb33212ff59d7402a30f5d56068",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s184",
+          "source_segment_index": 184,
+          "zh": "公会",
+          "source_token_offset": 496,
+          "source_tokens_sha256": "b9e4a2c92cb3e0c7bcbe5695ec0844abe734c08e7b140189abfbc3fe3ca89ced",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s186",
+          "source_segment_index": 186,
+          "zh": "咒文",
+          "source_token_offset": 502,
+          "source_tokens_sha256": "9ed29b2f25f0a88d3cf0760e574a3b75d66c06e4c4430e5f455998bfb762d819",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s188",
+          "source_segment_index": 188,
+          "zh": "伊格音乐播放器",
+          "source_token_offset": 509,
+          "source_tokens_sha256": "0a6ba5142c270228e182cadf161120d3939ac6bef210ee6829d1f2dc458f296b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s190",
+          "source_segment_index": 190,
+          "zh": "穆拉纳加强版",
+          "source_token_offset": 521,
+          "source_tokens_sha256": "8d782083362954d7bd9a8fad049794e0b8a7bb44b7771a5ab86585937e1f8ad6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s192",
+          "source_segment_index": 192,
+          "zh": "死亡村庄",
+          "source_token_offset": 535,
+          "source_tokens_sha256": "8c461ab9d0dfcc81ca1bf0b84a73952e98f4f888308b8d5dbcc1f353ac40cc7f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s194",
+          "source_segment_index": 194,
+          "zh": "蔷薇与山茶",
+          "source_token_offset": 549,
+          "source_tokens_sha256": "9f29911760e014b44c12ea0e76e3a5b8c8c6026fb2558ad02a0ee3a039e88c36",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s196",
+          "source_segment_index": 196,
+          "zh": "宇宙飞船卡普斯特Ⅱ",
+          "source_token_offset": 554,
+          "source_tokens_sha256": "17568c2d30f0432bd57e253316cd07ccaee55d5281ac5f5df43900a93e44d359",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s198",
+          "source_segment_index": 198,
+          "zh": "漫漫搬家路",
+          "source_token_offset": 565,
+          "source_tokens_sha256": "9e796e3ac934e99d15b163f9745a8e68f0dbd15a73174e9f885542f4cdcd2632",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s200",
+          "source_segment_index": 200,
+          "zh": "掀裙队长",
+          "source_token_offset": 574,
+          "source_tokens_sha256": "5ec386c7c452ae6410fe742a4def1cdff6ebe6e219db0416b3610f47dfe5517e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s202",
+          "source_segment_index": 202,
+          "zh": "弹跳射击",
+          "source_token_offset": 580,
+          "source_tokens_sha256": "c4976bba660cb7237fea187b9b5309ccbf57455801ef9d363477b604d7cd60f3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s204",
+          "source_segment_index": 204,
+          "zh": "奇迹女巫",
+          "source_token_offset": 589,
+          "source_tokens_sha256": "145a705bdd7153f8b011fc3987b7096b290cd83b77dd02bce09cf13a93b1cb3b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s206",
+          "source_segment_index": 206,
+          "zh": "这里是未来开发宇宙支部",
+          "source_token_offset": 598,
+          "source_tokens_sha256": "d8152b70f3cdd9908e294e740a206f4f252eaf6a696cef9e2e90a901634739ba",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s208",
+          "source_segment_index": 208,
+          "zh": "穆拉纳秘宝",
+          "source_token_offset": 610,
+          "source_tokens_sha256": "0511c9cfa623ee0be43534e3a3cae9bc620a863a81b82cc7a450a35ef963b537",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s210",
+          "source_segment_index": 210,
+          "zh": "重物",
+          "source_token_offset": 620,
+          "source_tokens_sha256": "b6e586c7853cc04f60806aac1d91cc1c608de150cdd79a9b85ea9b362254b3b2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s212",
+          "source_segment_index": 212,
+          "zh": "金币",
+          "source_token_offset": 624,
+          "source_tokens_sha256": "fe1aa0ddef4871b1afee07e9cb90b9c3cf5289f59fc9fc1d34919196d365e644",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s214",
+          "source_segment_index": 214,
+          "zh": "手里剑弹药",
+          "source_token_offset": 628,
+          "source_tokens_sha256": "372bd563f50c9261e5383c640328966d42c43fcd14381845a76cc624dee0bae3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s216",
+          "source_segment_index": 216,
+          "zh": "风车手里剑弹药",
+          "source_token_offset": 634,
+          "source_tokens_sha256": "cbefae204f500837036bbfa394b6f61d8ca15657d7fd30ae4611e3a3fb6b85f3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s218",
+          "source_segment_index": 218,
+          "zh": "大地之矛弹药",
+          "source_token_offset": 641,
+          "source_tokens_sha256": "d236c0a1a9ee6c8eec3f01f7b9e5dba88f4ee7260ddd805c7979533b0bb79dae",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s220",
+          "source_segment_index": 220,
+          "zh": "信号弹",
+          "source_token_offset": 648,
+          "source_tokens_sha256": "04f4deb6c64dbf3487cc5692cb420f87c5507220f48f3c9be5ae4919a308795a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s222",
+          "source_segment_index": 222,
+          "zh": "炸弹补充",
+          "source_token_offset": 654,
+          "source_tokens_sha256": "e57124e329a1be80c6e3f6b3c792d49941a215ade6412bdbaebf6eeb0db918b4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s224",
+          "source_segment_index": 224,
+          "zh": "回旋刃补充",
+          "source_token_offset": 659,
+          "source_tokens_sha256": "3376c3b802964e73c9b9bc00ff93adeb67210ac4ea7824dec9500febb0f0b4ef",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s226",
+          "source_segment_index": 226,
+          "zh": "铁蒺藜补充",
+          "source_token_offset": 667,
+          "source_tokens_sha256": "779fcefaa213ec56a1a28adbfb540b5376ce5808e0815e2f4fa33d4d9cfa634b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s228",
+          "source_segment_index": 228,
+          "zh": "手枪子弹",
+          "source_token_offset": 674,
+          "source_tokens_sha256": "0059a8322d1dbc136ccc92b79d7e27ae08bf1a7274dd04229c9ea193e9be1b8e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0001::s230",
+          "source_segment_index": 230,
+          "zh": "魂之石",
+          "source_token_offset": 677,
+          "source_tokens_sha256": "8efc4c45226f90133f6b096c5b4bea509cba80ac6df55180dd5e22d3a48eecc5",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0002",
+      "block_index": 2,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s0",
+          "source_segment_index": 0,
+          "zh": "［皮鞭］：博士带来的唯一武器。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "3fbedea1443b463ac598c63595da2f397c40d7c7a24946365071358fcb27befe",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s2",
+          "source_segment_index": 2,
+          "zh": "［锁链鞭］：用锁链制成的鞭子。",
+          "source_token_offset": 22,
+          "source_tokens_sha256": "3e0d7b6729d8fdddde4bb356d347f1bda83ab677ddc460702d4e407cbe5b5717",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s4",
+          "source_segment_index": 4,
+          "zh": "攻击力比普通鞭子更高。",
+          "source_token_offset": 38,
+          "source_tokens_sha256": "b5a44dd65df26d2fd6887bfc3ddc02da85c26d30960ebcf9660a83d55c33d9ec",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s6",
+          "source_segment_index": 6,
+          "zh": "［铁球鞭］：在锁链鞭末端装上铁球而成的鞭子。",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "6d2f44c79554ac91ab0d4751efde60a3c229cfee57f048c57c44c5864082cbe6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s8",
+          "source_segment_index": 8,
+          "zh": "拥有最强攻击力的武器。",
+          "source_token_offset": 79,
+          "source_tokens_sha256": "7db84547d2819b572701fd9a637c9fd2f07b116a068f1b513e4117601f9edde3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s10",
+          "source_segment_index": 10,
+          "zh": "［匕首］：轻巧易用的匕首。",
+          "source_token_offset": 93,
+          "source_tokens_sha256": "b306a4c38ee50185e542f1c63a0a2908f3a76fa8778d01e7849f1ba2406328a0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s12",
+          "source_segment_index": 12,
+          "zh": "可以快速攻击。",
+          "source_token_offset": 112,
+          "source_tokens_sha256": "1a80d047682a38212136fe380adda7edbd2ccc60936da95c4531385c13c62584",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s14",
+          "source_segment_index": 14,
+          "zh": "［钥匙剑］：剑身中央形似钥匙的剑。",
+          "source_token_offset": 129,
+          "source_tokens_sha256": "041470daac67d2372e671fef720e7b1b0b471360b32aa46f83f76516a6a96c48",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s16",
+          "source_segment_index": 16,
+          "zh": "难以驾驭，",
+          "source_token_offset": 152,
+          "source_tokens_sha256": "7291ee27884f1283475fdad660d9a0c9f62472b990da7beaca1455992191ceda",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s18",
+          "source_segment_index": 18,
+          "zh": "攻击力也很低。",
+          "source_token_offset": 162,
+          "source_tokens_sha256": "74394d7653252be75c6faf2c627e765e5a3e073dcf23876cce5f38730fb1bce1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s20",
+          "source_segment_index": 20,
+          "zh": "［斧头］：从上往下劈砍的斧头。",
+          "source_token_offset": 170,
+          "source_tokens_sha256": "0e3e7c5c4a62519b6ad3421da9f7123b70785138563373026c55439af014b75c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s22",
+          "source_segment_index": 22,
+          "zh": "因沉重而挥动缓慢，",
+          "source_token_offset": 190,
+          "source_tokens_sha256": "cb132768c3fe7a75e1524042d76c984c3c5d32136f7fb924ef775a65d91f975a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s24",
+          "source_segment_index": 24,
+          "zh": "但攻击范围很广。",
+          "source_token_offset": 203,
+          "source_tokens_sha256": "1bf074233f11583009112b6b14275fa53a0059760ce57b0dd7eec67fe248f2b6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s26",
+          "source_segment_index": 26,
+          "zh": "［武士刀］：适合居合拔刀的日本刀。",
+          "source_token_offset": 215,
+          "source_tokens_sha256": "d75786551e2d142c09d11f93a8e88e63ab2b16f9fa100afe71ae8be4273c572a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s28",
+          "source_segment_index": 28,
+          "zh": "可由下往上斩击。",
+          "source_token_offset": 233,
+          "source_tokens_sha256": "b80226085b9d5686c5e545ec9b9bd5717cdc32620aeeee559ba621665f588f81",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s30",
+          "source_segment_index": 30,
+          "zh": "［钥匙剑］：剑身中央形似钥匙的剑。",
+          "source_token_offset": 251,
+          "source_tokens_sha256": "041470daac67d2372e671fef720e7b1b0b471360b32aa46f83f76516a6a96c48",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s32",
+          "source_segment_index": 32,
+          "zh": "封印已解开，",
+          "source_token_offset": 274,
+          "source_tokens_sha256": "19151db70b0416e9fce283a69ad156a999136f0972749b383e3d454599bd2780",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s34",
+          "source_segment_index": 34,
+          "zh": "中央散发着赤红的光芒。",
+          "source_token_offset": 282,
+          "source_tokens_sha256": "f41856974b42bdccd4b1faa86297d578a55eadab899b8bbbf229d6b9e420597d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s36",
+          "source_segment_index": 36,
+          "zh": "［手里剑］：相传是日本忍者使用的武器。",
+          "source_token_offset": 298,
+          "source_tokens_sha256": "aae534f101073fc6597e2e1a8a0869cc688a5d01e10a84bda029e2640a5e27bc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s38",
+          "source_segment_index": 38,
+          "zh": "可以连续投掷。",
+          "source_token_offset": 326,
+          "source_tokens_sha256": "27793c8a36013ed3c90f1d906e30fd989e90e605bba2399db9b950afc84d614c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s40",
+          "source_segment_index": 40,
+          "zh": "［风车手里剑］：沿地面滚动的手里剑。",
+          "source_token_offset": 340,
+          "source_tokens_sha256": "d05d256f80f1f204f69e942227c5ecdfab5044c6da59e85ef79f3dff8c628717",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s42",
+          "source_segment_index": 42,
+          "zh": "会一边沿地板滚动，一边贯穿敌人。",
+          "source_token_offset": 363,
+          "source_tokens_sha256": "8fd8bdeef697d7cfc19020773024dfe02a6567e6f44c0b1795a2147a79035b5d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s44",
+          "source_segment_index": 44,
+          "zh": "［大地之矛］：由特殊金属制成的矛。",
+          "source_token_offset": 384,
+          "source_tokens_sha256": "45044e5c53a27c79eb2d7acdbcb2c58c8db52aafe4c27942562b22a9c46698e9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s46",
+          "source_segment_index": 46,
+          "zh": "能够穿透地板的",
+          "source_token_offset": 403,
+          "source_tokens_sha256": "845835fe691bdbe7b3000a31407ab41293db468f425b7d50b8c044064cf39bc8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s48",
+          "source_segment_index": 48,
+          "zh": "矛形光芒会笔直射向下方。",
+          "source_token_offset": 412,
+          "source_tokens_sha256": "6d5ab75832b66ae7df8b9db435e55f1baeb4bfa31f2431a44aef22c1ab5c7899",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s50",
+          "source_segment_index": 50,
+          "zh": "［信号弹筒］：将火药装进筒内，",
+          "source_token_offset": 427,
+          "source_tokens_sha256": "626c00a018de9dbae0d3bbfd88c93b940979738a6a8615d2d30458a92f06f604",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s52",
+          "source_segment_index": 52,
+          "zh": "向正上方发射火球。",
+          "source_token_offset": 445,
+          "source_tokens_sha256": "9a213e3daab72197bd00aad5894899879f07679dc422843426f19141d204a2e4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s54",
+          "source_segment_index": 54,
+          "zh": "［炸弹］：以猛烈爆风造成大量伤害的武器。",
+          "source_token_offset": 457,
+          "source_tokens_sha256": "a4c5a734d52af9ea11407110ba7da9221f11002fc2cefe48900490c8bf65c962",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s56",
+          "source_segment_index": 56,
+          "zh": "注意，爆风也会伤到博士。",
+          "source_token_offset": 483,
+          "source_tokens_sha256": "7f3532da77b7cc9c58dc6c5320de699c803db571cc11f4c7f5ed523f9f664188",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s58",
+          "source_segment_index": 58,
+          "zh": "［回旋刃］：投出后会飞回手中的武器。",
+          "source_token_offset": 504,
+          "source_tokens_sha256": "144c48d5301fd007eda2a3323b18fd52a34f66d1373edc69948632f55416e906",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s60",
+          "source_segment_index": 60,
+          "zh": "若能顺利接住，就不会消耗弹药。",
+          "source_token_offset": 528,
+          "source_tokens_sha256": "e4abb688e601fca1910b285111b0d00a3028dad0f31b620a84af2662fe17ee6e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s62",
+          "source_segment_index": 62,
+          "zh": "［铁蒺藜］：向身后撒出、布置在地板上的武器。",
+          "source_token_offset": 550,
+          "source_tokens_sha256": "3911339c9c6829d94a40f79ab6768b3329ae1f0be23d6dfed31f1361fafb9f31",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s64",
+          "source_segment_index": 64,
+          "zh": "敌人踩中后就会受到伤害。",
+          "source_token_offset": 575,
+          "source_tokens_sha256": "bbc57aa25911bfb72e4e2692d2e22e1e14b98164882e8084ad22f1cea83b70ef",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s66",
+          "source_segment_index": 66,
+          "zh": "［手枪］：杀伤力极高的最强副武器。",
+          "source_token_offset": 601,
+          "source_tokens_sha256": "412e4c42ef992bf52891c8aab5a1836eb15a050e551f666fed8e287d29508ae0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s68",
+          "source_segment_index": 68,
+          "zh": "［圆盾］：可挡住小型敌弹的盾。",
+          "source_token_offset": 622,
+          "source_tokens_sha256": "0366c16c12486149fa75b7c8cc8016ea147b3d4311765bb75fb36364061515bc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s70",
+          "source_segment_index": 70,
+          "zh": "受到强力攻击时可能损坏。",
+          "source_token_offset": 648,
+          "source_tokens_sha256": "cafa04461747eb0b246541f6c4ff4b5b3ce38085ccc31899871f961886c00f93",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s72",
+          "source_segment_index": 72,
+          "zh": "［白银之盾］：可挡住强力敌弹的盾。",
+          "source_token_offset": 666,
+          "source_tokens_sha256": "b35ead6387856b6301dc4dbc5daf589a7b938c589fdd3ff218c1d1880e1365ec",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s74",
+          "source_segment_index": 74,
+          "zh": "［天使之盾］：可挡住绝大多数敌弹的盾。",
+          "source_token_offset": 690,
+          "source_tokens_sha256": "a823336cfd3f93076baeccdab787d799b6a167fdb4ba253b41ff138a8e759edb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s76",
+          "source_segment_index": 76,
+          "zh": "［安卡宝石］：能够破坏安卡的宝石。",
+          "source_token_offset": 717,
+          "source_tokens_sha256": "b0a58e858750211da0a78ece050f5f7b8832cf5254c58db16f5180910d316449",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s78",
+          "source_segment_index": 78,
+          "zh": "守护者沉睡在安卡之中。",
+          "source_token_offset": 746,
+          "source_tokens_sha256": "07d39c518362b58375b56337234913bdd6989c52168dab374ca53ca921d8f4ad",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s80",
+          "source_segment_index": 80,
+          "zh": "［手持扫描器］：连接电脑使用的小型扫描器。",
+          "source_token_offset": 750,
+          "source_tokens_sha256": "279141e10547f08a971e1efad2c04907c3d57aa77b778ff0d0a855bfcc4a0874",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s82",
+          "source_segment_index": 82,
+          "zh": "可读取石板上刻下的文字等内容。",
+          "source_token_offset": 780,
+          "source_tokens_sha256": "c26078eeb0ac6397a7a2ccbde59d2154a98e4dd9b3d347601c9f9d439daa3dcb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s84",
+          "source_segment_index": 84,
+          "zh": "［节德柱］：能够驾驭咒文的遗物。",
+          "source_token_offset": 804,
+          "source_tokens_sha256": "d2cb677a5960c50a67c34b8774abc0d4f18623b322d41e0918cbec30643b6557",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s86",
+          "source_segment_index": 86,
+          "zh": "按物品键使用，",
+          "source_token_offset": 826,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s88",
+          "source_segment_index": 88,
+          "zh": "即可吟唱咒文。",
+          "source_token_offset": 839,
+          "source_tokens_sha256": "f2ea49b8df9f304ebdb9e3959dc2f3b26a7a5d38c855bb03684440b6cb6a9042",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s90",
+          "source_segment_index": 90,
+          "zh": "［小人人偶］：用来证明自己是小人的人偶。",
+          "source_token_offset": 853,
+          "source_tokens_sha256": "65e872866df120febce8effdd83c657b706921bbb65bcefabed294e6d9691346",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s92",
+          "source_segment_index": 92,
+          "zh": "装备后，证明自己是小人吧。",
+          "source_token_offset": 882,
+          "source_tokens_sha256": "b611a756d33dfe892549cddeda1a23fa69fcb5e57de453e5d57f86059c259925",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s94",
+          "source_segment_index": 94,
+          "zh": "［勾玉］：使太古智慧复苏的遗物。",
+          "source_token_offset": 901,
+          "source_tokens_sha256": "930a678f09e447ef7106cd65f1d787bc548594ca1d8a02086a786ead2759a61d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s96",
+          "source_segment_index": 96,
+          "zh": "按物品键使用，",
+          "source_token_offset": 924,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s98",
+          "source_segment_index": 98,
+          "zh": "可将其嵌入特定位置。",
+          "source_token_offset": 937,
+          "source_tokens_sha256": "2824a403bb7840e62364cb032f923bb0d43eb1b4d2af40b9c8eef331c9a0d858",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s100",
+          "source_segment_index": 100,
+          "zh": "［生命齿轮］：太古机关的一部分。",
+          "source_token_offset": 954,
+          "source_tokens_sha256": "fd0e067c4b2aa8767c08246c85e5f9eecf13dae9ae4d74b2a3b8364d699324a5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s102",
+          "source_segment_index": 102,
+          "zh": "按物品键使用，",
+          "source_token_offset": 974,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s104",
+          "source_segment_index": 104,
+          "zh": "可将其嵌入特定位置。",
+          "source_token_offset": 987,
+          "source_tokens_sha256": "2824a403bb7840e62364cb032f923bb0d43eb1b4d2af40b9c8eef331c9a0d858",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s106",
+          "source_segment_index": 106,
+          "zh": "［时之灯］：拥有操纵时间之力的灯。",
+          "source_token_offset": 1004,
+          "source_tokens_sha256": "e808fbdb4ea328f276d026441edcbf47d0c7dc7410957fe9010647eb7ab99b42",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s108",
+          "source_segment_index": 108,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1027,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s110",
+          "source_segment_index": 110,
+          "zh": "可让时间短暂停止。",
+          "source_token_offset": 1040,
+          "source_tokens_sha256": "4a466fbc6548e1967bbb7ccc67ea932e1db6f7f2aea9bb18e694d5e45cd93390",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s112",
+          "source_segment_index": 112,
+          "zh": "［腰包钥匙］：能够启动太古机械的钥匙。",
+          "source_token_offset": 1058,
+          "source_tokens_sha256": "d89980600d71a2051da8d7539bccc783f0b18eeb3ad8f881dbe62e3f23020041",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s114",
+          "source_segment_index": 114,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1086,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s116",
+          "source_segment_index": 116,
+          "zh": "即可插入钥匙。",
+          "source_token_offset": 1099,
+          "source_tokens_sha256": "8d57db282ae69a81eab6838cfad996114222348ffb420a3c5b947a0789cbe582",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s118",
+          "source_segment_index": 118,
+          "zh": "［龙骨］：供奉于遗迹中心的龙像的头部。",
+          "source_token_offset": 1113,
+          "source_tokens_sha256": "e5c9488f7d41a7d8a9b52894d0bdfda969c2fae3e372921a4effcee58629cd91",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s120",
+          "source_segment_index": 120,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1140,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s122",
+          "source_segment_index": 122,
+          "zh": "可将其嵌入特定位置。",
+          "source_token_offset": 1153,
+          "source_tokens_sha256": "2824a403bb7840e62364cb032f923bb0d43eb1b4d2af40b9c8eef331c9a0d858",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s124",
+          "source_segment_index": 124,
+          "zh": "［水晶骷髅］：由水晶雕刻而成的骷髅。",
+          "source_token_offset": 1170,
+          "source_tokens_sha256": "0ff0aa65c9ab5698556db5700686421c3e205bc62d201f029450a55b1945470c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s126",
+          "source_segment_index": 126,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1196,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s128",
+          "source_segment_index": 128,
+          "zh": "可解开特定位置的封印。",
+          "source_token_offset": 1209,
+          "source_tokens_sha256": "1825a5195806e7f2f571f44ec0d1e1bac86763639f468bbd2649c99722664c6c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s130",
+          "source_segment_index": 130,
+          "zh": "［容器］：白银制成的容器。",
+          "source_token_offset": 1227,
+          "source_tokens_sha256": "c01644e4259d5c49c0107b2b99c0a3ed18f56a2c12465f01582c59765a128bed",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s132",
+          "source_segment_index": 132,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1241,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s134",
+          "source_segment_index": 134,
+          "zh": "即可盛装药液。",
+          "source_token_offset": 1254,
+          "source_tokens_sha256": "456772f3cb5bd6447db968c350eebd9772e98229e3f3497667f06bfa251bd7ab",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s136",
+          "source_segment_index": 136,
+          "zh": "［胡椒］：烹调肉类时不可或缺的调味料。",
+          "source_token_offset": 1267,
+          "source_tokens_sha256": "837fe5969c74d978bd75c0d8e73d056f0023c4b72b5e88b807adc03388bf1f9c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s138",
+          "source_segment_index": 138,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1289,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s140",
+          "source_segment_index": 140,
+          "zh": "即可撒出胡椒。",
+          "source_token_offset": 1302,
+          "source_tokens_sha256": "de64d15e47c7073e394adbc7e5723434ebdfe72bb89a085961d4c33e404301aa",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s142",
+          "source_segment_index": 142,
+          "zh": "［女性像］：以女性为原型制作的人偶。",
+          "source_token_offset": 1319,
+          "source_tokens_sha256": "feee1b32d47a1764934b9435ebf01c211f153ae6e8d96119fad5746f745a37bc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s144",
+          "source_segment_index": 144,
+          "zh": "［无限之钥］：能够解开无限回廊封印的钥匙。",
+          "source_token_offset": 1337,
+          "source_tokens_sha256": "a7f705ca71ccdcc76646daac9513ee4cf6ff52b53eb0cf63171573c8c475bbec",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s146",
+          "source_segment_index": 146,
+          "zh": "按物品键使用，",
+          "source_token_offset": 1363,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s148",
+          "source_segment_index": 148,
+          "zh": "即可插入钥匙。",
+          "source_token_offset": 1376,
+          "source_tokens_sha256": "8d57db282ae69a81eab6838cfad996114222348ffb420a3c5b947a0789cbe582",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s150",
+          "source_segment_index": 150,
+          "zh": "［蛇杖］：盘绕着蛇形装饰的手杖。",
+          "source_token_offset": 1390,
+          "source_tokens_sha256": "c221ce9514973bc3ef6793aa49a07ddb89fa0dd9a6e01bcbc65381de5c91d3ff",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s152",
+          "source_segment_index": 152,
+          "zh": "［护身符］：博士的父亲一直贴身携带的护身符。",
+          "source_token_offset": 1409,
+          "source_tokens_sha256": "91bdfa41202fd3f76816dccdd3ac79e86973737722985e7917a203fc88cb0912",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s154",
+          "source_segment_index": 154,
+          "zh": "［ＭｏｂｉｌｅＳｕｐｅｒＸ］：专为艰苦工作打造的移动电脑。",
+          "source_token_offset": 1435,
+          "source_tokens_sha256": "454288313a7f83911ec67c932abab459fc48e47c4049ea098933862f14f12adc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s156",
+          "source_segment_index": 156,
+          "zh": "只配备冒险所需功能的理想机器。",
+          "source_token_offset": 1469,
+          "source_tokens_sha256": "6dfe4a51b63951c82182d40d85ce6272120e291f4f691bb93221241824f76d62",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s158",
+          "source_segment_index": 158,
+          "zh": "［防水护套］：保护笔记本电脑免受水浸的护套。",
+          "source_token_offset": 1493,
+          "source_tokens_sha256": "11af15f623e75749cfad624ee3afefbbf3ab1d66e09236ec29f7e9370c863581",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s160",
+          "source_segment_index": 160,
+          "zh": "可在水下打开菜单。",
+          "source_token_offset": 1519,
+          "source_tokens_sha256": "efb5adf7792f1276486720f85a7812b2945e93c2479449c5a870b23674294659",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s162",
+          "source_segment_index": 162,
+          "zh": "［耐热护套］：保护笔记本电脑免受高温损害的护套。",
+          "source_token_offset": 1543,
+          "source_tokens_sha256": "90f754a4ab51ebab42f1c87b091b635e4bfcb545d1dd529c7909667575a41090",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s164",
+          "source_segment_index": 164,
+          "zh": "可在熔岩中打开菜单。",
+          "source_token_offset": 1570,
+          "source_tokens_sha256": "95f2739ad60b309e8d0661da067f70cb9d48c3461cb8e6f8ea4387409e0efef9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s166",
+          "source_segment_index": 166,
+          "zh": "［法螺］：用大海螺制成的乐器。",
+          "source_token_offset": 1596,
+          "source_tokens_sha256": "3886eda47b7754196482251c745cbf93a181ee13ad479bd47a268eb8ae4c2f7c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s168",
+          "source_segment_index": 168,
+          "zh": "解开遗迹中的谜题时，",
+          "source_token_offset": 1615,
+          "source_tokens_sha256": "0b85f23954c5eef3d09de67d5b9060dff413037b3f3f4beb9c1eeecaab5f2026",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s170",
+          "source_segment_index": 170,
+          "zh": "会以神秘的旋律发出提示。",
+          "source_token_offset": 1626,
+          "source_tokens_sha256": "387f1b9805b0e58dcafb329130f29cdb78b6aeee0318fd10da1a8987a39b4782",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s172",
+          "source_segment_index": 172,
+          "zh": "［手套］：能增强臂力的手套。",
+          "source_token_offset": 1645,
+          "source_tokens_sha256": "01ed95ac99dfc5ab4d0ab82f1ed2547843a3e2157e1f443f66ba7eaf069c379e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s174",
+          "source_segment_index": 174,
+          "zh": "可加快推动方块的速度。",
+          "source_token_offset": 1670,
+          "source_tokens_sha256": "b7b7bcf0bbe2d7b3c1d9a66f30dd291a122926c17c983a76406895c7dae4f6dd",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s176",
+          "source_segment_index": 176,
+          "zh": "［圣杯］：可传送至已记录的地点。",
+          "source_token_offset": 1689,
+          "source_tokens_sha256": "57d29b551280fc3ef4b8d017ac24817ede1066d734c4cf305e51601a1ede1104",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s178",
+          "source_segment_index": 178,
+          "zh": "在暂停画面按物品键即可使用。",
+          "source_token_offset": 1709,
+          "source_tokens_sha256": "bec1329711724a5b76dbfb9e0b3c31135fad19512716cd11260ed77be6ca7891",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s180",
+          "source_segment_index": 180,
+          "zh": "［伊西斯吊坠］：带有女神伊西斯饰物的",
+          "source_token_offset": 1737,
+          "source_tokens_sha256": "44bbc36465764493667f38b1372b43f141125b4c0758a5643eb2eef08185a1d7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s182",
+          "source_segment_index": 182,
+          "zh": "吊坠。",
+          "source_token_offset": 1764,
+          "source_tokens_sha256": "bf5063d47e8f21c713f42aa09d568635f39e475b1a7de2735449be94488263b1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s184",
+          "source_segment_index": 184,
+          "zh": "［十字架］：能够抵御怨灵的攻击。",
+          "source_token_offset": 1771,
+          "source_tokens_sha256": "5cd125cc9c382d4a6cf65e91956084845c92196ea4107f1d45ecbcfc6d6244e6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s186",
+          "source_segment_index": 186,
+          "zh": "［头盔］：保护头部的防具。",
+          "source_token_offset": 1794,
+          "source_tokens_sha256": "b4a6317718aeefda3684942d638c32f4700cab4310da618ba1ea27b994a55b92",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s188",
+          "source_segment_index": 188,
+          "zh": "可避免被瀑布冲走。",
+          "source_token_offset": 1812,
+          "source_tokens_sha256": "bd3733e79d2b33f6c863a20467d991d0ed9b6e72ddf7adc64b71d4aba278f466",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s190",
+          "source_segment_index": 190,
+          "zh": "［钩爪］：相传是忍者使用的装备。",
+          "source_token_offset": 1823,
+          "source_tokens_sha256": "aac658d6449d5fa64b001ceaedc25b269931b3a843be804582cc3f0b53698d39",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s192",
+          "source_segment_index": 192,
+          "zh": "可攀附在墙壁上。",
+          "source_token_offset": 1847,
+          "source_tokens_sha256": "7b9316a8798845efa2dd9c943b0a4b821ec0a73b89eaf57b5e7fc2562e99e0f6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s194",
+          "source_segment_index": 194,
+          "zh": "［铜镜］：将铜磨亮制成的镜子。",
+          "source_token_offset": 1866,
+          "source_tokens_sha256": "2f88340ee7e0f436adcda16f0fb6d90b0803cd3f5c549f7d52a79c9b323c22e8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s196",
+          "source_segment_index": 196,
+          "zh": "可消除连接遗迹的门上的封印之力。",
+          "source_token_offset": 1885,
+          "source_tokens_sha256": "438d1a582ce6bfe0611cd6ea5bf9341034577e996a29962cab7c343b2d0812c4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s198",
+          "source_segment_index": 198,
+          "zh": "［真实之眼］：刻有眼睛图案的石板。",
+          "source_token_offset": 1908,
+          "source_tokens_sha256": "e4417c839618c6766a94996613463d259fb9ff5a402e31234a1abac8741d8ca6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s200",
+          "source_segment_index": 200,
+          "zh": "据说拥有看穿无形之物的力量。",
+          "source_token_offset": 1932,
+          "source_tokens_sha256": "0668956955b7a34f83c0b1b25fd4d979de0d632660cf51d32f62ca17f6eaedcb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s202",
+          "source_segment_index": 202,
+          "zh": "［戒指］：相传是武器大师留下的防具。",
+          "source_token_offset": 1957,
+          "source_tokens_sha256": "47ceb0cea671caa6cd9be42c962b19c912ecb3cf10095a7d334ff31bbb5b3e42",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s204",
+          "source_segment_index": 204,
+          "zh": "可使手指更加灵巧，",
+          "source_token_offset": 1981,
+          "source_tokens_sha256": "60010fbad68f253575c5a3a16e4a93da5a7896b70881ceb93bb71771ca6de418",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s206",
+          "source_segment_index": 206,
+          "zh": "更善于投掷武器。",
+          "source_token_offset": 1991,
+          "source_tokens_sha256": "1999c8667d2d54ed793f561f33c1130c9ac230b2bb2d68e4f51054940a80c169",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s208",
+          "source_segment_index": 208,
+          "zh": "［鱼水晶］：有灵鱼栖居其中的水晶。",
+          "source_token_offset": 2006,
+          "source_tokens_sha256": "3b2c113f2e546a4a4d8899148c46dbde48fb016ac4f83707484ae57565588084",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s210",
+          "source_segment_index": 210,
+          "zh": "能消除水中的毒，",
+          "source_token_offset": 2028,
+          "source_tokens_sha256": "ede60aae5c7b3788e480218e4c441d01d1e02e6b72565144f9927a692957c107",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s212",
+          "source_segment_index": 212,
+          "zh": "使人免受水的伤害。",
+          "source_token_offset": 2039,
+          "source_tokens_sha256": "b973c0ab84134b0996bf021f6d5cd0961f19e1a9cdd31cddfd7bdb463f838176",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s214",
+          "source_segment_index": 214,
+          "zh": "［护手］：相传曾属于武术之神的防具。",
+          "source_token_offset": 2056,
+          "source_tokens_sha256": "dd77eef651e7962f3574bc3e38ea08553308913617113320e038e1d68c6a1269",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s216",
+          "source_segment_index": 216,
+          "zh": "装备后能更熟练地使用武器。",
+          "source_token_offset": 2085,
+          "source_tokens_sha256": "aa12b7ce723698a1dcb1412e745995d368c7052cd5b8c26f2ea426f647f6a9cb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s218",
+          "source_segment_index": 218,
+          "zh": "［锚］：由特殊石材制成的锚。",
+          "source_token_offset": 2107,
+          "source_tokens_sha256": "1a1aab1836f13c20dcd25d984b0cdf14bcb193882158d34b8f759257063ec1c1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s220",
+          "source_segment_index": 220,
+          "zh": "只需随身携带，就更容易沉入水中。",
+          "source_token_offset": 2127,
+          "source_tokens_sha256": "32cbfca7b98575d0752aee9c00d181b2adaa364d4ced29bc9b0be4125d9b9571",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s222",
+          "source_segment_index": 222,
+          "zh": "［飞机模型］：黄金制成的飞机形模型。",
+          "source_token_offset": 2146,
+          "source_tokens_sha256": "45a367e007d937a70d9e6599c4e12fccfee504b946100852ad555358c6e3a177",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s224",
+          "source_segment_index": 224,
+          "zh": "拥有使虚假的女神像消失的力量。",
+          "source_token_offset": 2170,
+          "source_tokens_sha256": "9c352b2240984858fb4042a8a778af18d3e4c4bef33d3c2a10758b70330b49e2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s226",
+          "source_segment_index": 226,
+          "zh": "［贤者陶笛］：由石头雕刻而成的陶笛。",
+          "source_token_offset": 2185,
+          "source_tokens_sha256": "12a21f55a931486006c3eb3601bcce8c41bfd5329355f69d3f8b0d14ca4185da",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s228",
+          "source_segment_index": 228,
+          "zh": "相传曾是四贤者的所有物。",
+          "source_token_offset": 2210,
+          "source_tokens_sha256": "c94e63541a9e1352cb2563fb698e90ade9e793da150957f83a059c48138f9080",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s230",
+          "source_segment_index": 230,
+          "zh": "［羽毛］：初始之村的供奉之物。",
+          "source_token_offset": 2229,
+          "source_tokens_sha256": "7a662a21a2dfa1a8ee7e287729c68e71410ed0b56a6f26812da567cabc078f19",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s232",
+          "source_segment_index": 232,
+          "zh": "可在跳跃途中再次跳跃。",
+          "source_token_offset": 2245,
+          "source_tokens_sha256": "a80ae70395679748e7fd8bfcb6f5a7e0340032d5b5ec775e7d96767330a04cad",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s234",
+          "source_segment_index": 234,
+          "zh": "［死者之书］：相传是前往死后世界所必需的书。",
+          "source_token_offset": 2274,
+          "source_tokens_sha256": "0c72fcd128aff83e2ab16a4450a9c091ddbf043e1e6238d81b86aec16ae2a73b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s236",
+          "source_segment_index": 236,
+          "zh": "能够封印死神阿努比斯的力量。",
+          "source_token_offset": 2305,
+          "source_tokens_sha256": "62c1acf41878b315a89ae3403377c93a99165041fa049d72a9de0513882073db",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s238",
+          "source_segment_index": 238,
+          "zh": "［妖精之衣］：用蕴含妖精之力的布料制成的衣服。",
+          "source_token_offset": 2326,
+          "source_tokens_sha256": "b59442e3e2609585bfd12b31139160cdc3710635b6c91dcfc6cb2fe206b6bba0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s240",
+          "source_segment_index": 240,
+          "zh": "可将博士受到的伤害减半。",
+          "source_token_offset": 2352,
+          "source_tokens_sha256": "0c504dfd3fe4f6a1e37e0493693a090ea056e5781927b7b3836a0e3412e0edc0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s242",
+          "source_segment_index": 242,
+          "zh": "［驱魔之书］：记有略能抵御魔力的咒文的书。",
+          "source_token_offset": 2375,
+          "source_tokens_sha256": "d91f68ff6d3ca0c768563cf0377624fcc7837cc0a10be13f8b02cd1ace1b0b02",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s244",
+          "source_segment_index": 244,
+          "zh": "使人免受蝙蝠的伤害。",
+          "source_token_offset": 2402,
+          "source_tokens_sha256": "c39c75829f9e4fc32137c3c3345ca430ccf7358557229fcd5b29490efd2cbf2a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s246",
+          "source_segment_index": 246,
+          "zh": "［赫尔墨斯之靴］：相传是传说中的英雄穿过的靴子。",
+          "source_token_offset": 2421,
+          "source_tokens_sha256": "aac227a5da23296b17d90d02da2e6560cbe4e0d13a60c0eac9da2dca8f272f43",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s248",
+          "source_segment_index": 248,
+          "zh": "可加快步行速度。",
+          "source_token_offset": 2449,
+          "source_tokens_sha256": "515241bce275e0062a85aecc73bbcb8e2d0562083ecb0a743551a742c279b16c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s250",
+          "source_segment_index": 250,
+          "zh": "［伊甸果实］：制成果实形状的黄金。",
+          "source_token_offset": 2463,
+          "source_tokens_sha256": "4b43abb0b813fdbcd7c8a33316b16775985e1ecbf9e50f6478e33b38051fd919",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s252",
+          "source_segment_index": 252,
+          "zh": "据说是进入乐园所必需的物品。",
+          "source_token_offset": 2484,
+          "source_tokens_sha256": "6bacd546a9a21f15414153d31ccee9a78b895adfbf06a54fb6d717045a8ac26a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s254",
+          "source_segment_index": 254,
+          "zh": "［双子像］：以传说中的双子为原型制作的石像。",
+          "source_token_offset": 2503,
+          "source_tokens_sha256": "82afc10985f8e0120549f5f1d92f02cf1e263e98eff71b89717287c424b3f6a3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s256",
+          "source_segment_index": 256,
+          "zh": "能够解开双子的封印。",
+          "source_token_offset": 2525,
+          "source_tokens_sha256": "75babb62f547ecbb28809db26d79868c288b92a5608d26c672fe4e34e907c546",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s258",
+          "source_segment_index": 258,
+          "zh": "［手镯］：蕴含神秘力量的装备。",
+          "source_token_offset": 2541,
+          "source_tokens_sha256": "314fc7eeaf1ac5d3b0d6d8d2ea3a47c413acccaad434420289a9ff152ec2c51b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s260",
+          "source_segment_index": 260,
+          "zh": "可一击打碎遗迹中的罐子。",
+          "source_token_offset": 2566,
+          "source_tokens_sha256": "ebb3518becacc64b47e439a1eae93b15506a6d700787ff80ae541a348da664c1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s262",
+          "source_segment_index": 262,
+          "zh": "［香水］：太古时代制成的香水。",
+          "source_token_offset": 2591,
+          "source_tokens_sha256": "55501f4a003837e30d60658e697c8fd99580fc979c654b4a7b3d0451abcb5248",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s264",
+          "source_segment_index": 264,
+          "zh": "可一击击倒骷髅类敌人。",
+          "source_token_offset": 2610,
+          "source_tokens_sha256": "c8d206bf2a85033b6298b18dc2cb9dc33028b05a619b1187147534cff0f75650",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s266",
+          "source_segment_index": 266,
+          "zh": "［斗气肩甲］：赋予武器神圣力量的装备。",
+          "source_token_offset": 2637,
+          "source_tokens_sha256": "86c27eb0becfecf0efafec48f4be69820b492585ee90381545c70dd099554a7e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s268",
+          "source_segment_index": 268,
+          "zh": "挥动武器时产生的残影也能攻击敌人。",
+          "source_token_offset": 2662,
+          "source_tokens_sha256": "4fe924af6741b06db23de144831ad62fd7ae2020583312801ef9abe4bf6b87c4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s270",
+          "source_segment_index": 270,
+          "zh": "［次元之钥］：由奇异物质制成的遗物。",
+          "source_token_offset": 2684,
+          "source_tokens_sha256": "52f94e74d9fdce67b3f1391c996e120b5ef278a64489c3121c7e72438024b2c1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s272",
+          "source_segment_index": 272,
+          "zh": "可削弱扭曲次元的力量。",
+          "source_token_offset": 2706,
+          "source_tokens_sha256": "77301661daf62989071e9eb850b2bb222d9ec0e211fc8ebf8cac8b05c3469d58",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s274",
+          "source_segment_index": 274,
+          "zh": "［冰之斗篷］：用冰制成的斗篷。",
+          "source_token_offset": 2726,
+          "source_tokens_sha256": "26f7ac4d31f08227524f4716840bdf46b353037daa27a46042d86fa96692ebcc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s276",
+          "source_segment_index": 276,
+          "zh": "即使落入熔岩，也几乎不会受到伤害。",
+          "source_token_offset": 2745,
+          "source_tokens_sha256": "145a0fef3eeb78e9c810739d280453696ba76666b8bdc06df211803de0b9a66e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s278",
+          "source_segment_index": 278,
+          "zh": "［起始之印］：绘有象征起始的文字的石盘。",
+          "source_token_offset": 2769,
+          "source_tokens_sha256": "2afc4923e1e5ac0fad7838d68cf1052435541cb5da5722b97da93bc7aa25ff77",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s280",
+          "source_segment_index": 280,
+          "zh": "可破坏带有相同文字的印记。",
+          "source_token_offset": 2796,
+          "source_tokens_sha256": "72de02c323cfa0e674120532708edd18cb0d3bb5d1b2b9d736fc2e0e24de8718",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s282",
+          "source_segment_index": 282,
+          "zh": "［诞生之印］：绘有象征诞生的文字的石盘。",
+          "source_token_offset": 2815,
+          "source_tokens_sha256": "aeb748e2c1e1f5900bb9c6008f21b5b7c01fd2c23e1dbc3b08ff8b174baf255b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s284",
+          "source_segment_index": 284,
+          "zh": "可破坏带有相同文字的印记。",
+          "source_token_offset": 2840,
+          "source_tokens_sha256": "72de02c323cfa0e674120532708edd18cb0d3bb5d1b2b9d736fc2e0e24de8718",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s286",
+          "source_segment_index": 286,
+          "zh": "［生存之印］：绘有象征生存的文字的石盘。",
+          "source_token_offset": 2859,
+          "source_tokens_sha256": "7cf323b915285938721373ec00265946f80a1f52a37f07af08767867a4a5c2e8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s288",
+          "source_segment_index": 288,
+          "zh": "可破坏带有相同文字的印记。",
+          "source_token_offset": 2884,
+          "source_tokens_sha256": "72de02c323cfa0e674120532708edd18cb0d3bb5d1b2b9d736fc2e0e24de8718",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s290",
+          "source_segment_index": 290,
+          "zh": "［毁灭之印］：绘有象征毁灭的文字的石盘。",
+          "source_token_offset": 2903,
+          "source_tokens_sha256": "41593ffe65b5fa3c21dfeb165f7011396c7c1bef8945767064821fc29183e644",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s292",
+          "source_segment_index": 292,
+          "zh": "可破坏带有相同文字的印记。",
+          "source_token_offset": 2928,
+          "source_tokens_sha256": "72de02c323cfa0e674120532708edd18cb0d3bb5d1b2b9d736fc2e0e24de8718",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s298",
+          "source_segment_index": 298,
+          "zh": "［财宝］：通过不正当手段积聚的财宝。",
+          "source_token_offset": 2951,
+          "source_tokens_sha256": "d4977ac10856802dbe94719a0b932c57f4a4535450ae98f8bb5643fb562d4454",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s300",
+          "source_segment_index": 300,
+          "zh": "上面沾着人脸石像的口水。",
+          "source_token_offset": 2970,
+          "source_tokens_sha256": "3d3ac71ed2957ddb72f5a96e36229ef6b0872e62ae4746261fe78f8a7f9d6148",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s302",
+          "source_segment_index": 302,
+          "zh": "［日记］：博士的父亲写下的日记。",
+          "source_token_offset": 2986,
+          "source_tokens_sha256": "fefda904ca3eb478271a0ebb2f50c4759d04f1f5c3472b5d2fc2ea78b1c9c8bf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s304",
+          "source_segment_index": 304,
+          "zh": "与其说是日记，不如说是研究笔记。",
+          "source_token_offset": 3006,
+          "source_tokens_sha256": "9b337ac46cf021efe37720ce0c6faec8862051fecc814ffc2ba07197dc91a10f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s306",
+          "source_segment_index": 306,
+          "zh": "［穆拉纳护符］：由长老一族守护的护符。",
+          "source_token_offset": 3020,
+          "source_tokens_sha256": "07b8788c366e32721c9863cfd4a49afc83c831902af787ce609a5655f9e81659",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s308",
+          "source_segment_index": 308,
+          "zh": "能够打开受到诅咒的宝箱。",
+          "source_token_offset": 3045,
+          "source_tokens_sha256": "f9b0591f7c645c9dc6186de3fa19de14ab24e5d22716453ad0c0066260f53527",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s310",
+          "source_segment_index": 310,
+          "zh": "［危险泳装］：款式大胆的泳装。",
+          "source_token_offset": 3066,
+          "source_tokens_sha256": "d111da7e96be7305cb1286bf014420c8a6b94167f7a64d4f73fd91516cca603c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s312",
+          "source_segment_index": 312,
+          "zh": "由冰之斗篷改制而成。",
+          "source_token_offset": 3088,
+          "source_tokens_sha256": "e7e1cddf4f3e39d9addc3d73892d8c5243d6fd8afebb53d23c0183a06d0d0558",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s314",
+          "source_segment_index": 314,
+          "zh": "［白银之盾］：可挡住强力敌弹的盾。",
+          "source_token_offset": 3109,
+          "source_tokens_sha256": "b35ead6387856b6301dc4dbc5daf589a7b938c589fdd3ff218c1d1880e1365ec",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s316",
+          "source_segment_index": 316,
+          "zh": "［ＭｏｂｉｌｅＳｕｐｅｒＸ２］：ＭｏｂｉｌｅＳｕｐｅｒＸ的高阶机型。",
+          "source_token_offset": 3133,
+          "source_tokens_sha256": "36a7e497e583f08560c8f9be2e060cab0f9f89b87f1ce7da66764911b7722033",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s318",
+          "source_segment_index": 318,
+          "zh": "内存容量翻倍，",
+          "source_token_offset": 3168,
+          "source_tokens_sha256": "882d37c43f221c4344f1ac0297524f855a58b6cb58be9d782f5bff4bce0d3476",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s320",
+          "source_segment_index": 320,
+          "zh": "可实现更高级的用途。",
+          "source_token_offset": 3181,
+          "source_tokens_sha256": "7da0d1cae39d8265412e09d54616e9d32305166d26ee26c3025663d9ce34c87b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s322",
+          "source_segment_index": 322,
+          "zh": "［精神之药］：盛装在容器中的黄色药液。",
+          "source_token_offset": 3195,
+          "source_tokens_sha256": "adea3d75e8fd9751ac40018297dd54c834fb4bc06f561c09e3590701e0606106",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s324",
+          "source_segment_index": 324,
+          "zh": "［精神之药］：盛装在容器中的绿色药液。",
+          "source_token_offset": 3215,
+          "source_tokens_sha256": "3985882dbd8e7ec8c06421c637800e60cc46b8629cb830fd7afca948b404aa42",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s326",
+          "source_segment_index": 326,
+          "zh": "［精神之药］：盛装在容器中的红色药液。",
+          "source_token_offset": 3235,
+          "source_tokens_sha256": "21df7daf6992c2713328fe3ce4836ac8bfa7e4a132b6f9678090a3f8cc32c8d9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s328",
+          "source_segment_index": 328,
+          "zh": "［时之灯］：拥有操纵时间之力的灯。",
+          "source_token_offset": 3255,
+          "source_tokens_sha256": "e808fbdb4ea328f276d026441edcbf47d0c7dc7410957fe9010647eb7ab99b42",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s330",
+          "source_segment_index": 330,
+          "zh": "使用一次后火焰便会熄灭，无法使用。",
+          "source_token_offset": 3278,
+          "source_tokens_sha256": "4c9a8cf9f42f939b4d12a1f61e4cf5b974c4c55eec1f4cbc577634462ead2e75",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s332",
+          "source_segment_index": 332,
+          "zh": "［孕妇像］：以孕妇为原型制作的人偶。",
+          "source_token_offset": 3296,
+          "source_tokens_sha256": "6886e7fea109e759d07f844b246b144271c7c5361e8ee1b0a76b68ebe70c58bf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s334",
+          "source_segment_index": 334,
+          "zh": "按物品键使用，",
+          "source_token_offset": 3314,
+          "source_tokens_sha256": "bfa60b47a974aa2045165817b194b164f4ee3aac7bc4465d5d27b7280057775e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s336",
+          "source_segment_index": 336,
+          "zh": "可解开特定位置的封印。",
+          "source_token_offset": 3327,
+          "source_tokens_sha256": "1825a5195806e7f2f571f44ec0d1e1bac86763639f468bbd2649c99722664c6c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s338",
+          "source_segment_index": 338,
+          "zh": "［圣杯］：可传送至已记录的地点。",
+          "source_token_offset": 3345,
+          "source_tokens_sha256": "57d29b551280fc3ef4b8d017ac24817ede1066d734c4cf305e51601a1ede1104",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s340",
+          "source_segment_index": 340,
+          "zh": "但似乎已经损坏，失去了力量。",
+          "source_token_offset": 3365,
+          "source_tokens_sha256": "a604af2ff8cab4360d196c527a27a88df65d358b2c2ab0a7e601c5d0ca143061",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s342",
+          "source_segment_index": 342,
+          "zh": "［圣杯］：可传送至已记录的地点。",
+          "source_token_offset": 3387,
+          "source_tokens_sha256": "57d29b551280fc3ef4b8d017ac24817ede1066d734c4cf305e51601a1ede1104",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s344",
+          "source_segment_index": 344,
+          "zh": "似乎充盈着某种神秘力量。",
+          "source_token_offset": 3407,
+          "source_tokens_sha256": "ae2a21a45068af0adb01262f9f24d0aebb161de4ca898fc70706f3894346677e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s346",
+          "source_segment_index": 346,
+          "zh": "［生命秘宝］：孕育生命的力量凝结而成的结晶。",
+          "source_token_offset": 3427,
+          "source_tokens_sha256": "e018a30979189bd498903f6cca10a1ac4d5274dcf95a9ee2b558db45022a2cca",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s348",
+          "source_segment_index": 348,
+          "zh": "这是完成这场冒险的证明。",
+          "source_token_offset": 3454,
+          "source_tokens_sha256": "fb808baed3300ff178a33d5bf4b695b3c44b3aa37098ff63a2fb9aec309ed120",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s350",
+          "source_segment_index": 350,
+          "zh": "接下来快赶往地上吧！",
+          "source_token_offset": 3468,
+          "source_tokens_sha256": "07d84ee043922ddffa167b7481e1bc32a471ea8197f1728ede1a0842e037a944",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s352",
+          "source_segment_index": 352,
+          "zh": "［古文书阅读器］：翻译古代文字的软件。",
+          "source_token_offset": 3478,
+          "source_tokens_sha256": "c0883045d81ec8c4f7377e20fcb3badc22d71dcff0780812bf65a2657097020b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s354",
+          "source_segment_index": 354,
+          "zh": "若未启动，就无法读懂古文书。",
+          "source_token_offset": 3502,
+          "source_tokens_sha256": "5d877f84b423b73012404a77ee49b59ab683cb21b1460da3104d0fff6cb472b3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s356",
+          "source_segment_index": 356,
+          "zh": "［长老邮箱］：只能接收长老邮件的软件。",
+          "source_token_offset": 3521,
+          "source_tokens_sha256": "036fc89763220af10076478182f75285fa8be456deeaecbe885e7e897b7ec64a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s358",
+          "source_segment_index": 358,
+          "zh": "菜单中会新增邮件软件。",
+          "source_token_offset": 3556,
+          "source_tokens_sha256": "b9b0a264c585ca5e9d91291c5979c3a8f3c8865c7d51b697b5e1a05363260ca5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s360",
+          "source_segment_index": 360,
+          "zh": "［谷度地图］：用来显示地图的软件。",
+          "source_token_offset": 3575,
+          "source_tokens_sha256": "33bfe1bbabfdb1fe59dcb6c42965797d1cee862a8953d45538c6bd2d82eb6459",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s362",
+          "source_segment_index": 362,
+          "zh": "暂停画面中会显示当前区域的地图。",
+          "source_token_offset": 3600,
+          "source_tokens_sha256": "3204de739177b01e4ee4c0f3b93e2673f7108ddbdc7e4b47fed6f6b4e1280a5d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s364",
+          "source_segment_index": 364,
+          "zh": "［百歌地图］：谷度地图的强化软件。",
+          "source_token_offset": 3627,
+          "source_tokens_sha256": "74aaf4304ffb0ba1a6523e136da52d36e507bf84627e09dd59a084ab28263543",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s366",
+          "source_segment_index": 366,
+          "zh": "可让显示的地图更易于理解。",
+          "source_token_offset": 3656,
+          "source_tokens_sha256": "e6d029066c49abef1e1c6beb20ed115b30f32f36819c6e4dad6ee46b9ba13074",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s368",
+          "source_segment_index": 368,
+          "zh": "［文章右卫门］：能够保存文本的软件。",
+          "source_token_offset": 3677,
+          "source_tokens_sha256": "18f759cb9215349618f4264d029d79e3a020a6316e72d3f2752827f4d28a79fe",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s370",
+          "source_segment_index": 370,
+          "zh": "显示文本时按信息记录键，即可保存。",
+          "source_token_offset": 3703,
+          "source_tokens_sha256": "7342f74a975d359cda517c2b58b3bdc28eb1f9e651daa3d64b0355a82ed73104",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s372",
+          "source_segment_index": 372,
+          "zh": "［扩展文本内存］：增强文章右卫门功能的软件。",
+          "source_token_offset": 3730,
+          "source_tokens_sha256": "1be0b298c92526583e27ac84e15b0b2acb6dfdeb542f0b1ac1a1211705200bdf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s374",
+          "source_segment_index": 374,
+          "zh": "可记录的文本容量翻倍。",
+          "source_token_offset": 3759,
+          "source_tokens_sha256": "0123d18630f05ae0fcdca74cbefb5b05a105ba466c983d45a53af4f9ab36ffd8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s376",
+          "source_segment_index": 376,
+          "zh": "［拍拍读读］：能够解析画面内的壁画。",
+          "source_token_offset": 3776,
+          "source_tokens_sha256": "87e20a144aae0de582bbf3babc4b87429fbf06479d6377a1c4e9c9aac80d26d0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s378",
+          "source_segment_index": 378,
+          "zh": "可从当前房间的壁画中扫描隐藏文本。",
+          "source_token_offset": 3801,
+          "source_tokens_sha256": "71faf8278151a8f963df6e5aaec0917bc71485e8f0e70bf263dcf4a5bf5bcfbc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s380",
+          "source_segment_index": 380,
+          "zh": "［公会］：由遗迹内的商店公会制作的软件。",
+          "source_token_offset": 3827,
+          "source_tokens_sha256": "7e3f85bcffe0835df838ff64f7a8b52a7250cc4ec62dffcf0780dd2aaf9d6981",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s382",
+          "source_segment_index": 382,
+          "zh": "当前画面藏有商店时，会响起探测提示音。",
+          "source_token_offset": 3855,
+          "source_tokens_sha256": "6b4136985e7436bfaccc45e8ffcae363d3cff45ed8b92bf794774e598981f87d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s384",
+          "source_segment_index": 384,
+          "zh": "［咒文］：能够记录古代咒文的软件。",
+          "source_token_offset": 3875,
+          "source_tokens_sha256": "32cf7fb3c8baecb75a5703d24737a55daac4413ce8402003576daafddf31c6c9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s386",
+          "source_segment_index": 386,
+          "zh": "可通过节德柱唤出选定的咒文。",
+          "source_token_offset": 3900,
+          "source_tokens_sha256": "bbfb66056789e3ce453566a0015b9c3ebf30bc46ddf9dcd272a423513ab524d7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s388",
+          "source_segment_index": 388,
+          "zh": "［伊格音乐播放器］：太古时代的音乐软件。",
+          "source_token_offset": 3926,
+          "source_tokens_sha256": "36210a7679889f61ed397fc0535991e6a2d2aa8bed356321b4bc75705f1f92e8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s390",
+          "source_segment_index": 390,
+          "zh": "可随时聆听游戏中的音乐。",
+          "source_token_offset": 3953,
+          "source_tokens_sha256": "aabaabba2c13d03da82b690a9084771f9eea557b69eb0861dbab55c3a91cff37",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s392",
+          "source_segment_index": 392,
+          "zh": "［穆拉纳加强版］：伊格",
+          "source_token_offset": 3975,
+          "source_tokens_sha256": "8da6d6b95e1ced34aed3ae50c2cb05300ba8ecfa99fe183705f2dbda917045a4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s394",
+          "source_segment_index": 394,
+          "zh": "音乐播放器的扩展软件。",
+          "source_token_offset": 3996,
+          "source_tokens_sha256": "a2308b34e3bde06eb9b355f4776383c69f30f2f8c091428580db99ba99885516",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s396",
+          "source_segment_index": 396,
+          "zh": "可以聆听全部曲目。",
+          "source_token_offset": 4010,
+          "source_tokens_sha256": "6c8559776bb1501d766fe4e011eac9b2f64863f37c32ceffac82c5c793b74e91",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s398",
+          "source_segment_index": 398,
+          "zh": "［死亡村庄］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4025,
+          "source_tokens_sha256": "a97601d54ee0ce4acb4c68de03b87161f8cec20332b4ba5349ab33d72ab7eeb9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s400",
+          "source_segment_index": 400,
+          "zh": "推出的第１款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4048,
+          "source_tokens_sha256": "509a274fd865ed41d7588f460c43db98f95974bf79d1c3f7e6dd1b935e8af9b2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s402",
+          "source_segment_index": 402,
+          "zh": "引导大叔逃出鬼屋的解谜游戏。",
+          "source_token_offset": 4061,
+          "source_tokens_sha256": "48dd547bbdc8ce4fdd1b857a444b99333fbf4591c3131d2a7b65c83aea38727d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s404",
+          "source_segment_index": 404,
+          "zh": "［蔷薇与山茶］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4088,
+          "source_tokens_sha256": "d9ba53d70877885a7911e3454232ddae9eefd906ceefbf0193a1ef4bde8a2604",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s406",
+          "source_segment_index": 406,
+          "zh": "推出的第２款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4102,
+          "source_tokens_sha256": "3fd15e687b023d2bbecf4c39a9bd9f34c036abf46c60752347376a45da8703aa",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s408",
+          "source_segment_index": 408,
+          "zh": "贵族女性靠掌掴步步高升的格斗游戏。",
+          "source_token_offset": 4115,
+          "source_tokens_sha256": "138c646911fee3ecaf7573f64a0af8eca0715926db8e6bf07a92f3f5664db223",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s410",
+          "source_segment_index": 410,
+          "zh": "［宇宙飞船卡普斯特Ⅱ］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4137,
+          "source_tokens_sha256": "53c7958685b5ef6328329f603620878a77665063a40ed66a33007636f5686a97",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s412",
+          "source_segment_index": 412,
+          "zh": "推出的第４款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4157,
+          "source_tokens_sha256": "d9a9efcca1eeaa6bb0ce146749d21dfa064438e5de5bb98efc459c5ff07ca79d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s414",
+          "source_segment_index": 414,
+          "zh": "操纵宇宙飞船在行星地底前进的引导游戏。",
+          "source_token_offset": 4170,
+          "source_tokens_sha256": "cd317ce2031f30e244a05b08dad632e96cc99dfcc58b7d8cac7185f1ddb9012b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s416",
+          "source_segment_index": 416,
+          "zh": "［漫漫搬家路］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4193,
+          "source_tokens_sha256": "610b4965bf6d1a84547a3e323bc65596b54b21d55d317e9ad05fa51aac5c4c83",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s418",
+          "source_segment_index": 418,
+          "zh": "推出的第３款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4211,
+          "source_tokens_sha256": "de03567134431a973703a9a8d3ab4ac60c59c31060cc049ce084329d5d4a8169",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s420",
+          "source_segment_index": 420,
+          "zh": "通过跳跃躲避滚落行李的动作游戏。",
+          "source_token_offset": 4224,
+          "source_tokens_sha256": "b2deedf6c5ae694e5e821468859e90ef56ad7f6e2ad5cdf471ac30791f999c88",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s422",
+          "source_segment_index": 422,
+          "zh": "［掀裙队长］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4251,
+          "source_tokens_sha256": "0bdf1dd6954eac2e49b5c4387309927b7614ffbbf3291460a7740403e5db6b27",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s424",
+          "source_segment_index": 424,
+          "zh": "推出的第５款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4266,
+          "source_tokens_sha256": "1dd0782eb3eab74d9fc254283802dd62777ad26df374cb0e58404d42b96a45da",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s426",
+          "source_segment_index": 426,
+          "zh": "不断掀起裙子的简单动作游戏。",
+          "source_token_offset": 4279,
+          "source_tokens_sha256": "3434a57acb33d821db94d7c2481f207131c20d7373e8319b33f27fa9ebd70882",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s428",
+          "source_segment_index": 428,
+          "zh": "［弹跳射击］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4307,
+          "source_tokens_sha256": "3822f3ea00213d5c32c35de743c6e42b85eaaf4e03774f33e60578a36c03e4b0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s430",
+          "source_segment_index": 430,
+          "zh": "推出的第６款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4325,
+          "source_tokens_sha256": "8725d03e72ef8dea49ca02a9360d6f1574f1410b892823c63bc2533e5c9be53c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s432",
+          "source_segment_index": 432,
+          "zh": "用弹跳子弹击落敌人的射击游戏。",
+          "source_token_offset": 4338,
+          "source_tokens_sha256": "025b8305485577db650a4fe990469c948114c5d050a34b083077d6b9690c205f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s434",
+          "source_segment_index": 434,
+          "zh": "［奇迹女巫］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4365,
+          "source_tokens_sha256": "ecb90f54d52f599216359907206468029818d48b76002142cb0f52e2305c5a21",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s436",
+          "source_segment_index": 436,
+          "zh": "推出的第８款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4383,
+          "source_tokens_sha256": "6d2276d4721d4fc234b2c7b74ecb34c64ce1abf2cdb60605f870fd588d485cc5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s438",
+          "source_segment_index": 438,
+          "zh": "运用魔法解谜、推进冒险的动作ＲＰＧ。",
+          "source_token_offset": 4396,
+          "source_tokens_sha256": "cbd2d650a00e8afc982f6ec296dad24901aa6538eb52571db680627e3585e6c4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s440",
+          "source_segment_index": 440,
+          "zh": "［这里是未来开发宇宙支部］：ＮＩＧＯＲＯ",
+          "source_token_offset": 4421,
+          "source_tokens_sha256": "1fc00dc1b9a0728fd39df30be22a78f642a1eddb42418759677a05bda22dae56",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s442",
+          "source_segment_index": 442,
+          "zh": "推出的第７款Ｆｌａｓｈ游戏。",
+          "source_token_offset": 4442,
+          "source_tokens_sha256": "adf9f95ee97ccba736b1144b40e615ed82f7403c2cfe63199855197507a47c0b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s444",
+          "source_segment_index": 444,
+          "zh": "解决问题、开发地区的即时模拟游戏。",
+          "source_token_offset": 4455,
+          "source_tokens_sha256": "f45acc675524f54a2cddb85541a314dc5fd2cf5ce9e75e20468bae0266a137f6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s446",
+          "source_segment_index": 446,
+          "zh": "［穆拉纳秘宝］：ＮＩＧＯＲＯ推出的第１款游戏作品。",
+          "source_token_offset": 4484,
+          "source_tokens_sha256": "89051a3ca0f6f6337878f930eb0d9dc72461301b525de56b61f19b4ba413e7ba",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0002::s448",
+          "source_segment_index": 448,
+          "zh": "你现在正在玩的游戏。",
+          "source_token_offset": 4510,
+          "source_tokens_sha256": "3372da22b506025ab0497fad8791f045d9008f12533bda5c3a0ef6b6684e453a",
+          "source_kind": "glyph_run"
+        }
+      ]
+    }
+  ],
+  "game_build_id": "5968359"
+}

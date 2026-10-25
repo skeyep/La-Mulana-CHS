@@ -30,6 +30,8 @@
 - 查看流程点数、通关挑战和结局同行角色。
 - 暂停后按 **跳跃键** 打开，按返回键或设置键退出。
 
+[独占功能介绍与演示](https://www.xiaoheihe.cn/app/bbs/link/194922739)
+
 ## 反馈
 
 请在 [Issues](https://github.com/skeyep/La-Mulana-CHS/issues) 附上版本号、出现位置和截图；译文建议可以同时写出原句与修改意见。

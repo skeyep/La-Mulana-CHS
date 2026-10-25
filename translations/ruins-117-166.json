@@ -1,0 +1,3114 @@
+{
+  "schema": "lm1-public-translations-v1",
+  "target_language": "zh-CN",
+  "namespace": "main",
+  "source_name": "ruins-117-166.json",
+  "credit": "Skeyep_目目",
+  "records": [
+    {
+      "resource_id": "data/language/script_code.dat::block:0117",
+      "block_index": 117,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0117::s0",
+          "source_segment_index": 0,
+          "zh": "第３道",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4bc8fdc6ae42ef7bf4f66e1c133131ca4198fab510c9744b196fa0db24dbf7c2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0117::s2",
+          "source_segment_index": 2,
+          "zh": "咒文",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0117::s4",
+          "source_segment_index": 4,
+          "zh": "在通往外界的道路上。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "950d25be2af0ce7cf6201e7ef467f26469ed4f20e9c37d8cba14cbe61bdcde19",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0117::s6",
+          "source_segment_index": 6,
+          "zh": "就在地狱守门者身旁。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "9275f45a4282c3d5cbd4955ec1d27ec869a326805a1b9d8c25ddafee1d00404e",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0118",
+      "block_index": 118,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s1",
+          "source_segment_index": 1,
+          "zh": "咒文",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s3",
+          "source_segment_index": 3,
+          "zh": "要正确吟诵。",
+          "source_token_offset": 12,
+          "source_tokens_sha256": "e985f4b5d34cbad3fa557d30bff320d2f8cfa64ee9faeec0db4c95d056b4b487",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s5",
+          "source_segment_index": 5,
+          "zh": "将提亚马特、",
+          "source_token_offset": 21,
+          "source_tokens_sha256": "4d98898f3966218a86acb356456c25b970986b2ea8588f725a7fc46a6f903289",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s7",
+          "source_segment_index": 7,
+          "zh": "巴风特、",
+          "source_token_offset": 28,
+          "source_tokens_sha256": "2e6f687b8f709f68984a761e8405dd5173a9158084a856ef0d3a56a064e99ead",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s9",
+          "source_segment_index": 9,
+          "zh": "帕伦克、",
+          "source_token_offset": 36,
+          "source_tokens_sha256": "d267f3678fbb5442a77187380d3ddea9ed67d68dbe00b22efc0dfd1dcdd1e3a0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s11",
+          "source_segment_index": 11,
+          "zh": "维伊、",
+          "source_token_offset": 42,
+          "source_tokens_sha256": "7435a99c18680bec2757dddf3252e465fcc4dadfba8253a6b5727014cd6f0e60",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s13",
+          "source_segment_index": 13,
+          "zh": "巴哈姆特、",
+          "source_token_offset": 47,
+          "source_tokens_sha256": "708cad9636cb3b54e588c178430d7ff9b69b1829dd112ab353d1d64fc444fc4d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s15",
+          "source_segment_index": 15,
+          "zh": "埃尔马克、",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "bec152494d52b71e5fef62a6c785a6a24c39e602c0da073952fdab55bd164005",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s17",
+          "source_segment_index": 17,
+          "zh": "沙基特、",
+          "source_token_offset": 61,
+          "source_tokens_sha256": "0bce4ed2a3869adac6409849e40f945a7a32bc9290f0092b3a2c4a9f59d8667a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0118::s19",
+          "source_segment_index": 19,
+          "zh": "以及安菲斯巴耶纳封印。",
+          "source_token_offset": 66,
+          "source_tokens_sha256": "2bc06688ff33067e49a6b13c70c228f8880a7f52fb8dbb50c959f0baba5b4219",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0119",
+      "block_index": 119,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0119::s0",
+          "source_segment_index": 0,
+          "zh": "第４道",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a689ebe9a5358cb3fc0c7d62c16f8f533054bd477e05d49e44df8af6c0e1a6a0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0119::s2",
+          "source_segment_index": 2,
+          "zh": "咒文",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0119::s4",
+          "source_segment_index": 4,
+          "zh": "在巨人体内。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "bb6c3f36cdec8d41d6e07c734acbdb85a83f7831bc8d09bc2b5676ddbbe6cb3e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0119::s6",
+          "source_segment_index": 6,
+          "zh": "就在伫立于灼热之地的巨人体内。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "5831d0ac98ca268af4dd9286ea170a21283c5bc8f1e891d62ed276753ca62e65",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0120",
+      "block_index": 120,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0120::s0",
+          "source_segment_index": 0,
+          "zh": "第５道",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a78a25d4920a74bd77d1deb9bb187aa9ae1484f24a2701202f41d569e3c48d74",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0120::s2",
+          "source_segment_index": 2,
+          "zh": "咒文",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0120::s4",
+          "source_segment_index": 4,
+          "zh": "在女神下方。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "6cecdf762ee3f3361b763d376706ffe65b93bb94e9e85f4d801f071824bec63d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0120::s6",
+          "source_segment_index": 6,
+          "zh": "那位凝望崩塌之塔的女神脚下。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "0643dd96da645b2025315e03a972ab81c0098fb37cb5b07ec22ccda1c848ae4d",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0121",
+      "block_index": 121,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0121::s0",
+          "source_segment_index": 0,
+          "zh": "第７道",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "07c90711162521d187854a101a612b55cb10cb83a009ed0022e5ae0beb75092b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0121::s2",
+          "source_segment_index": 2,
+          "zh": "咒文",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0121::s4",
+          "source_segment_index": 4,
+          "zh": "在尖刺旁。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "f9bd97666bbc5780b631e50962f5f17423cdc1a299e9697557caea814dfac40d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0121::s6",
+          "source_segment_index": 6,
+          "zh": "５处奇异地板的上方。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "b467ac619d8f8aa5f6011e2d0d200c90db742cb9360ae6dad11002f7713f5670",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0122",
+      "block_index": 122,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0122::s0",
+          "source_segment_index": 0,
+          "zh": "最后的",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "adacb32ce0b840034a29711fb6a6bf92f6917242ae9987969a790710d2be0a0b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0122::s2",
+          "source_segment_index": 2,
+          "zh": "咒文",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0122::s4",
+          "source_segment_index": 4,
+          "zh": "是勇气的证明。",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "e82ec15203852047f5cf4629cd7e9ba959c3e344ee8ccc66fe77424a7a8edfd7",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0123",
+      "block_index": 123,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0123::s0",
+          "source_segment_index": 0,
+          "zh": "有男，便有女。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "8079ccaf92a4b1141ded96a15f73f6c4644b99891a118cbf389a301e8a66728c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0123::s2",
+          "source_segment_index": 2,
+          "zh": "不可在女之中动用武器。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "40534ad1666038e880f1ff86f3548193fade241915e4387ee1d33eac0e89db48",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0124",
+      "block_index": 124,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0124::s0",
+          "source_segment_index": 0,
+          "zh": "女在男之中受孕。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "329fa8a8d32052a6f41046b6d2ebe78be190e5db6b881187033c09e3ba8740b5",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0125",
+      "block_index": 125,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0125::s0",
+          "source_segment_index": 0,
+          "zh": "以",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "953694294e74c05f529335a26f61e846c9dbfe71eab069e22342e9fd5fc20394",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0125::s3",
+          "source_segment_index": 3,
+          "zh": "填满此地。映照",
+          "source_token_offset": 6,
+          "source_tokens_sha256": "0400b0022fde2c976ded2691bbc2f69e3d47e38c6f9f69735c3cd866a917d753",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0125::s8",
+          "source_segment_index": 8,
+          "zh": "的",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "bc36224f58a95ba9ef76eaf732b2a4f9e2c868193a0e89ec97f079b42069d6ef",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0125::s11",
+          "source_segment_index": 11,
+          "zh": "将落入汝手。",
+          "source_token_offset": 22,
+          "source_tokens_sha256": "58b3852ed5ff8ff2ff9cc80ab9d6626698920d8f01aacd8ad83265c8197ec694",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0126",
+      "block_index": 126,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0126::s0",
+          "source_segment_index": 0,
+          "zh": "前方没有光。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "e3d0e536a2dd3a50bd36591dd38d4f4ab53cc3180c1d9140fb6bdf5c97d4283e",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0127",
+      "block_index": 127,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0127::s0",
+          "source_segment_index": 0,
+          "zh": "将纷飞之物击落。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "6eab8057771a076802aea757a8a9489af9b4d3c7816ffa6e4540351a47ef28ff",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0128",
+      "block_index": 128,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0128::s1",
+          "source_segment_index": 1,
+          "zh": "瓦吉特",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1cbc8507120a63f0c46eb1840cb27a17814a959512d4d94303d9d8270a925004",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0128::s3",
+          "source_segment_index": 3,
+          "zh": "之下，冥想吧。",
+          "source_token_offset": 12,
+          "source_tokens_sha256": "8f0c55116119d354e52a8c87303f5d840baeacc07179a488cca767a55b493180",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0128::s5",
+          "source_segment_index": 5,
+          "zh": "什么也别做，",
+          "source_token_offset": 21,
+          "source_tokens_sha256": "711b278f8f36287089f31c68ded04bbda226e941908de5827f57433858b43e5b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0128::s7",
+          "source_segment_index": 7,
+          "zh": "只管",
+          "source_token_offset": 27,
+          "source_tokens_sha256": "4b87a6cb751f68f244915646574d0d5cd8c2ce114ad67ba64a0a2fbb9466c94b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0128::s9",
+          "source_segment_index": 9,
+          "zh": "祈祷。",
+          "source_token_offset": 31,
+          "source_tokens_sha256": "29ccdc0ab8b7a466ca65cbad9a0662f980103bf803439fc2a1cb7ca5fdd40c03",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0129",
+      "block_index": 129,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0129::s0",
+          "source_segment_index": 0,
+          "zh": "唤醒双子之力。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "369fb63e6205f31ba204a20d415d7aa6c7fc77fd06b5a647cae595c943a411b7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0129::s2",
+          "source_segment_index": 2,
+          "zh": "双子，乃２合为１。",
+          "source_token_offset": 12,
+          "source_tokens_sha256": "99634d9b36dbe8ae2e4297f9b40c4e0c64194ecb069d913c09aebcd0fc1bcff1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0129::s4",
+          "source_segment_index": 4,
+          "zh": "双子，彼此十分相似。",
+          "source_token_offset": 25,
+          "source_tokens_sha256": "f55034f1b8c2b8abcfe4cacb23ccf738b518783edaae83712f6aa170c4de47c1",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0130",
+      "block_index": 130,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0130::s0",
+          "source_segment_index": 0,
+          "zh": "解开一切谜题之人啊。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "d9dd9e7ebc27ce9f2d09e3a3147bfe6a7e4bbdc80347ca5412d54e729957823f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0130::s2",
+          "source_segment_index": 2,
+          "zh": "往下降吧。",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "6a0228918df0228786f7f357e84d456d108ccfe65bf239405a8902d841a9d76d",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0131",
+      "block_index": 131,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0131::s0",
+          "source_segment_index": 0,
+          "zh": "荷鲁斯之母，",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "1c84dd0691d88dd079eda660f390ed56cb2b20473cc9adaea5eef12a786f7312",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0131::s2",
+          "source_segment_index": 2,
+          "zh": "伊西斯",
+          "source_token_offset": 12,
+          "source_tokens_sha256": "cd6ea5e1393f172410bfd7b62fac846219d04b029bc11dcc5474a00cfe5b84f5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0131::s4",
+          "source_segment_index": 4,
+          "zh": "。",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0131::s6",
+          "source_segment_index": 6,
+          "zh": "充盈的母爱，将赐下疗愈之力。",
+          "source_token_offset": 21,
+          "source_tokens_sha256": "2181a2f749065eddc5a56729a3749c89a565aeb355cd99c88704beb7dcf12602",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0132",
+      "block_index": 132,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s8",
+          "source_segment_index": 8,
+          "zh": "买吧，咕噜。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "85bd8c6dda8df60619f006b94b53041df9815f0ac61485f2e8f93096b02fbee8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s10",
+          "source_segment_index": 10,
+          "zh": "不买，咕噜。",
+          "source_token_offset": 31,
+          "source_tokens_sha256": "9e75052047d52d2e3b9dca934079255b39601884787914863c17c4cb6d8fe824",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s13",
+          "source_segment_index": 13,
+          "zh": "买点什么吧，咕噜。",
+          "source_token_offset": 41,
+          "source_tokens_sha256": "eb520e6656e8d2f13f349034ee0bde1cee7b63e435c908c9c16039f30c6d1289",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s16",
+          "source_segment_index": 16,
+          "zh": "「",
+          "source_token_offset": 53,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s18",
+          "source_segment_index": 18,
+          "zh": "重物",
+          "source_token_offset": 58,
+          "source_tokens_sha256": "b6e586c7853cc04f60806aac1d91cc1c608de150cdd79a9b85ea9b362254b3b2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s20",
+          "source_segment_index": 20,
+          "zh": "」，咕噜。",
+          "source_token_offset": 65,
+          "source_tokens_sha256": "0192a43f4917c6a011393a4c8bc08ff2f206b8210ede1b77ec23d35b97ed3a2e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s23",
+          "source_segment_index": 23,
+          "zh": "「",
+          "source_token_offset": 74,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s25",
+          "source_segment_index": 25,
+          "zh": "手里剑弹药",
+          "source_token_offset": 79,
+          "source_tokens_sha256": "372bd563f50c9261e5383c640328966d42c43fcd14381845a76cc624dee0bae3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s27",
+          "source_segment_index": 27,
+          "zh": "」，咕噜。",
+          "source_token_offset": 88,
+          "source_tokens_sha256": "0192a43f4917c6a011393a4c8bc08ff2f206b8210ede1b77ec23d35b97ed3a2e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s30",
+          "source_segment_index": 30,
+          "zh": "「",
+          "source_token_offset": 97,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s32",
+          "source_segment_index": 32,
+          "zh": "铁蒺藜补充",
+          "source_token_offset": 102,
+          "source_tokens_sha256": "779fcefaa213ec56a1a28adbfb540b5376ce5808e0815e2f4fa33d4d9cfa634b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s34",
+          "source_segment_index": 34,
+          "zh": "」，咕噜。",
+          "source_token_offset": 112,
+          "source_tokens_sha256": "0192a43f4917c6a011393a4c8bc08ff2f206b8210ede1b77ec23d35b97ed3a2e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s37",
+          "source_segment_index": 37,
+          "zh": "谢啦，咕噜。",
+          "source_token_offset": 121,
+          "source_tokens_sha256": "f12f6ebb0cb7fc3484522324a08d06a93fef6e5a0dac615b9b90164826d82faf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s40",
+          "source_segment_index": 40,
+          "zh": "谢啦，咕噜。",
+          "source_token_offset": 131,
+          "source_tokens_sha256": "f12f6ebb0cb7fc3484522324a08d06a93fef6e5a0dac615b9b90164826d82faf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s43",
+          "source_segment_index": 43,
+          "zh": "谢啦，咕噜。",
+          "source_token_offset": 141,
+          "source_tokens_sha256": "f12f6ebb0cb7fc3484522324a08d06a93fef6e5a0dac615b9b90164826d82faf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s46",
+          "source_segment_index": 46,
+          "zh": "对不鳍，卖光了，咕噜。",
+          "source_token_offset": 151,
+          "source_tokens_sha256": "14563a1e5a8ced05664bd4a148ff7d2960517073857b1dc563a1724b14399385",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s49",
+          "source_segment_index": 49,
+          "zh": "对不鳍，卖光了，咕噜。",
+          "source_token_offset": 170,
+          "source_tokens_sha256": "14563a1e5a8ced05664bd4a148ff7d2960517073857b1dc563a1724b14399385",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s52",
+          "source_segment_index": 52,
+          "zh": "对不鳍，卖光了，咕噜。",
+          "source_token_offset": 189,
+          "source_tokens_sha256": "14563a1e5a8ced05664bd4a148ff7d2960517073857b1dc563a1724b14399385",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s55",
+          "source_segment_index": 55,
+          "zh": "不买了是吧，咕噜。",
+          "source_token_offset": 208,
+          "source_tokens_sha256": "c8e7318ca859bc3c941ce2a32267690457929861014e3e4753597070f7e35972",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s58",
+          "source_segment_index": 58,
+          "zh": "不买了是吧，咕噜。",
+          "source_token_offset": 221,
+          "source_tokens_sha256": "c8e7318ca859bc3c941ce2a32267690457929861014e3e4753597070f7e35972",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s61",
+          "source_segment_index": 61,
+          "zh": "不买了是吧，咕噜。",
+          "source_token_offset": 234,
+          "source_tokens_sha256": "c8e7318ca859bc3c941ce2a32267690457929861014e3e4753597070f7e35972",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s64",
+          "source_segment_index": 64,
+          "zh": "鱼哟。",
+          "source_token_offset": 247,
+          "source_tokens_sha256": "d698dd71835fa12528c0327a0afe56ff955a7565fee379988f7a2b7f24c87185",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s66",
+          "source_segment_index": 66,
+          "zh": "钱不够啊，咕噜。",
+          "source_token_offset": 251,
+          "source_tokens_sha256": "04e78f8a07a66fd2e2e1aa9671bd3cace380776072d2311daee4be3cf3d2bac6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s69",
+          "source_segment_index": 69,
+          "zh": "鱼哟。",
+          "source_token_offset": 266,
+          "source_tokens_sha256": "d698dd71835fa12528c0327a0afe56ff955a7565fee379988f7a2b7f24c87185",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s71",
+          "source_segment_index": 71,
+          "zh": "钱不够啊，咕噜。",
+          "source_token_offset": 270,
+          "source_tokens_sha256": "04e78f8a07a66fd2e2e1aa9671bd3cace380776072d2311daee4be3cf3d2bac6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s74",
+          "source_segment_index": 74,
+          "zh": "鱼哟。",
+          "source_token_offset": 285,
+          "source_tokens_sha256": "d698dd71835fa12528c0327a0afe56ff955a7565fee379988f7a2b7f24c87185",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s76",
+          "source_segment_index": 76,
+          "zh": "钱不够啊，咕噜。",
+          "source_token_offset": 289,
+          "source_tokens_sha256": "04e78f8a07a66fd2e2e1aa9671bd3cace380776072d2311daee4be3cf3d2bac6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s86",
+          "source_segment_index": 86,
+          "zh": "瀑布参道：鱼人大人",
+          "source_token_offset": 320,
+          "source_tokens_sha256": "fe4ca1a046733d069daff176705c6ae49aefb71509fff2d82018c18b98c46410",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s88",
+          "source_segment_index": 88,
+          "zh": "重物",
+          "source_token_offset": 329,
+          "source_tokens_sha256": "b6e586c7853cc04f60806aac1d91cc1c608de150cdd79a9b85ea9b362254b3b2",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s90",
+          "source_segment_index": 90,
+          "zh": ",",
+          "source_token_offset": 333,
+          "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s92",
+          "source_segment_index": 92,
+          "zh": "手里剑弹药",
+          "source_token_offset": 335,
+          "source_tokens_sha256": "372bd563f50c9261e5383c640328966d42c43fcd14381845a76cc624dee0bae3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s94",
+          "source_segment_index": 94,
+          "zh": ",",
+          "source_token_offset": 341,
+          "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s96",
+          "source_segment_index": 96,
+          "zh": "铁蒺藜补充",
+          "source_token_offset": 343,
+          "source_tokens_sha256": "779fcefaa213ec56a1a28adbfb540b5376ce5808e0815e2f4fa33d4d9cfa634b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0132::s98",
+          "source_segment_index": 98,
+          "zh": "买点什么吧，咕噜。",
+          "source_token_offset": 350,
+          "source_tokens_sha256": "eb520e6656e8d2f13f349034ee0bde1cee7b63e435c908c9c16039f30c6d1289",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0133",
+      "block_index": 133,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s8",
+          "source_segment_index": 8,
+          "zh": "买吧，咕噜。",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "f3d9b382be31b00bb4b590938c94c3647f313dc53b5e3a8b4df3e389c5cfb08b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s10",
+          "source_segment_index": 10,
+          "zh": "才不要，",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "73a6d8172aa865bf93660ae062b1a76bc2c0378e57ad36411c9f980c03341d51",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s12",
+          "source_segment_index": 12,
+          "zh": "笨蛋！",
+          "source_token_offset": 40,
+          "source_tokens_sha256": "714c2ccc1c0f1225ce4288dafde9fef898bb8dc542b9f16c31d217e93062c210",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s15",
+          "source_segment_index": 15,
+          "zh": "我改过自新啦，咕噜。",
+          "source_token_offset": 47,
+          "source_tokens_sha256": "9ce6f2e1bd06816d920ecdd099d313b7639152874b676f9bdc1e99151ad2a8b5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s18",
+          "source_segment_index": 18,
+          "zh": "「",
+          "source_token_offset": 63,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s20",
+          "source_segment_index": 20,
+          "zh": "法螺",
+          "source_token_offset": 68,
+          "source_tokens_sha256": "a6014967ad85ad916968d3e05ce3ccdd43eb7fe567852694bc40cf52d4acd9f8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s22",
+          "source_segment_index": 22,
+          "zh": "」。",
+          "source_token_offset": 75,
+          "source_tokens_sha256": "0a604513a8a547c01c0cc19fe3a10791f096711c3349863a9ce861856e380fbc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s24",
+          "source_segment_index": 24,
+          "zh": "还没有吗，咕噜？",
+          "source_token_offset": 78,
+          "source_tokens_sha256": "869748fde0a870a5fdad31c26869537bc87851f2afd8bb35525c038e58bf19b4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s27",
+          "source_segment_index": 27,
+          "zh": "「",
+          "source_token_offset": 92,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s29",
+          "source_segment_index": 29,
+          "zh": "公会",
+          "source_token_offset": 97,
+          "source_tokens_sha256": "b9e4a2c92cb3e0c7bcbe5695ec0844abe734c08e7b140189abfbc3fe3ca89ced",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s31",
+          "source_segment_index": 31,
+          "zh": "」。",
+          "source_token_offset": 106,
+          "source_tokens_sha256": "0a604513a8a547c01c0cc19fe3a10791f096711c3349863a9ce861856e380fbc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s33",
+          "source_segment_index": 33,
+          "zh": "还没有？",
+          "source_token_offset": 109,
+          "source_tokens_sha256": "5051c89e7a248c01c2ba0764b188e5a4ef31825d4b9ed12f241f7629e45cf988",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s35",
+          "source_segment_index": 35,
+          "zh": "噗噗噗。",
+          "source_token_offset": 118,
+          "source_tokens_sha256": "a9a95e112c91648d9538be2cd3ba90daff19a079dcc208ab283a21cc7c4ebafe",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s38",
+          "source_segment_index": 38,
+          "zh": "「",
+          "source_token_offset": 125,
+          "source_tokens_sha256": "2ebda59f7471828bf2703fc26623ea63bc843b7b1f27bf91d5b30eac7f3d3482",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s40",
+          "source_segment_index": 40,
+          "zh": "蔷薇与山茶",
+          "source_token_offset": 130,
+          "source_tokens_sha256": "9f29911760e014b44c12ea0e76e3a5b8c8c6026fb2558ad02a0ee3a039e88c36",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s42",
+          "source_segment_index": 42,
+          "zh": "」，咕噜。",
+          "source_token_offset": 138,
+          "source_tokens_sha256": "0192a43f4917c6a011393a4c8bc08ff2f206b8210ede1b77ec23d35b97ed3a2e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s46",
+          "source_segment_index": 46,
+          "zh": "你居然肯照顾我这条鱼的生意，",
+          "source_token_offset": 150,
+          "source_tokens_sha256": "28e5a3c318c61ae1cb13221e359393b688bff963d03398cf4bfd78e69ecaa0b4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s48",
+          "source_segment_index": 48,
+          "zh": "我打从鳞片底下感谢你，咕噜。",
+          "source_token_offset": 167,
+          "source_tokens_sha256": "ec375ea8011c0c33e011a8b209e1aedd43bf8c7db1ee25d17401fe069be79f9b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s52",
+          "source_segment_index": 52,
+          "zh": "你居然肯照顾我这条鱼的生意，",
+          "source_token_offset": 186,
+          "source_tokens_sha256": "28e5a3c318c61ae1cb13221e359393b688bff963d03398cf4bfd78e69ecaa0b4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s54",
+          "source_segment_index": 54,
+          "zh": "我打从鳞片底下感谢你，咕噜。",
+          "source_token_offset": 203,
+          "source_tokens_sha256": "ec375ea8011c0c33e011a8b209e1aedd43bf8c7db1ee25d17401fe069be79f9b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s57",
+          "source_segment_index": 57,
+          "zh": "你居然肯照顾我这条鱼的生意，",
+          "source_token_offset": 219,
+          "source_tokens_sha256": "28e5a3c318c61ae1cb13221e359393b688bff963d03398cf4bfd78e69ecaa0b4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s59",
+          "source_segment_index": 59,
+          "zh": "我打从鳞片底下感谢你，咕噜。",
+          "source_token_offset": 236,
+          "source_tokens_sha256": "ec375ea8011c0c33e011a8b209e1aedd43bf8c7db1ee25d17401fe069be79f9b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s62",
+          "source_segment_index": 62,
+          "zh": "卖光啦，咕噜。",
+          "source_token_offset": 252,
+          "source_tokens_sha256": "f44c4090ceddfe920c72be77d46d2c0a34db1bcf7d25ec85595501c1dbe4631f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s65",
+          "source_segment_index": 65,
+          "zh": "卖光啦，咕噜。",
+          "source_token_offset": 266,
+          "source_tokens_sha256": "f44c4090ceddfe920c72be77d46d2c0a34db1bcf7d25ec85595501c1dbe4631f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s68",
+          "source_segment_index": 68,
+          "zh": "已经卖给你了，咕噜。",
+          "source_token_offset": 280,
+          "source_tokens_sha256": "3f6f88486a57aa95f97cf44539c8a682fd76d4623c41cce9deeee78f146375cc",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s70",
+          "source_segment_index": 70,
+          "zh": "就算赏我耳光也没有啦。",
+          "source_token_offset": 296,
+          "source_tokens_sha256": "d25b6952b08bedca087696fdeb85939f40d29cd1dbc37c540a987fca80afd7eb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s73",
+          "source_segment_index": 73,
+          "zh": "唉，",
+          "source_token_offset": 312,
+          "source_tokens_sha256": "4900f80564c4ce572209a185c48072c6d215f562b55f724ccad54d0c7427e784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s75",
+          "source_segment_index": 75,
+          "zh": "果然嫌鱼的货有腥味，不想买啊。",
+          "source_token_offset": 316,
+          "source_tokens_sha256": "41729ceb62985295488c63f789472b4f4f6fe44deab7bba3c08cfbb234bc5802",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s78",
+          "source_segment_index": 78,
+          "zh": "唉，",
+          "source_token_offset": 342,
+          "source_tokens_sha256": "4900f80564c4ce572209a185c48072c6d215f562b55f724ccad54d0c7427e784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s80",
+          "source_segment_index": 80,
+          "zh": "果然嫌鱼的货有腥味，不想买啊。",
+          "source_token_offset": 346,
+          "source_tokens_sha256": "41729ceb62985295488c63f789472b4f4f6fe44deab7bba3c08cfbb234bc5802",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s83",
+          "source_segment_index": 83,
+          "zh": "唉，",
+          "source_token_offset": 372,
+          "source_tokens_sha256": "4900f80564c4ce572209a185c48072c6d215f562b55f724ccad54d0c7427e784",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s85",
+          "source_segment_index": 85,
+          "zh": "果然嫌鱼的货有腥味，不想买啊。",
+          "source_token_offset": 376,
+          "source_tokens_sha256": "41729ceb62985295488c63f789472b4f4f6fe44deab7bba3c08cfbb234bc5802",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s88",
+          "source_segment_index": 88,
+          "zh": "改过自新也照样收钱，咕噜。",
+          "source_token_offset": 402,
+          "source_tokens_sha256": "fc51b7c713b3a5009bae7444688c27dac852a0ef2a388383cf7d4fa114c3dfdb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s91",
+          "source_segment_index": 91,
+          "zh": "改过自新也照样收钱，咕噜。",
+          "source_token_offset": 424,
+          "source_tokens_sha256": "fc51b7c713b3a5009bae7444688c27dac852a0ef2a388383cf7d4fa114c3dfdb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s94",
+          "source_segment_index": 94,
+          "zh": "改过自新也照样收钱，咕噜。",
+          "source_token_offset": 446,
+          "source_tokens_sha256": "fc51b7c713b3a5009bae7444688c27dac852a0ef2a388383cf7d4fa114c3dfdb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s104",
+          "source_segment_index": 104,
+          "zh": "瀑布参道：鱼人大人",
+          "source_token_offset": 484,
+          "source_tokens_sha256": "fe4ca1a046733d069daff176705c6ae49aefb71509fff2d82018c18b98c46410",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s106",
+          "source_segment_index": 106,
+          "zh": "法螺",
+          "source_token_offset": 493,
+          "source_tokens_sha256": "a6014967ad85ad916968d3e05ce3ccdd43eb7fe567852694bc40cf52d4acd9f8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s108",
+          "source_segment_index": 108,
+          "zh": ",",
+          "source_token_offset": 497,
+          "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s110",
+          "source_segment_index": 110,
+          "zh": "公会",
+          "source_token_offset": 499,
+          "source_tokens_sha256": "b9e4a2c92cb3e0c7bcbe5695ec0844abe734c08e7b140189abfbc3fe3ca89ced",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s112",
+          "source_segment_index": 112,
+          "zh": ",",
+          "source_token_offset": 505,
+          "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s114",
+          "source_segment_index": 114,
+          "zh": "蔷薇与山茶",
+          "source_token_offset": 507,
+          "source_tokens_sha256": "9f29911760e014b44c12ea0e76e3a5b8c8c6026fb2558ad02a0ee3a039e88c36",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0133::s116",
+          "source_segment_index": 116,
+          "zh": "我改过自新啦，咕噜。",
+          "source_token_offset": 512,
+          "source_tokens_sha256": "9ce6f2e1bd06816d920ecdd099d313b7639152874b676f9bdc1e99151ad2a8b5",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0134",
+      "block_index": 134,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s1",
+          "source_segment_index": 1,
+          "zh": "被选中之人啊，",
+          "source_token_offset": 3,
+          "source_tokens_sha256": "aeb78255cb7ffc024d60d84ab373ba28e5690d9500df0169697d152721254ba7",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s3",
+          "source_segment_index": 3,
+          "zh": "欢迎汝。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "ab9d279b00a374c86b51f1dbf4e0fc68d51cd8f6c584ef2e7b1fc34a7849ad6b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s5",
+          "source_segment_index": 5,
+          "zh": "我乃四贤者之一，",
+          "source_token_offset": 17,
+          "source_tokens_sha256": "262d26746a8a16b75481966a416be5aea1f22af97f85e400f9f8e99b8e200226",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s7",
+          "source_segment_index": 7,
+          "zh": "吉尔特利尤。",
+          "source_token_offset": 30,
+          "source_tokens_sha256": "a0f88deb8dcfefe0dffeac1764e7eb0633903c3befd6a294f5906cb49ec4b833",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s9",
+          "source_segment_index": 9,
+          "zh": "掌管知识的贤者。",
+          "source_token_offset": 38,
+          "source_tokens_sha256": "a19ac2d502989d47c74ec156881489cdaf2e5485181593a113be01d648499a18",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s11",
+          "source_segment_index": 11,
+          "zh": "母亲失败了一次又一次。",
+          "source_token_offset": 49,
+          "source_tokens_sha256": "5d5970dfd52b99be75fed2982b4d004a617f4c73c37d790fe30d179ec8dfca8b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s13",
+          "source_segment_index": 13,
+          "zh": "第１子未曾察觉母亲的愿望，",
+          "source_token_offset": 60,
+          "source_tokens_sha256": "38c9c2149e297b7a67757916fe0afb31b03c204796a12a9f715a2aeffe383410",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s15",
+          "source_segment_index": 15,
+          "zh": "一心只想得到母亲的力量。",
+          "source_token_offset": 76,
+          "source_tokens_sha256": "0bd0f5b05e13af63f59c5812fbb363dc23f5732ba4c7e74ed897a4bc0a83aa82",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s17",
+          "source_segment_index": 17,
+          "zh": "第２子巨人族毁于内乱。",
+          "source_token_offset": 87,
+          "source_tokens_sha256": "7f8960e113b91fea77337d457af337784bf894679e2cc0ca1675205fd73ccb8e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s19",
+          "source_segment_index": 19,
+          "zh": "第３子只执着于自身的力量。",
+          "source_token_offset": 107,
+          "source_tokens_sha256": "097f2c948f119ae8116d31b0dd4c9a2d9cb1c5a95a6e4215af142d70c685476f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s21",
+          "source_segment_index": 21,
+          "zh": "第４子是有着鱼之形态的人类。",
+          "source_token_offset": 125,
+          "source_tokens_sha256": "a9c5137db27da302030cce914a5b129196136c9c3f8f8bef9b56c250ac32e5e8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s23",
+          "source_segment_index": 23,
+          "zh": "第５子探寻生死的秘密，",
+          "source_token_offset": 143,
+          "source_tokens_sha256": "af5e6b93b6b1c6df05084f84ea2bcffa677628962d077bed3881fd58f56f18b0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s25",
+          "source_segment_index": 25,
+          "zh": "却又成了渴求力量的种族。",
+          "source_token_offset": 158,
+          "source_tokens_sha256": "52b0f96c4f8855a1dfe56c33cd10b3dbf565741088e9af4284d3558d9041548f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s27",
+          "source_segment_index": 27,
+          "zh": "第６子是第５子造出的泥偶。",
+          "source_token_offset": 173,
+          "source_tokens_sha256": "f588ee710bb106cd87d548d29018d8b531918949b05c87c9599d3eac47672179",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s29",
+          "source_segment_index": 29,
+          "zh": "他们数量过多，引发了连地表也卷入其中的",
+          "source_token_offset": 191,
+          "source_tokens_sha256": "8d1d5fa44399ae93de813c02a18372b7c8a06f881d38a382350c0a467720f75c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s31",
+          "source_segment_index": 31,
+          "zh": "争乱。",
+          "source_token_offset": 209,
+          "source_tokens_sha256": "3fc5c6fff97afcd5edc0ef494c6775e66d05578c3eb8281ed24a1ee5967b2e31",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s33",
+          "source_segment_index": 33,
+          "zh": "时光流逝，",
+          "source_token_offset": 218,
+          "source_tokens_sha256": "74d5c08af889610b00c8c544ab6d3372b4c2bef1f2f0952c110659ba6581913b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s35",
+          "source_segment_index": 35,
+          "zh": "我等第７子自土中诞生。",
+          "source_token_offset": 224,
+          "source_tokens_sha256": "2b6d3c157f24020bcd6ece311445b23c18200cb8fe5cb26e59a5028b12f140ba",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s37",
+          "source_segment_index": 37,
+          "zh": "我等遍知这座遗迹，",
+          "source_token_offset": 240,
+          "source_tokens_sha256": "1502ef0fc9002110d694d9e1bf46f6dbf43e208825128cfdf21de66e86786a18",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s39",
+          "source_segment_index": 39,
+          "zh": "终悟母亲的愿望无从实现。",
+          "source_token_offset": 252,
+          "source_tokens_sha256": "307e4b2f30428dd398710f0bda3da33a5196af61ff99804094c1e0119d3fc6af",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s41",
+          "source_segment_index": 41,
+          "zh": "于是，汝等第８子",
+          "source_token_offset": 269,
+          "source_tokens_sha256": "2b591a2718b3b5227e644cf3705bb7a79dae154aa5da8c390f45d02772139d25",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s43",
+          "source_segment_index": 43,
+          "zh": "没有被赋予关于母亲的记忆。",
+          "source_token_offset": 281,
+          "source_tokens_sha256": "263c1378a2377c217b17b26390a622b62adda1e919ce9c5a919cd5fb37fb3edd",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s45",
+          "source_segment_index": 45,
+          "zh": "我等相信，只有将母亲视作「遗迹」的人，",
+          "source_token_offset": 295,
+          "source_tokens_sha256": "49ddfd4073892df8327119e13619f0c228fdd303b445b166f8dcdfa66da9c4d0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s47",
+          "source_segment_index": 47,
+          "zh": "才有可能击败母亲。",
+          "source_token_offset": 312,
+          "source_tokens_sha256": "4a7c87e8c35aaad98b78ff1d1826a7907d11674bf496c313c5877377441f4b93",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s49",
+          "source_segment_index": 49,
+          "zh": "整座遗迹都是母亲的肉体。",
+          "source_token_offset": 325,
+          "source_tokens_sha256": "fb746d15128c626965eace9facb5f4a6b9b3d00ec0ffe533d0ecad92d2b34b58",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s51",
+          "source_segment_index": 51,
+          "zh": "想将其击倒，根本不可能。",
+          "source_token_offset": 338,
+          "source_tokens_sha256": "3667090def80f71f88973296a24017b41754411f22bf780bd8702e71e5aa3f0b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s53",
+          "source_segment_index": 53,
+          "zh": "须击败母亲的灵魂。",
+          "source_token_offset": 350,
+          "source_tokens_sha256": "7a78fab48b9dfc03fb12d67799a77ad45bb596c46ebea8fb8548c6d4450959d0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s55",
+          "source_segment_index": 55,
+          "zh": "唤出母亲的灵魂，令其在此世间成形。",
+          "source_token_offset": 360,
+          "source_tokens_sha256": "5825c0d718a616e71d0b7b895c5bd3d11a48b651e8a5573e959bd5043f58c8c5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s57",
+          "source_segment_index": 57,
+          "zh": "这套秘术早已准备就绪。",
+          "source_token_offset": 379,
+          "source_tokens_sha256": "8ae34f4d6014caf2db117b6c9f9a713b02a0a5f5249df7000fc12b86163b4f42",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s59",
+          "source_segment_index": 59,
+          "zh": "我等身为第７子，",
+          "source_token_offset": 395,
+          "source_tokens_sha256": "b91af984d1dbb23296751c09eae9c776c33ed33ab90a531ebfbed5e848ff279f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s61",
+          "source_segment_index": 61,
+          "zh": "参悟出了这套秘术……",
+          "source_token_offset": 406,
+          "source_tokens_sha256": "45e0881431953c74896dc7f13d722d0a5a4723f0b7084c1bf1f02d3b52561ce9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s63",
+          "source_segment_index": 63,
+          "zh": "我将此术传授于汝。",
+          "source_token_offset": 423,
+          "source_tokens_sha256": "fd20e62c11308f9ab61c55731d6176e62d5b9b8cedd8cce211efdae32ff42fcf",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s65",
+          "source_segment_index": 65,
+          "zh": "向母亲体内打入８枚",
+          "source_token_offset": 434,
+          "source_tokens_sha256": "433a0758bed2ffd21bd72c683f7718f1c864ea619061d2e20dc6b6e72e492db0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s67",
+          "source_segment_index": 67,
+          "zh": "楔子",
+          "source_token_offset": 445,
+          "source_tokens_sha256": "78e7bad0aea97181a3ab89082fed83daefc4c04a75a4bdd8f1835c36f4ff126d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s69",
+          "source_segment_index": 69,
+          "zh": "。",
+          "source_token_offset": 452,
+          "source_tokens_sha256": "af2babbd615ab29e0225598f722faa31018f3ad101fa069bb65644d8591461ac",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s72",
+          "source_segment_index": 72,
+          "zh": "节德柱",
+          "source_token_offset": 461,
+          "source_tokens_sha256": "39eac5909a297a9342f3f6c584801d37b7047812629cf538f254aacc5d497021",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s74",
+          "source_segment_index": 74,
+          "zh": "与",
+          "source_token_offset": 469,
+          "source_tokens_sha256": "7f2dce06acdeea2633ff324e5cb502ee2a42d979278d8926a2e4e5728592fd87",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s76",
+          "source_segment_index": 76,
+          "zh": "勾玉",
+          "source_token_offset": 474,
+          "source_tokens_sha256": "de3a2fb9d73142a271c36a333e8c1c04563ee552ebfd4c917aa7d28c5bdee618",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s78",
+          "source_segment_index": 78,
+          "zh": "在手，",
+          "source_token_offset": 481,
+          "source_tokens_sha256": "1915d72b74585fbeaf8c07da8cfee3aa2e3c5926b14f1fcb02908a1ce36dcac8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s81",
+          "source_segment_index": 81,
+          "zh": "咒文",
+          "source_token_offset": 491,
+          "source_tokens_sha256": "20d07e2db4f3a0f8fdb2d8b08def1129f05825c22d7ea1b2212fbf449c0cbc89",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s83",
+          "source_segment_index": 83,
+          "zh": "须吟诵。",
+          "source_token_offset": 499,
+          "source_tokens_sha256": "a62a767df12ff94e059457105ad36c6a4747acb22a54d0f4544136ade7b880ee",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s85",
+          "source_segment_index": 85,
+          "zh": "咒文已刻于石碑。",
+          "source_token_offset": 505,
+          "source_tokens_sha256": "4b65213d5c5328d9b7b4f69fb83f68b160b99a5f147354536dcb0b89e0fe480c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s87",
+          "source_segment_index": 87,
+          "zh": "楔子须从里侧打入。",
+          "source_token_offset": 518,
+          "source_tokens_sha256": "91c45498f3bb5c464afe8029c699b30e00574509bc13c951f78bc98fa7376f1c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s90",
+          "source_segment_index": 90,
+          "zh": "我的话，",
+          "source_token_offset": 534,
+          "source_tokens_sha256": "dec279edb5b196bb20b0d0ad769159fd7d19faa23486f4cc1816549302a3209e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s92",
+          "source_segment_index": 92,
+          "zh": "还要再听一遍吗？",
+          "source_token_offset": 539,
+          "source_tokens_sha256": "cb6f0d6a7cf18840c755b108d5cb82c36bcb3944ad06384feff713ef00e14d1b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s96",
+          "source_segment_index": 96,
+          "zh": "请再说一遍。",
+          "source_token_offset": 552,
+          "source_tokens_sha256": "b826fb17e8fc702db115b846860e92dd87dc42edb51dea66129a52b5eabc7388",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s98",
+          "source_segment_index": 98,
+          "zh": "不用了。",
+          "source_token_offset": 558,
+          "source_tokens_sha256": "83416ef07096300ced13a2684c0cd50953184be6764e2163244ff56d69e094e9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s100",
+          "source_segment_index": 100,
+          "zh": "拜托了，",
+          "source_token_offset": 564,
+          "source_tokens_sha256": "e0d31a0db40f5a81f6d2d4d59a99bb0815421a8cc97ed11c4b13be7b0566b350",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s102",
+          "source_segment_index": 102,
+          "zh": "被选中之人啊。",
+          "source_token_offset": 569,
+          "source_tokens_sha256": "5b72f892f9cd746e1ced1020731802a6267d00a7a643c61f20ce5c114101e571",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s104",
+          "source_segment_index": 104,
+          "zh": "愿我等之愿得偿，",
+          "source_token_offset": 577,
+          "source_tokens_sha256": "0ea014d299bc7c2b700299fe94517236bb3734d750530ff1e33b5a2cd7f2fa0c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0134::s106",
+          "source_segment_index": 106,
+          "zh": "愿我等母亲得到解放……",
+          "source_token_offset": 585,
+          "source_tokens_sha256": "58b54a930a840830cc9c3e519c65f0febba0b24982312fe5ed055ec9cd867292",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0135",
+      "block_index": 135,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0135::s1",
+          "source_segment_index": 1,
+          "zh": "女神伊西斯",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "1b6090ec12cdca590c0576d95c330117fc464de31f85ad3b5da188d74925db24",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0135::s3",
+          "source_segment_index": 3,
+          "zh": "就在太阳神殿。",
+          "source_token_offset": 13,
+          "source_tokens_sha256": "2637068f1b61860af19ad2072b50155bbd8c14943f395988510a728bdb87af71",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0135::s5",
+          "source_segment_index": 5,
+          "zh": "她生下荷鲁斯，是彰显母性的神。",
+          "source_token_offset": 22,
+          "source_tokens_sha256": "66e5cf598baea94ba9c62ff2e0f71c269e10ccfe8a9506f604aa959f8dd806f0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0135::s7",
+          "source_segment_index": 7,
+          "zh": "因此，她在比任何神都高的地方",
+          "source_token_offset": 40,
+          "source_tokens_sha256": "7c6f4c33177006bb5b549a1f600be961b424016129380b81b17373016d804200",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0135::s9",
+          "source_segment_index": 9,
+          "zh": "静静等待。",
+          "source_token_offset": 56,
+          "source_tokens_sha256": "1408d17ecdd4aebcd208644c0dafcc64907643e314d827b6c44cdfe3ef1b8990",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0136",
+      "block_index": 136,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0136::s0",
+          "source_segment_index": 0,
+          "zh": "此地便是",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a7b25e3f217c38e69aedb342fff239b1310f59c74b058f7f9194749a91f3c630",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0136::s2",
+          "source_segment_index": 2,
+          "zh": "空之水源",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "5373224c1f82cb16f70516476e4c4964e45fa3d723853d7884a4dce1a546496f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0136::s5",
+          "source_segment_index": 5,
+          "zh": "由巨人建造的地方。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "e76dea93a355c906eca070a4b7ac74fe459238687c47e4e6874d57c88b37b1a1",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0137",
+      "block_index": 137,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0137::s0",
+          "source_segment_index": 0,
+          "zh": "这就是米凯拉修建的水道……",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "3f07132d43884ca82031632ec4157e1dd8cf916f26ade031b826f731784bf8c0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0137::s2",
+          "source_segment_index": 2,
+          "zh": "不过如今似乎已经停止运作了。",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "95e80bf0e428d35a25602d5bba7c25f4543c7508659cb717f0bc1a2aabb295d1",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0138",
+      "block_index": 138,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0138::s0",
+          "source_segment_index": 0,
+          "zh": "太阳之上便是",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4fbda85eea9dc7366e07af9bd68c62004f531d014626bdcd2832770fef19ba46",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0138::s2",
+          "source_segment_index": 2,
+          "zh": "空之水源",
+          "source_token_offset": 10,
+          "source_tokens_sha256": "5373224c1f82cb16f70516476e4c4964e45fa3d723853d7884a4dce1a546496f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0138::s4",
+          "source_segment_index": 4,
+          "zh": "。",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0139",
+      "block_index": 139,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s0",
+          "source_segment_index": 0,
+          "zh": "治愈疲惫的身体吧。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "319946dfc99ab3fe7e30648b1b64c65090e0d7ab16b93c4bece59eff2ec510a4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s3",
+          "source_segment_index": 3,
+          "zh": "妖精",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "ab36583d46fd000bc210ec6ce7925ed474c34e07985e722ac56e6b9f15a22fb3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s5",
+          "source_segment_index": 5,
+          "zh": "会温柔地为汝恢复生命。",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "a3c7e429eac9999f54c2fb0748faedbf3ff0c9ba965483a6a5a1fb8965a39bd1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s7",
+          "source_segment_index": 7,
+          "zh": "妖精会助汝战斗。",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "249c9629755b24d13aefe2d7336df677eb03757b6eb898fbb0106fd2e10a39fb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s9",
+          "source_segment_index": 9,
+          "zh": "妖精会带来财宝。",
+          "source_token_offset": 47,
+          "source_tokens_sha256": "153c4d3c7e2e90eb6829ff34e8d591aeac027261bdcb1b5fd812fe52aa78c984",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0139::s11",
+          "source_segment_index": 11,
+          "zh": "妖精会揭开秘密。",
+          "source_token_offset": 58,
+          "source_tokens_sha256": "f7a576b8092759898f6f8da29f1f75ee4ba4aa69497d7935e3859c2c38766365",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0140",
+      "block_index": 140,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0140::s0",
+          "source_segment_index": 0,
+          "zh": "开启水门。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "9a944b2a436f09862c3471bcc0076f2b5878345d8559f646063f404454e1966d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0140::s2",
+          "source_segment_index": 2,
+          "zh": "水将再次流动。",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "6b6d4f317385473a16ed6c8965698950249791cfebc94ecca767aca12bef277b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0140::s5",
+          "source_segment_index": 5,
+          "zh": "俄安内",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "c523af3903b7cf42c402c5daca6e062549c4d9e7b03a367921c8a4da97d6767b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0140::s7",
+          "source_segment_index": 7,
+          "zh": "所掌管的水门，开启吧。",
+          "source_token_offset": 29,
+          "source_tokens_sha256": "dece9e902fadd2592b2d085be0a3a20db8a56064593ea3160fa9dfd8c0f95f4c",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0141",
+      "block_index": 141,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0141::s0",
+          "source_segment_index": 0,
+          "zh": "会被瀑布冲走的。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "19e2c4ae5ad906888c2a361d913e550344852db3e6ef5b0160c5a16e7f6316d6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0141::s2",
+          "source_segment_index": 2,
+          "zh": "若有个像",
+          "source_token_offset": 13,
+          "source_tokens_sha256": "bdf186820728850fef001d7fed936f4def91fd46da42d2ca13051e5bf2541b11",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0141::s4",
+          "source_segment_index": 4,
+          "zh": "头盔",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "bca0bfc3424a47f4146f054ade87691cbfc9df9dcc106b851e7c1dd8109a7b78",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0141::s6",
+          "source_segment_index": 6,
+          "zh": "一样的东西，",
+          "source_token_offset": 29,
+          "source_tokens_sha256": "f3bb78d54ab875cba9523026d904ae680feedd242c05f0cccea074c170118a81",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0141::s8",
+          "source_segment_index": 8,
+          "zh": "或许就能撑过去了……",
+          "source_token_offset": 40,
+          "source_tokens_sha256": "cdd8dc9ed5a010528e6615d3cc6bf3524d6a6d3d1c956bd960cea78a8c920094",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0142",
+      "block_index": 142,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0142::s0",
+          "source_segment_index": 0,
+          "zh": "鱼形的祭司，",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "e99c5f3e2b2374b378f15249736f8e562394aac3fa0d973d49859f86cbf54fba",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0142::s3",
+          "source_segment_index": 3,
+          "zh": "俄安内",
+          "source_token_offset": 13,
+          "source_tokens_sha256": "c523af3903b7cf42c402c5daca6e062549c4d9e7b03a367921c8a4da97d6767b",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0142::s5",
+          "source_segment_index": 5,
+          "zh": "。",
+          "source_token_offset": 22,
+          "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0142::s7",
+          "source_segment_index": 7,
+          "zh": "兴盛于此，",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "8be734a68f8df1c83d8c7268b0b14267c1a6f2c7592c8d7891bbdcfc4cc510c8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0142::s9",
+          "source_segment_index": 9,
+          "zh": "闭锁水门。",
+          "source_token_offset": 32,
+          "source_tokens_sha256": "a01461f8027606f5892d831b4488567fc0f950500906cd6ce75a43f4b9bbc036",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0143",
+      "block_index": 143,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0143::s0",
+          "source_segment_index": 0,
+          "zh": "乘船出发。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "c9d867c3f33da4fa3ca2313275ec953938e6e6d6a90e034398b6fd29dfd363fe",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0143::s3",
+          "source_segment_index": 3,
+          "zh": "巴哈姆特",
+          "source_token_offset": 10,
+          "source_tokens_sha256": "405410e948e479eac0dccb930a86501568b100500caf249689597b6b4ce97db9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0143::s5",
+          "source_segment_index": 5,
+          "zh": "沉眠之处，就在那里。",
+          "source_token_offset": 19,
+          "source_tokens_sha256": "e25f40fc688d33fa4f27aa3b81192ca238de3c6dd289319349c5e473b1c303c5",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0143::s7",
+          "source_segment_index": 7,
+          "zh": "赤红的光辉由鱼之主持有。",
+          "source_token_offset": 32,
+          "source_tokens_sha256": "f1ce285412aa46aa516996799483920fd055f5a34db317dc27adcaa143ad58ea",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0144",
+      "block_index": 144,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0144::s0",
+          "source_segment_index": 0,
+          "zh": "集齐４枚印。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "009c3075456d1764b57dcc9800fba6d1ee9a54967279f4f099fa6339c9db7e4e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0144::s2",
+          "source_segment_index": 2,
+          "zh": "道路将进一步敞开。",
+          "source_token_offset": 10,
+          "source_tokens_sha256": "d2842b8d13fb6bc5904ee24a8d8b575f62d798d40d83cd823f03dd5578fb1c6f",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0145",
+      "block_index": 145,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0145::s0",
+          "source_segment_index": 0,
+          "zh": "驱动高塔所用的水。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "b0809c8d507da3d329e92b6eebed058c99929977e002e9cf45b08d0f20d34504",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0145::s2",
+          "source_segment_index": 2,
+          "zh": "化作力量，从这里流注而出。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "66e45620824304f5fe67fa7bcd49d2085d23e802e5249454c966433c89085c56",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0146",
+      "block_index": 146,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0146::s0",
+          "source_segment_index": 0,
+          "zh": "母亲的愤怒使大地沉没。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "f10d4dd496f77de3f7303a6a79e4af13ef58306cf7aa0af02a96fd9d5157a3f1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0146::s2",
+          "source_segment_index": 2,
+          "zh": "人们一直在海底忍耐，",
+          "source_token_offset": 13,
+          "source_tokens_sha256": "008c81e7509f658e33f1c182dfb78b82e370d458f6cfdeaf99f43e07f5f5d376",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0146::s4",
+          "source_segment_index": 4,
+          "zh": "直到母亲的愤怒平息。",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "5323d9c25fbb44b8e4e7ab5abc36c84b8c7448b18ff199a398af4729f2336868",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0146::s6",
+          "source_segment_index": 6,
+          "zh": "他们继续在海底忍耐，",
+          "source_token_offset": 39,
+          "source_tokens_sha256": "d24e576cd9ef6aaf6a1732cb2fc53de646bfeb97353d926493988b3f417d63f4",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0146::s8",
+          "source_segment_index": 8,
+          "zh": "直到能登上地表的新孩子诞生。",
+          "source_token_offset": 58,
+          "source_tokens_sha256": "61c550e6c7aea0ee4eab494d85652ad78116aa282f5be09fc07193a185ddccde",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0147",
+      "block_index": 147,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0147::s1",
+          "source_segment_index": 1,
+          "zh": "伊甸",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "d1b8ef576416d610ae900c05297da6450641aed5c16cd3162b0e53133a478a49",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0147::s3",
+          "source_segment_index": 3,
+          "zh": "的追寻者啊。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "d185e8ed1483c891529737cc3037271f1de1c67b20590c7c29c0798e4e986b9f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0147::s5",
+          "source_segment_index": 5,
+          "zh": "打开４个箱子。",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "79b5d98bab89a4fc329a59905a26fef3eca20a12c6b39422ed91e9dfebf05f01",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0147::s7",
+          "source_segment_index": 7,
+          "zh": "寻找４座台座。",
+          "source_token_offset": 32,
+          "source_tokens_sha256": "3189dc9bbcc8da74b54eb12f6d5593d4b15feea47217285895f1e83a63ffc1c8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0147::s9",
+          "source_segment_index": 9,
+          "zh": "在月光遍洒之地，那居于高位的面容之前。",
+          "source_token_offset": 45,
+          "source_tokens_sha256": "6ee075aedef1d4d770d23fcd43188a31d117b7f94c7a6d3eb7b362cd312f3b1a",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0148",
+      "block_index": 148,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s0",
+          "source_segment_index": 0,
+          "zh": "此地沉眠着２件武器。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "6f7f4773ec9b8e24f406bd1cc148b06fbc3dce9f3e0ee64669ae1005a8743ecb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s2",
+          "source_segment_index": 2,
+          "zh": "一件在",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "b8d20b9e75f65f48a514ab3ac0f2abd60d2f5ecc5285496ffe102f90dbbb53de",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s4",
+          "source_segment_index": 4,
+          "zh": "帕祖祖",
+          "source_token_offset": 23,
+          "source_tokens_sha256": "ada178d47868713549352f60273da17cf0866d71ba0e2dd84f6197c3e3b56fff",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s6",
+          "source_segment_index": 6,
+          "zh": "守护之地的更深处。",
+          "source_token_offset": 30,
+          "source_tokens_sha256": "727a88f4ad39b8a3815add82ea03f63ebc01273a8c3259e1d8e411f71ca25bbb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s8",
+          "source_segment_index": 8,
+          "zh": "另一件在从炎之地穴延伸而去的",
+          "source_token_offset": 37,
+          "source_tokens_sha256": "b803ba855bc210be002bdfa1bd0df4cadcd79047f62b57a87f9e4dff85aad6f3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s11",
+          "source_segment_index": 11,
+          "zh": "光之密室",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "9e21ea5dbc1f48fa24f105c1b6f8e7b7943eeae992bca7b10d9fee31251f8ccb",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0148::s13",
+          "source_segment_index": 13,
+          "zh": "之中。",
+          "source_token_offset": 64,
+          "source_tokens_sha256": "f11cfe406c506d16cb803b46442e412cc737cb48134804d791cb9f1fe898d928",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0149",
+      "block_index": 149,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0149::s0",
+          "source_segment_index": 0,
+          "zh": "此地便是",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a7b25e3f217c38e69aedb342fff239b1310f59c74b058f7f9194749a91f3c630",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0149::s2",
+          "source_segment_index": 2,
+          "zh": "灼热洞窟",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "2996d9d3db909dba2246b318d2eeff8bfcea8472978e3b39ba6bad9feffdbf77",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0149::s5",
+          "source_segment_index": 5,
+          "zh": "曾经的力量之源。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "3a02b639cacd23b8b343f69bfe2a1308b66212abd19c7da3cad824d9eafa9aa8",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0150",
+      "block_index": 150,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0150::s0",
+          "source_segment_index": 0,
+          "zh": "当蛇怒不可遏之时，",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "8bcfc585a859ff8289edc309e60bd04fe84e7e718984d6e9af8201bbbd3d9d23",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0150::s2",
+          "source_segment_index": 2,
+          "zh": "它便会开启。",
+          "source_token_offset": 10,
+          "source_tokens_sha256": "cc059f38ecf65ef6e520bb5368d06f30dc5f3351433bafcf905e9355a1164db2",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0151",
+      "block_index": 151,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0151::s0",
+          "source_segment_index": 0,
+          "zh": "惹恼了２条蛇。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "2c0ebc2084d06e68f40983697ba586fd6fda18bcebd4acdce45f570582fa4e95",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0151::s2",
+          "source_segment_index": 2,
+          "zh": "我不就是想凑近瞧瞧嘛。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "99b35c8905ce60008382f635dd02a8f96aa136078c006da9c51b6d6a8e7a3a32",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0152",
+      "block_index": 152,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0152::s0",
+          "source_segment_index": 0,
+          "zh": "我的电脑被热坏了。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4d548d161d8575ca4c6d925c91add9cd2092f03bf8a7b29671a02ed3b39f82ff",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0153",
+      "block_index": 153,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s1",
+          "source_segment_index": 1,
+          "zh": "吟诵吧。",
+          "source_token_offset": 2,
+          "source_tokens_sha256": "0eb85e8a48fafa47902eee4948ca2661e02ddd317010e26b6f05982af8bfef8d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s3",
+          "source_segment_index": 3,
+          "zh": "那潜伏于大地的丑恶之魔的名字。",
+          "source_token_offset": 7,
+          "source_tokens_sha256": "bd06570db9d82d256306cd5adf53ddc92f5aae6c4dee86b757e28e2a2a524d35",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s5",
+          "source_segment_index": 5,
+          "zh": "那眼睑垂至地面的",
+          "source_token_offset": 21,
+          "source_tokens_sha256": "97998f78a5956019fe7bb30cd17bf527ea16ce9afc51bd649e0546495832592d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s7",
+          "source_segment_index": 7,
+          "zh": "丑恶之魔的名字。",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "7a52fe8cb495efffbe364ff5f9f764544426946c9eacd2656a0259f69c2d87ac",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s10",
+          "source_segment_index": 10,
+          "zh": "ＶＩＹ",
+          "source_token_offset": 47,
+          "source_tokens_sha256": "b025e34e996614c6d0825d00e52631443dba87a01f851709fc9710b1ade2bdca",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0153::s12",
+          "source_segment_index": 12,
+          "zh": "。",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "8c0552cb287623ee097a08e8a64a341531351e112787ef2e47d918c571c2b60b",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0154",
+      "block_index": 154,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s0",
+          "source_segment_index": 0,
+          "zh": "地狱的守门者，",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "4eab666c659d55e6e5da01769b1400c132254fe34b4d5d50188de8a326729a7c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s3",
+          "source_segment_index": 3,
+          "zh": "牛头与马面",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "3061dc7edff6c406aadff76101827cb87b942b85e1b2368cb956c402fa7afab1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s5",
+          "source_segment_index": 5,
+          "zh": "。",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s7",
+          "source_segment_index": 7,
+          "zh": "在黑暗尽头等候。",
+          "source_token_offset": 22,
+          "source_tokens_sha256": "61afa033ea53ab7f2a1ad7e9eeec12461dd0039748c4c45befe45159f1419b49",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s9",
+          "source_segment_index": 9,
+          "zh": "再往前，便是最后的金字塔。",
+          "source_token_offset": 36,
+          "source_tokens_sha256": "677b00f726b1014adc8b919142461922e7b344f4aca3a8ba7dc3be17949a789d",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s12",
+          "source_segment_index": 12,
+          "zh": "女娲",
+          "source_token_offset": 54,
+          "source_tokens_sha256": "baa9c7a5285788c2d83f628344dac46d97a1fb7d41a74541758ba59223090bef",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0154::s14",
+          "source_segment_index": 14,
+          "zh": "沉眠的金字塔。",
+          "source_token_offset": 61,
+          "source_tokens_sha256": "6faa533499b15c5c493272fb8d7a25f821fddd70cd8320bd8bf125a67bcebe3a",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0155",
+      "block_index": 155,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0155::s0",
+          "source_segment_index": 0,
+          "zh": "攀在墙上。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "9e0d8770c5dcee21bdb22b48775fd4437eb2937bd358be9a280e7b414eaf2b23",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0155::s2",
+          "source_segment_index": 2,
+          "zh": "待火焰暂歇，",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "60f79cc874ab8ac5a919f2f3d43e3279106be9a85278f237d1ffc1852d357783",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0155::s4",
+          "source_segment_index": 4,
+          "zh": "蹬墙而起，",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "6a862b9d5e20c8634b1b53adbae24b9bf5449c160a6d1666860da1a0d2ead835",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0155::s6",
+          "source_segment_index": 6,
+          "zh": "继续前进。",
+          "source_token_offset": 26,
+          "source_tokens_sha256": "21ee0ad7d74005cb7c04beed81b2aa2fc87b9367af8e20f0aab92ff8f1d65bec",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0156",
+      "block_index": 156,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0156::s0",
+          "source_segment_index": 0,
+          "zh": "置于右侧便向右，",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "78e51561b6f83c5975c95727fee48b1aecafb2e905cfb26ac255606454220c68",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0156::s2",
+          "source_segment_index": 2,
+          "zh": "置于左侧便向左。",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "8dd0032763bbdbe4d03997650f691879a2f5003b5698740080d30106a1325f76",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0156::s4",
+          "source_segment_index": 4,
+          "zh": "一旦弄错，便再也无法得手。",
+          "source_token_offset": 18,
+          "source_tokens_sha256": "b9c68015a259d76cac15baf3c291a0cb2795012c9366c837e21620be021af23e",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0157",
+      "block_index": 157,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s0",
+          "source_segment_index": 0,
+          "zh": "４位",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "dca0cf3c25acfe6fd441165fb168f79f3e3137c6efad2fe2d01c707db360b5b0",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s3",
+          "source_segment_index": 3,
+          "zh": "者将其",
+          "source_token_offset": 5,
+          "source_tokens_sha256": "40ad721dba08700446e762951f533de581b6da0aa98a66b81a164e4138671005",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s6",
+          "source_segment_index": 6,
+          "zh": "为石",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "61dd0750f827db38902a424a2d5ba6233d51591ecf0a9f6deef07df76663c0c8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s9",
+          "source_segment_index": 9,
+          "zh": "了。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "d52a38bf90fa88f335a41f38591b15164defacb9b780ccb217d0aabd33fd6c62",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s11",
+          "source_segment_index": 11,
+          "zh": "始终",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "bd8b5b73a26f85237e107d91723755df50393ed30b6a08debb103b3201a47702",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s18",
+          "source_segment_index": 18,
+          "zh": "守望",
+          "source_token_offset": 28,
+          "source_tokens_sha256": "27e805a7d5f2e8804950cd94b6b21c5843c1bbe02b72ec2aa088a2dfb85526b8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0157::s23",
+          "source_segment_index": 23,
+          "zh": "。",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "af5a955d536ad990d6331506e430ce443f5e3a92a4f4551ac805dd764f9ca869",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0158",
+      "block_index": 158,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s0",
+          "source_segment_index": 0,
+          "zh": "此地由巨人建造。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "a585011e1b8f86d7e364cb3608b158162d24ff5f99d9c62f17b88b63da6be4c1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s2",
+          "source_segment_index": 2,
+          "zh": "为用热水使高塔升空而建。",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "93507deadffc840a02baa38b6888409c87aaf98dc12a5e4f95d2d3169c6a7ade",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s4",
+          "source_segment_index": 4,
+          "zh": "然而高塔未能飞起。",
+          "source_token_offset": 34,
+          "source_tokens_sha256": "74ee2d83700454aaf162f4dfe556628ae0df042c2af939eae110b656dbc43549",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s6",
+          "source_segment_index": 6,
+          "zh": "于是此地遭到遗弃。",
+          "source_token_offset": 44,
+          "source_tokens_sha256": "ccf66d69501682c91769cea6b579060f520a00c7f4a27bb5e4c35bc5190e183c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s8",
+          "source_segment_index": 8,
+          "zh": "因此，",
+          "source_token_offset": 58,
+          "source_tokens_sha256": "06f91c8a504ec2d00368d3940ce6f625448de346cc12c8087b921c68b9d29925",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0158::s10",
+          "source_segment_index": 10,
+          "zh": "此地没有天罚。",
+          "source_token_offset": 65,
+          "source_tokens_sha256": "67eed9290ea6e24f1babacef532507080a98465bbc2d93eb6febe1283f1eac3a",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0159",
+      "block_index": 159,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0159::s0",
+          "source_segment_index": 0,
+          "zh": "此地所见，并非全部。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "54a223054929eeedc95649e49be2f9d4c398fbf69fbe97bb41b0e51081649412",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0159::s2",
+          "source_segment_index": 2,
+          "zh": "这里是枢纽所在。",
+          "source_token_offset": 16,
+          "source_tokens_sha256": "60d0d141d558df8f6f0882845613eae23d10faa292a3c33e1df4f110313e3f34",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0159::s4",
+          "source_segment_index": 4,
+          "zh": "循另一条路，再次来到此地。",
+          "source_token_offset": 27,
+          "source_tokens_sha256": "11f322646a939c4cbf39cc718a0cce1b6a836a4f6deb5619f470c1b2529637d3",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0160",
+      "block_index": 160,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0160::s0",
+          "source_segment_index": 0,
+          "zh": "冰制的斗篷能抵御一切高热。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "6eef484bf6bad181fde8b1c40e20f075d360c5ca50557cf28408028ee93d1c0e",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0161",
+      "block_index": 161,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0161::s0",
+          "source_segment_index": 0,
+          "zh": "来到此地之人啊。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "3ac5b8aae25932777005e90ad1d72bf7db526ad403b54d2e28e06ae5eeb2f95e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0161::s2",
+          "source_segment_index": 2,
+          "zh": "汝已为我等选中。",
+          "source_token_offset": 14,
+          "source_tokens_sha256": "e14b938dae89d2caa1d2c9972af99a5e207645d21e4ed04731c32d9c96fe114a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0161::s4",
+          "source_segment_index": 4,
+          "zh": "前来拜访我等。",
+          "source_token_offset": 25,
+          "source_tokens_sha256": "864f0c9133f74f821a8a580cc38185dddeb60e78de26d17ca4f8fcdd02a51ffd",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0161::s6",
+          "source_segment_index": 6,
+          "zh": "我等会回应汝吹奏的笛声。",
+          "source_token_offset": 37,
+          "source_tokens_sha256": "1770d1f0f135a2c271a57fd13b0c1e13b31a15350ec230e8b920cae49c4e1f91",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0162",
+      "block_index": 162,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0162::s0",
+          "source_segment_index": 0,
+          "zh": "此地最深处，是通向死亡的黑暗。",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "e06b5b993c63e3d12014ec9275662179fd79f0f9ba0224cc2f82724ccb168b59",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0163",
+      "block_index": 163,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0163::s1",
+          "source_segment_index": 1,
+          "zh": "伊甸",
+          "source_token_offset": 4,
+          "source_tokens_sha256": "d1b8ef576416d610ae900c05297da6450641aed5c16cd3162b0e53133a478a49",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0163::s3",
+          "source_segment_index": 3,
+          "zh": "的追寻者啊。",
+          "source_token_offset": 11,
+          "source_tokens_sha256": "d185e8ed1483c891529737cc3037271f1de1c67b20590c7c29c0798e4e986b9f",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0163::s5",
+          "source_segment_index": 5,
+          "zh": "打开４个箱子。",
+          "source_token_offset": 20,
+          "source_tokens_sha256": "79b5d98bab89a4fc329a59905a26fef3eca20a12c6b39422ed91e9dfebf05f01",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0163::s7",
+          "source_segment_index": 7,
+          "zh": "寻找４座台座。",
+          "source_token_offset": 32,
+          "source_tokens_sha256": "3189dc9bbcc8da74b54eb12f6d5593d4b15feea47217285895f1e83a63ffc1c8",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0163::s9",
+          "source_segment_index": 9,
+          "zh": "在月光遍洒之地，那巨大陷阱的根源处。",
+          "source_token_offset": 45,
+          "source_tokens_sha256": "ac65cd62c92d55b89ceac2a5991eae379ece398de5bbb7aa5dacac2bfd4f99da",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0164",
+      "block_index": 164,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s0",
+          "source_segment_index": 0,
+          "zh": "可恶……",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "bfe1821a4e37f55b84bea7f661230d442c098b0a3c492f6a665c5e719ffd18a6",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s2",
+          "source_segment_index": 2,
+          "zh": "到此为止了吗。",
+          "source_token_offset": 8,
+          "source_tokens_sha256": "1a111b642788b84846ab54279ccdad823ecab77098750376061c94c43791b675",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s4",
+          "source_segment_index": 4,
+          "zh": "可我买来的软件，谁也别想拿走。",
+          "source_token_offset": 15,
+          "source_tokens_sha256": "196351c3d94201d969409fdb59da55776586118d68ce5bc13dde11abf759de20",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s6",
+          "source_segment_index": 6,
+          "zh": "谁会想到我把它藏在这种地方呢。",
+          "source_token_offset": 39,
+          "source_tokens_sha256": "1b704d2f95488cd0f1b5a3d1e94aa18b7a2745790e9bd13539bb960fab6791a1",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s8",
+          "source_segment_index": 8,
+          "zh": "哇哈哈哈，",
+          "source_token_offset": 60,
+          "source_tokens_sha256": "db6d4603792508df622b94a2e80b4172a837f3fdf6f54d297e207f8f3db2be19",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0164::s10",
+          "source_segment_index": 10,
+          "zh": "呃。",
+          "source_token_offset": 69,
+          "source_tokens_sha256": "0d43957ac49a62e701e7d79cb650b1680974d82badb98649d97c6013a841b612",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0165",
+      "block_index": 165,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s0",
+          "source_segment_index": 0,
+          "zh": "沉下去了、沉下去了！",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "3151259345e0f8b1842fd24ea60260299b7fb98021111c6e2177bcd7d325c88a",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s2",
+          "source_segment_index": 2,
+          "zh": "会沉进熔岩里烧起来啊！",
+          "source_token_offset": 9,
+          "source_tokens_sha256": "d76a7dc0eb40d1af6a10182844c81043a933ab30ed0bd49772fa20b9c7365f87",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s4",
+          "source_segment_index": 4,
+          "zh": "可恶！",
+          "source_token_offset": 24,
+          "source_tokens_sha256": "65665de70c14f97226b54a1540e9df3e116655dc8dd27d4a12aca1e6c9dee992",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s6",
+          "source_segment_index": 6,
+          "zh": "我",
+          "source_token_offset": 30,
+          "source_tokens_sha256": "4552cf71295ef55c795e546c1ed40841c620b0a2bcd947034dc5c34b69a49340",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s8",
+          "source_segment_index": 8,
+          "zh": "会",
+          "source_token_offset": 35,
+          "source_tokens_sha256": "7ea64971d8d81178629b2dbe28fa8d3262ac1bb07fbf24131b8c99ce4c976ce9",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s10",
+          "source_segment_index": 10,
+          "zh": "回来的！",
+          "source_token_offset": 38,
+          "source_tokens_sha256": "3e0b9b16e25885febdebb6cec2f73d9fd54187d28850a7f5711b4f93f64226d3",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s12",
+          "source_segment_index": 12,
+          "zh": "说什么傻话，",
+          "source_token_offset": 44,
+          "source_tokens_sha256": "4640495fb98bc9c1a969ae781648c3c0903c7a53add133468f45770ee72b2760",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0165::s14",
+          "source_segment_index": 14,
+          "zh": "会死人的啊！",
+          "source_token_offset": 49,
+          "source_tokens_sha256": "74e20f8168c8cb07692fdcbe4a6572e44c29516d1596063b8cdf6020a6cef321",
+          "source_kind": "glyph_run"
+        }
+      ]
+    },
+    {
+      "resource_id": "data/language/script_code.dat::block:0166",
+      "block_index": 166,
+      "translation_runs": [
+        {
+          "stable_key": "data/language/script_code.dat::block:0166::s0",
+          "source_segment_index": 0,
+          "zh": "烫烫烫烫烫啊！",
+          "source_token_offset": 0,
+          "source_tokens_sha256": "571f4d7b938f398074b134a7b6d942732ae3e1e0c7008dff6447eb5c13fb819c",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0166::s2",
+          "source_segment_index": 2,
+          "zh": "烧烧烧烧烧起来啦！",
+          "source_token_offset": 13,
+          "source_tokens_sha256": "89abfe77b5bca74c6050c2f8d269ed718b985eda0f36a09433dad94caa7ab22e",
+          "source_kind": "glyph_run"
+        },
+        {
+          "stable_key": "data/language/script_code.dat::block:0166::s4",
+          "source_segment_index": 4,
+          "zh": "烫烫烫，写了遗书也会烧掉啊。",
+          "source_token_offset": 31,
+          "source_tokens_sha256": "0981b9c025ae51921bfbe0ecc3374cfbf362c934d4c72fb2223bc59c216d3e91",
+          "source_kind": "glyph_run"
+        }
+      ]
+    }
+  ],
+  "game_build_id": "5968359",
+  "source_identity_requirements": {
+    "numeric_runs": [
+      {
+        "block_index": 117,
+        "source_segment_index": 0,
+        "source_digits": [
+          "３"
+        ],
+        "source_digit_tokens": [
+          1247
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 119,
+        "source_segment_index": 0,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 120,
+        "source_segment_index": 0,
+        "source_digits": [
+          "５"
+        ],
+        "source_digit_tokens": [
+          1249
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 121,
+        "source_segment_index": 0,
+        "source_digits": [
+          "７"
+        ],
+        "source_digit_tokens": [
+          1251
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 121,
+        "source_segment_index": 6,
+        "source_digits": [
+          "５"
+        ],
+        "source_digit_tokens": [
+          1249
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 129,
+        "source_segment_index": 2,
+        "source_digits": [
+          "２",
+          "１"
+        ],
+        "source_digit_tokens": [
+          1246,
+          1245
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 13,
+        "source_digits": [
+          "１"
+        ],
+        "source_digit_tokens": [
+          1245
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 17,
+        "source_digits": [
+          "２"
+        ],
+        "source_digit_tokens": [
+          1246
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 19,
+        "source_digits": [
+          "３"
+        ],
+        "source_digit_tokens": [
+          1247
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 21,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 23,
+        "source_digits": [
+          "５"
+        ],
+        "source_digit_tokens": [
+          1249
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 27,
+        "source_digits": [
+          "６",
+          "５"
+        ],
+        "source_digit_tokens": [
+          1250,
+          1249
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 35,
+        "source_digits": [
+          "７"
+        ],
+        "source_digit_tokens": [
+          1251
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 41,
+        "source_digits": [
+          "８"
+        ],
+        "source_digit_tokens": [
+          1252
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 59,
+        "source_digits": [
+          "７"
+        ],
+        "source_digit_tokens": [
+          1251
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 134,
+        "source_segment_index": 65,
+        "source_digits": [
+          "８"
+        ],
+        "source_digit_tokens": [
+          1252
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 144,
+        "source_segment_index": 0,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 147,
+        "source_segment_index": 5,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 147,
+        "source_segment_index": 7,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 148,
+        "source_segment_index": 0,
+        "source_digits": [
+          "２"
+        ],
+        "source_digit_tokens": [
+          1246
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 151,
+        "source_segment_index": 0,
+        "source_digits": [
+          "２"
+        ],
+        "source_digit_tokens": [
+          1246
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 157,
+        "source_segment_index": 0,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 163,
+        "source_segment_index": 5,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      },
+      {
+        "block_index": 163,
+        "source_segment_index": 7,
+        "source_digits": [
+          "４"
+        ],
+        "source_digit_tokens": [
+          1248
+        ],
+        "policy": "reuse corresponding original digit tokens when compiling"
+      }
+    ],
+    "protected_runs": [
+      {
+        "block_index": 132,
+        "source_segment_index": 90,
+        "text": ",",
+        "source_tokens": [
+          262
+        ],
+        "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+        "policy": "retain exact source tokens in normal and ancient modes"
+      },
+      {
+        "block_index": 132,
+        "source_segment_index": 94,
+        "text": ",",
+        "source_tokens": [
+          262
+        ],
+        "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+        "policy": "retain exact source tokens in normal and ancient modes"
+      },
+      {
+        "block_index": 133,
+        "source_segment_index": 108,
+        "text": ",",
+        "source_tokens": [
+          262
+        ],
+        "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+        "policy": "retain exact source tokens in normal and ancient modes"
+      },
+      {
+        "block_index": 133,
+        "source_segment_index": 112,
+        "text": ",",
+        "source_tokens": [
+          262
+        ],
+        "source_tokens_sha256": "44602a999abbebedf7de0ae1318e4f57e3cb1d67e482a65f9657f7541f3fe4bb",
+        "policy": "retain exact source tokens in normal and ancient modes"
+      },
+      {
+        "block_index": 153,
+        "source_segment_index": 10,
+        "text": "ＶＩＹ",
+        "source_tokens": [
+          1274,
+          1262,
+          1277
+        ],
+        "source_tokens_sha256": "b025e34e996614c6d0825d00e52631443dba87a01f851709fc9710b1ade2bdca",
+        "policy": "retain exact source tokens in normal and ancient modes"
+      }
+    ],
+    "deliberate_missing_word_blocks": [
+      125,
+      157
+    ],
+    "missing_word_space_layout_segments": 23,
+    "control_and_layout_policy": "preserve JP source tokens and order, including shop flags and deliberate spaces"
+  }
+}

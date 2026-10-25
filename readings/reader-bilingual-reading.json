@@ -1,0 +1,656 @@
+{
+  "schema": "lm1-public-readings-v1",
+  "target_language": "zh-CN",
+  "source_name": "reader-bilingual-reading.json",
+  "runs": [
+    {
+      "stable_key": "data/language/script_code.dat::block:0239::s1",
+      "resource_id": "data/language/script_code.dat::block:0239",
+      "block_index": 239,
+      "source_segment_index": 1,
+      "zh": "看汝手中的武器。",
+      "units": [
+        {
+          "character": "看",
+          "reading": "kan4",
+          "route": "phonetic"
+        },
+        {
+          "character": "汝",
+          "reading": "ru3",
+          "route": "phonetic"
+        },
+        {
+          "character": "手",
+          "reading": "shou3",
+          "route": "phonetic"
+        },
+        {
+          "character": "中",
+          "reading": "zhong1",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "武",
+          "reading": "wu3",
+          "route": "phonetic"
+        },
+        {
+          "character": "器",
+          "reading": "qi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "a333447f145e9df0a26ef4e43a60326cf17bd06db25f5b05aa31605901217a1b"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0239::s3",
+      "resource_id": "data/language/script_code.dat::block:0239",
+      "block_index": 239,
+      "source_segment_index": 3,
+      "zh": "觉醒之钥就在那里。",
+      "units": [
+        {
+          "character": "觉",
+          "reading": "jue2",
+          "route": "phonetic"
+        },
+        {
+          "character": "醒",
+          "reading": "xing3",
+          "route": "phonetic"
+        },
+        {
+          "character": "之",
+          "reading": "zhi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "钥",
+          "reading": "yue4",
+          "route": "source-copy",
+          "source_character": "鍵"
+        },
+        {
+          "character": "就",
+          "reading": "jiu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "在",
+          "reading": "zai4",
+          "route": "phonetic"
+        },
+        {
+          "character": "那",
+          "reading": "na4",
+          "route": "phonetic"
+        },
+        {
+          "character": "里",
+          "reading": "li3",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "7489efb7aac4527ddd8601ede9014e1611e2eb860d8f94844f281605dbe6c556"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s2",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 2,
+      "zh": "山之女神",
+      "units": [
+        {
+          "character": "山",
+          "reading": "shan1",
+          "route": "phonetic"
+        },
+        {
+          "character": "之",
+          "reading": "zhi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "女",
+          "reading": "nv3",
+          "route": "phonetic"
+        },
+        {
+          "character": "神",
+          "reading": "shen2",
+          "route": "phonetic"
+        }
+      ],
+      "source_tokens_sha256": "025e58eb73ece93409458a2dbc29f1d1e14a84fb690bf554398dcfc41c8f2cc4"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s4",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 4,
+      "zh": "变换姿态，成为",
+      "units": [
+        {
+          "character": "变",
+          "reading": "bian4",
+          "route": "phonetic"
+        },
+        {
+          "character": "换",
+          "reading": "huan4",
+          "route": "phonetic"
+        },
+        {
+          "character": "姿",
+          "reading": "zi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "态",
+          "reading": "tai4",
+          "route": "phonetic"
+        },
+        {
+          "character": "，",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": "成",
+          "reading": "cheng2",
+          "route": "phonetic"
+        },
+        {
+          "character": "为",
+          "reading": "wei2",
+          "route": "phonetic"
+        }
+      ],
+      "source_tokens_sha256": "971fd81f21141cf10953a8d90f256944c2585841cb9b1034a17e3e63dcbb13b3"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s7",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 7,
+      "zh": "嗜血好战的女神",
+      "units": [
+        {
+          "character": "嗜",
+          "reading": "shi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "血",
+          "reading": "xue4",
+          "route": "phonetic"
+        },
+        {
+          "character": "好",
+          "reading": "hao4",
+          "route": "phonetic"
+        },
+        {
+          "character": "战",
+          "reading": "zhan4",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "女",
+          "reading": "nv3",
+          "route": "phonetic"
+        },
+        {
+          "character": "神",
+          "reading": "shen2",
+          "route": "phonetic"
+        }
+      ],
+      "source_tokens_sha256": "29d9effd73c2caa359ad4c81456e07c209bc8ef0313f66572753b648350d03ea"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s9",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 9,
+      "zh": "。",
+      "units": [
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "e0ad2e9fad81293c4cfe4a737db051f73448e2c6b4084079dfab94ee2230e7df"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s11",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 11,
+      "zh": "欲平息她的愤怒，",
+      "units": [
+        {
+          "character": "欲",
+          "reading": "yu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "平",
+          "reading": "ping2",
+          "route": "phonetic"
+        },
+        {
+          "character": "息",
+          "reading": "xi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "她",
+          "reading": "ta1",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "愤",
+          "reading": "fen4",
+          "route": "phonetic"
+        },
+        {
+          "character": "怒",
+          "reading": "nu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "，",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "0d65adbaf6b385e454a24e49c4496a3c8e81fbc79f5341ead2fa87b478b84063"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0333::s13",
+      "resource_id": "data/language/script_code.dat::block:0333",
+      "block_index": 333,
+      "source_segment_index": 13,
+      "zh": "唯有伏地祈祷。",
+      "units": [
+        {
+          "character": "唯",
+          "reading": "wei2",
+          "route": "phonetic"
+        },
+        {
+          "character": "有",
+          "reading": "you3",
+          "route": "phonetic"
+        },
+        {
+          "character": "伏",
+          "reading": "fu2",
+          "route": "phonetic"
+        },
+        {
+          "character": "地",
+          "reading": "di4",
+          "route": "phonetic"
+        },
+        {
+          "character": "祈",
+          "reading": "qi2",
+          "route": "phonetic"
+        },
+        {
+          "character": "祷",
+          "reading": "dao3",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "b8a03b78d669a2ae0698f5e98adf680538367987c75591a6a3c6241022e6651f"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0353::s1",
+      "resource_id": "data/language/script_code.dat::block:0353",
+      "block_index": 353,
+      "source_segment_index": 1,
+      "zh": "母亲一次次重复。",
+      "units": [
+        {
+          "character": "母",
+          "reading": "mu3",
+          "route": "source-copy",
+          "source_character": "母"
+        },
+        {
+          "character": "亲",
+          "reading": "qin1",
+          "route": "phonetic"
+        },
+        {
+          "character": "一",
+          "reading": "yi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "次",
+          "reading": "ci4",
+          "route": "phonetic"
+        },
+        {
+          "character": "次",
+          "reading": "ci4",
+          "route": "phonetic"
+        },
+        {
+          "character": "重",
+          "reading": "chong2",
+          "route": "phonetic"
+        },
+        {
+          "character": "复",
+          "reading": "fu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "839bd56ec68db4be3ce2abf583b43f34959cf7fc4d44c1659c7eb074e5f2591d"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0353::s3",
+      "resource_id": "data/language/script_code.dat::block:0353",
+      "block_index": 353,
+      "source_segment_index": 3,
+      "zh": "毁灭不合心意的孩子，",
+      "units": [
+        {
+          "character": "毁",
+          "reading": "hui3",
+          "route": "source-copy",
+          "source_character": "壊"
+        },
+        {
+          "character": "灭",
+          "reading": "mie4",
+          "route": "phonetic"
+        },
+        {
+          "character": "不",
+          "reading": "bu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "合",
+          "reading": "he2",
+          "route": "phonetic"
+        },
+        {
+          "character": "心",
+          "reading": "xin1",
+          "route": "phonetic"
+        },
+        {
+          "character": "意",
+          "reading": "yi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "孩",
+          "reading": "hai2",
+          "route": "phonetic"
+        },
+        {
+          "character": "子",
+          "reading": "zi5",
+          "route": "phonetic"
+        },
+        {
+          "character": "，",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "bfdf52082f8cdf62e4544e69b8c1ae2a4f1e9d5d28a346d72eabb27a6795cf15"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0353::s5",
+      "resource_id": "data/language/script_code.dat::block:0353",
+      "block_index": 353,
+      "source_segment_index": 5,
+      "zh": "生下新的孩子。",
+      "units": [
+        {
+          "character": "生",
+          "reading": "sheng1",
+          "route": "source-copy",
+          "source_character": "生"
+        },
+        {
+          "character": "下",
+          "reading": "xia4",
+          "route": "phonetic"
+        },
+        {
+          "character": "新",
+          "reading": "xin1",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "孩",
+          "reading": "hai2",
+          "route": "phonetic"
+        },
+        {
+          "character": "子",
+          "reading": "zi5",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "387096ee487dc980acc61eee856ac39fb2c46671e6c7069570a1d0e616871fee"
+    },
+    {
+      "stable_key": "data/language/script_code.dat::block:0353::s7",
+      "resource_id": "data/language/script_code.dat::block:0353",
+      "block_index": 353,
+      "source_segment_index": 7,
+      "zh": "她会不断重复，直至实现自己的愿望。",
+      "units": [
+        {
+          "character": "她",
+          "reading": "ta1",
+          "route": "phonetic"
+        },
+        {
+          "character": "会",
+          "reading": "hui4",
+          "route": "phonetic"
+        },
+        {
+          "character": "不",
+          "reading": "bu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "断",
+          "reading": "duan4",
+          "route": "phonetic"
+        },
+        {
+          "character": "重",
+          "reading": "chong2",
+          "route": "phonetic"
+        },
+        {
+          "character": "复",
+          "reading": "fu4",
+          "route": "phonetic"
+        },
+        {
+          "character": "，",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": "直",
+          "reading": "zhi2",
+          "route": "phonetic"
+        },
+        {
+          "character": "至",
+          "reading": "zhi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "实",
+          "reading": "shi2",
+          "route": "phonetic"
+        },
+        {
+          "character": "现",
+          "reading": "xian4",
+          "route": "phonetic"
+        },
+        {
+          "character": "自",
+          "reading": "zi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "己",
+          "reading": "ji3",
+          "route": "phonetic"
+        },
+        {
+          "character": "的",
+          "reading": "de5",
+          "route": "phonetic"
+        },
+        {
+          "character": "愿",
+          "reading": "yuan4",
+          "route": "phonetic"
+        },
+        {
+          "character": "望",
+          "reading": "wang4",
+          "route": "phonetic"
+        },
+        {
+          "character": "。",
+          "reading": null,
+          "route": "literal"
+        }
+      ],
+      "source_tokens_sha256": "e47aa52a0aded3b3e349cf1f955746699567adf91508145d62e6547245f4bd9f"
+    }
+  ],
+  "source_symbols": {
+    "鍵": {
+      "token": 1151,
+      "token_hex": "0x047F",
+      "source_rgba_sha256": "d7366940ee95f3c5f33b2147a05883405de9b675e9e7746bfe6db8920d4fc01b"
+    },
+    "母": {
+      "token": 882,
+      "token_hex": "0x0372",
+      "source_rgba_sha256": "24bd8c4b25b6d9b757f989f4c5be330c1fb088fd95d9761a8a982b8687c07b4c"
+    },
+    "壊": {
+      "token": 656,
+      "token_hex": "0x0290",
+      "source_rgba_sha256": "e6b90c0c16d3c47e3ab64b2089ef7f6894bc9f9421909cc28f18e410b8052ef8"
+    },
+    "生": {
+      "token": 943,
+      "token_hex": "0x03AF",
+      "source_rgba_sha256": "a9a113bd8997c09c278719500ec2c96597e4726c30b38b9deca889bf75dd621a"
+    }
+  },
+  "semantic_decisions": [
+    {
+      "block_index": 239,
+      "source_segment_index": 3,
+      "unit_index0": 3,
+      "character": "钥",
+      "reading": "yue4",
+      "route": "source-copy",
+      "source_character": "鍵"
+    },
+    {
+      "block_index": 353,
+      "source_segment_index": 1,
+      "unit_index0": 0,
+      "character": "母",
+      "reading": "mu3",
+      "route": "source-copy",
+      "source_character": "母"
+    },
+    {
+      "block_index": 353,
+      "source_segment_index": 3,
+      "unit_index0": 0,
+      "character": "毁",
+      "reading": "hui3",
+      "route": "source-copy",
+      "source_character": "壊"
+    },
+    {
+      "block_index": 353,
+      "source_segment_index": 5,
+      "unit_index0": 0,
+      "character": "生",
+      "reading": "sheng1",
+      "route": "source-copy",
+      "source_character": "生"
+    }
+  ]
+}
