@@ -94,7 +94,7 @@ function Get-FileProfile($Files) {
     if ($profileExe -eq $FormalExe) {
         $profile = [PSCustomObject]@{Targets=@($Allowed);Baselines=@($AllowedBaselines)}
     }
-    elseif ($profileExe -eq $SettingsLocaleExe) {
+    elseif ($profileExe -eq $SettingsLocaleExe -or $profileExe -eq $TitleFooterExe) {
         $profile = [PSCustomObject]@{Targets=@($Allowed + $TitleTargets);Baselines=@($AllowedBaselines + $TitleBaselineHashes.Keys)}
     }
     elseif ($profileExe -eq $TitleExe) {
@@ -621,12 +621,14 @@ $OriginalExe = '94228016ffff8a0ba6325140f0cff6896e2bd0579bb2099d234508dede65923f
 $FormalExe = 'e2920f56cf06705e3bf1943e2990e319f76c59a7f46cafd9e411666fc2e36f64'
 $TitleExe = '0e44ea2a3d940ebc6f6561026a1c4476fd9ec52c8b21894316457ceee1567ad4'
 $SettingsLocaleExe = '9b1081cda51fb9384571078c1ea97bf03a622dd5ead732ae2c4ea27474f2c42f'
+$TitleFooterExe = 'a4f7c74d4b468e9bd94ad120442e5eb789ddd0e2e63a6c8e5278d791465498fb'
 $AssistantTargets = @('lm_assistant.dll','data/language/chs/assistant-font.ttf')
 # Both variants recognize the same historical loaders; each loader binds to a
 # specific production translation executable and inherits that exact file set.
 $AssistantExeProfiles = @{
     'ba4946a2430da7d783b22a7f6f0cc0197bb7f0a9c6b5b55a757619d975c32c1e' = '0e44ea2a3d940ebc6f6561026a1c4476fd9ec52c8b21894316457ceee1567ad4'
     'd113161ccac9e010106d5c2c0d87b80455fde32d6eab3e858bec199e30b2e14e' = '9b1081cda51fb9384571078c1ea97bf03a622dd5ead732ae2c4ea27474f2c42f'
+    'ee081e8cade83ac2df678a0e0467df5385510b9208252a2e306b07d5e1682409' = 'a4f7c74d4b468e9bd94ad120442e5eb789ddd0e2e63a6c8e5278d791465498fb'
     # BUILD-ASSISTANT-PROFILES
 }
 $TitleTargets = @('data/language/chs/title01.png','data/language/chs/title.msd')

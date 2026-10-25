@@ -19,3 +19,5 @@ python tools/lm1_phonetic_stroke_full_v1.py --catalog --output catalog.png
 助手编译输入还包括`catalog.generated.h`、`skin.generated.h`、`portraits.generated.h`，由本机文本和游戏资源生成。后续迁移资源生成与整包构建入口。
 
 实际使用字体的OFL和版权说明在`licenses/`。
+
+`tools/build_lm1_title_version.py`读取`docs/release.json`，把版本与日期绘制到首页左下角，保留右侧署名。输入为已汉化的纯版候选目录，另需Pillow、pefile、keystone-engine及现用臻楷字体；通过`--base`、`--output`和`--font`指定。
