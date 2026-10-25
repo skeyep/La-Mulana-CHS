@@ -9,7 +9,7 @@
 #include <cstdint>
 
 struct Rule { int kind,a,b; };
-struct Dialogue { int flag,block,person,rank; const wchar_t *title,*text,*note; Rule rules[8]; };
+struct Dialogue { int flag,block,person,rank; const wchar_t *title,*text,*note,*shortNote; Rule rules[8]; int randomWindows[16][2]; };
 #include "catalog.generated.h"
 #include "skin.generated.h"
 static uintptr_t base;
@@ -31,6 +31,7 @@ static int motion=MOTION_IDLE,motionTick=0,shadeAlpha=0;
 static float menuScale=1.f;
 static DWORD cachedInput=0;
 static int tab=0,selected=0,detailScroll=0,person=0;
+static bool detailsExpanded=false;
 static DWORD lastPaint=0, previous=0, repeatAt=0;
 static HDC dc;
 static HBITMAP bitmap;
@@ -44,6 +45,8 @@ static std::vector<int> rows;
 static const COLORREF ink=RGB(255,255,255),muted=RGB(170,170,170),green=RGB(255,255,255),red=RGB(255,128,128),border=RGB(221,221,221);
 
 static bool missed(const Dialogue& d) {
+    if(d.person==0 && flag(874)!=0)return true; // Swimsuit reaction closes ordinary conversation doors.
+    if(d.person==0 && d.randomWindows[0][1]>=0 && flag(898)!=0)return true;
     // A future forced score reset can reopen an interval. Never use current score alone.
     int floor=flag(123);
     if(flag(898)==0) {
@@ -65,10 +68,45 @@ static bool missed(const Dialogue& d) {
     if(d.flag==2806 && flag(193)!=0 && flag(811)==0)return true;
     return false;
 }
-static const wchar_t* status(const Dialogue& d) { return flag(d.flag)?L"已听":missed(d)?L"已错过":L"未听"; }
+static int storyBlock(int who) {
+    if(who==0){for(auto& r:STORY_0)if(flag(r[0])==r[1])return r[2];}
+    else {for(auto& r:STORY_1)if(flag(r[0])==r[1])return r[2];}
+    return -1;
+}
+static bool randomBlocked(const Dialogue& d) {
+    if(d.randomWindows[0][1]<0)return false;
+    bool inWindow=false;for(auto& r:d.randomWindows)if(r[0]<=flag(123)&&flag(123)<=r[1])inWindow=true;
+    return !inWindow || storyBlock(d.person)>=0;
+}
+static const wchar_t* stage(int who) {
+    int score=flag(123);
+    if(who==0){if(flag(898))return L"终战";if(score<56)return L"苏醒期";if(score<=120)return L"前期";if(score<=199)return L"中期";return L"后期";}
+    if(score<=70)return L"前期";if(score<=140)return L"中期";if(score<=199)return L"后期";return L"终盘";
+}
+static const wchar_t* stageWindow(int who) {
+    int score=flag(123);
+    if(who==0){if(flag(898))return L"终战";if(score<56)return L"苏醒期  流程点数0—55";if(score<=120)return L"前期  流程点数56—120";if(score<=199)return L"中期  流程点数121—199";return L"后期  流程点数200—255";}
+    if(score<=70)return L"前期  流程点数0—70";if(score<=140)return L"中期  流程点数71—140";if(score<=199)return L"后期  流程点数141—199";return L"终盘  流程点数≥200";
+}
+static std::wstring shortTiming(const Dialogue& d) {
+    if(d.randomWindows[0][1]<0)return d.shortNote;
+    if(!flag(d.flag)&&missed(d)){
+        if(d.person==0&&flag(874))return L"泳装对话后不再触发。";
+        if(d.person==0&&flag(898))return L"进入终战后不再触发。";
+        int last=0;for(auto& r:d.randomWindows)last=std::max(last,r[1]);
+        return L"最后窗口：流程点数≤"+std::to_wstring(last);
+    }
+    if(storyBlock(d.person)>=0)return L"当前会触发剧情对白。";
+    if(randomBlocked(d)){
+        for(auto& r:d.randomWindows)if(r[1]>=0&&r[0]>flag(123))return L"流程点数≥"+std::to_wstring(r[0])+L"可再尝试";
+        return L"剧情重设流程点数后可再尝试。";
+    }
+    return L"在当前窗口反复交谈。";
+}
+static const wchar_t* status(const Dialogue& d) { return flag(d.flag)?L"已听":missed(d)?L"已错过":randomBlocked(d)?L"暂不可":L"未听"; }
 static COLORREF statusColor(const Dialogue& d) { return flag(d.flag)?green:missed(d)?red:muted; }
 static void selectTab(int t) {
-    tab=(t+6)%6; selected=0; detailScroll=0; rows.clear();
+    tab=(t+6)%6; selected=0; detailScroll=0; detailsExpanded=false; rows.clear();
     for(int i=0;i<113;i++) if(tab==0 && DIALOGUES[i].person==person) rows.push_back(i);
     dirty=true;
 }
@@ -173,11 +211,19 @@ static std::vector<std::wstring> wrap(const wchar_t* s,int width) {
     selectFont(body);primeWidths(s,wcslen(s),body);std::vector<std::wstring> result;std::wstring line;float lineWidth=0;
     for(const wchar_t* p=s;*p;p++) {
         if(*p==L'\n') {result.push_back(line);line.clear();lineWidth=0;continue;}
+        auto numeric=[](wchar_t c){return (c>=L'0'&&c<=L'9')||(c>=L'０'&&c<=L'９');};
+        if(numeric(*p) && (p==s || (!numeric(p[-1])&&p[-1]!=L'—'))){
+            const wchar_t* end=p;while(numeric(*end)||*end==L'—'||*end==L'%'||*end==L'％')end++;
+            std::wstring number(p,end);float numberWidth=measure(number,body);
+            if(!line.empty() && numberWidth<=width && lineWidth+numberWidth>width){result.push_back(line);line.clear();lineWidth=0;}
+        }
         float nextWidth=advance(*p,body);
         if(lineWidth+nextWidth>width && !line.empty()){
             std::wstring carry;
             if(line.size()>1 && (wcschr(L"，。！？、：；）》】」』…",*p) || wcschr(L"（《【「『",line.back()))) {
-                carry+=line.back();line.pop_back();
+                size_t start=line.size()-1;
+                if(numeric(line.back()))while(start>0 && (numeric(line[start-1])||line[start-1]==L'—'))start--;
+                carry=line.substr(start);line.erase(start);
             }
             result.push_back(line);line=carry;lineWidth=measure(line,body);
         }
@@ -208,9 +254,34 @@ static void initCanvas() {
     body=makeFont(BODY_SIZE);smallFont=makeFont(SMALL_SIZE);
     labelFont=makeFont(LABEL_SIZE);
 }
+static void paintRandomWindows(const Dialogue& d) {
+    int score=flag(123),nextLo=-1,nextHi=-1;
+    for(auto& r:d.randomWindows)if(r[1]>=score){nextLo=r[0];nextHi=r[1];break;}
+    auto interval=[](int lo,int hi){return std::to_wstring(lo)+(lo==hi?L"":L"—"+std::to_wstring(hi));};
+    std::wstring lead=nextLo<0?L"可触发的流程点数":(nextLo<=score?L"当前窗口":L"下次机会");
+    text(352,110,256,lead,muted,smallFont);
+    if(nextLo>=0)text(352,132,256,L"流程点数"+interval(nextLo,nextHi),ink);
+    int y=165;
+    const int mulBounds[][2]={{56,120},{121,199},{200,255}};
+    const int elderBounds[][2]={{0,70},{71,140},{141,199}};
+    const wchar_t* labels[]={L"前期",L"中期",L"后期"};
+    for(int phase=0;phase<3;phase++){
+        int lo=d.person==0?mulBounds[phase][0]:elderBounds[phase][0];
+        int hi=d.person==0?mulBounds[phase][1]:elderBounds[phase][1];
+        std::vector<std::pair<int,int>> spans;
+        for(auto& r:d.randomWindows)if(r[1]>=lo&&r[0]<=hi)spans.push_back({std::max(lo,r[0]),std::min(hi,r[1])});
+        if(spans.empty())continue;
+        text(352,y,256,labels[phase],muted,smallFont);y+=22;
+        for(size_t i=0;i<spans.size();i++){
+            auto span=spans[i];bool highlighted=nextLo>=0&&span.second>=nextLo&&span.first<=nextHi;
+            text(352+(int)(i%3)*86,y+(int)(i/3)*23,84,interval(span.first,span.second),highlighted?ink:RGB(145,145,145),smallFont);
+        }
+        y+=(int)((spans.size()+2)/3)*23+12;
+    }
+}
 static void paintDialogue() {
     int total=0;for(int i:rows)if(flag(DIALOGUES[i].flag))total++;
-    section(20,60,316,388,L"",144);section(342,60,278,388,L"对话正文");
+    section(20,60,316,388,L"",144);section(342,60,278,388,detailsExpanded?L"触发详情":L"对话正文");
     const wchar_t* people[]={L"穆尔",L"长老"};
     for(int n=0;n<2;n++) {
         int x=20+n*72;
@@ -220,7 +291,7 @@ static void paintDialogue() {
     }
     const std::wstring personHint=L"物品键：换人物";
     text(328-(int)measure(personHint,labelFont),middleY(60,15,labelFont),164,personHint,ink,labelFont);
-    text(28,81,300,L"已听 "+std::to_wstring(total)+L" / "+std::to_wstring(rows.size())+L"     当前流程点数 "+std::to_wstring(flag(123)),ink,smallFont);
+    text(28,81,300,L"已听 "+std::to_wstring(total)+L"/"+std::to_wstring(rows.size())+L"  流程点数 "+std::to_wstring(flag(123))+L" · "+stage(person),ink,smallFont);
     const int start=selected/LIST_PAGE_SIZE*LIST_PAGE_SIZE;
     for(int n=start;n<std::min(start+LIST_PAGE_SIZE,(int)rows.size());n++) {
         auto& d=DIALOGUES[rows[n]];int y=106+(n-start)*27;
@@ -229,12 +300,14 @@ static void paintDialogue() {
         text(62,middleY(y-2,26,body),202,flag(d.flag)?d.title:L"？？？",n==selected?red:ink);
         text(276,middleY(y-2,26,smallFont),57,status(d),statusColor(d),smallFont);
     }
-    text(29,429,300,L"流程顺序  "+std::to_wstring(selected+1)+L" / "+std::to_wstring(rows.size()),muted,smallFont);
+    text(29,429,300,std::wstring(stageWindow(person))+L"  ·  "+std::to_wstring(selected+1)+L"/"+std::to_wstring(rows.size()),muted,smallFont);
     if(rows.empty())return;
     auto& d=DIALOGUES[rows[selected]];
-    text(352,82,258,flag(d.flag)?L"已听":missed(d)?L"已错过":L"未听",statusColor(d));
-    auto timing=wrap(d.note,256);int y=110;
-    for(int i=0;i<std::min(3,(int)timing.size());i++,y+=BODY_LEADING)text(352,y,256,timing[i],muted);
+    text(352,84,258,detailsExpanded?L"返回键：收起":L"确认键：详情",muted,labelFont);
+    if(detailsExpanded&&d.randomWindows[0][1]>=0){paintRandomWindows(d);return;}
+    auto hintLines=wrap((detailsExpanded?std::wstring(d.note):shortTiming(d)).c_str(),256);int y=110;
+    for(auto& line:hintLines){text(352,y,256,line,muted);y+=BODY_LEADING;}
+    if(detailsExpanded)return;
     rect(352,y+3,257,1,RGB(100,100,100));y+=16;
     if(!flag(d.flag)){detailScroll=0;text(352,y,256,L"？？？",muted);return;}
     excerpt(d.text,352,y,256,440);
@@ -288,7 +361,7 @@ static bool mailMissed(const Mail& m) {
 static void paintMail() {
     section(20,60,316,388,L"邮件列表");
     std::wstring heading=L"邮件 "+(selected<10?std::wstring(L"0"):std::wstring())+std::to_wstring(selected);
-    section(342,60,278,388,heading.c_str());
+    section(342,60,278,388,detailsExpanded?L"触发详情":heading.c_str());
     int total=0;for(auto& m:MAILS)if(flag(m.flag))total++;
     text(28,81,300,L"已收 "+std::to_wstring(total)+L" / 45",ink,smallFont);
     int start=selected/LIST_PAGE_SIZE*LIST_PAGE_SIZE;
@@ -301,8 +374,9 @@ static void paintMail() {
     }
     text(29,429,300,L"邮件顺序  "+std::to_wstring(selected+1)+L" / 45",muted,smallFont);
     const auto& m=MAILS[selected];bool got=flag(m.flag)!=0;
-    text(352,82,258,got?L"已收":mailMissed(m)?L"已错过":L"未收",got?ink:mailMissed(m)?red:muted);
-    int y=110;for(auto& line:wrap(m.note,256)){text(352,y,256,line,muted);y+=BODY_LEADING;}
+    text(352,84,258,detailsExpanded?L"返回键：收起":L"确认键：详情",muted,labelFont);
+    int y=110;for(auto& line:wrap(detailsExpanded?m.note:m.shortNote,256)){text(352,y,256,line,muted);y+=BODY_LEADING;}
+    if(detailsExpanded)return;
     rect(352,y+3,257,1,RGB(100,100,100));y+=16;
     if(!got){text(352,y,256,L"？？？",muted);return;}
     excerpt(m.text,352,y,256,440);
@@ -414,7 +488,7 @@ static void draw() {
     if(profile.count<4096)profile.frames[profile.count++]={opened?(unsigned)motion:0,profileUs(profileNow()-profileStart),paintUs,uploadUs};
 #endif
 }
-enum {OPEN=1,CLOSE=2,UP=4,DOWN=8,LEFT=16,RIGHT=32,PREV_TAB=64,NEXT_TAB=128,PERSON=256};
+enum {OPEN=1,CLOSE=2,UP=4,DOWN=8,LEFT=16,RIGHT=32,PREV_TAB=64,NEXT_TAB=128,PERSON=256,CONFIRM=512};
 // The original action query takes the action in EDI and held/pressed mode in EAX.
 static bool mappedHeld(int action) {
     uintptr_t query=base+0x832a0;int result;
@@ -435,6 +509,7 @@ static bool menuHeld(int action) {
 static DWORD input() {
     DWORD v=0;
     if(mappedHeld(4))v|=OPEN;
+    if(menuHeld(4))v|=CONFIRM;
     if(menuHeld(5) || menuHeld(22) || menuHeld(30))v|=CLOSE;
     if(menuHeld(3))v|=PERSON;
     if(mappedHeld(0))v|=UP;if(mappedHeld(1))v|=DOWN;
@@ -494,14 +569,16 @@ static int __cdecl pauseUpdate(void* p) {
             if(++motionTick>=6){opened=false;motion=MOTION_IDLE;menuScale=1.f;waitForRelease=true;dirty=true;}
             return 1;
         }
+        if((tab==0||tab==1) && detailsExpanded && (pressed&(CLOSE|CONFIRM|OPEN))){detailsExpanded=false;dirty=true;return 1;}
         if(pressed&CLOSE){motion=MOTION_CLOSE;motionTick=0;waitForRelease=true;dirty=true;return 1;}
+        if((tab==0||tab==1) && (pressed&(CONFIRM|OPEN))){detailsExpanded=true;dirty=true;return 1;}
         if(pressed&PREV_TAB)selectTab(tab-1);if(pressed&NEXT_TAB)selectTab(tab+1);
         if(tab==0 && (pressed&PERSON)){person=1-person;selectTab(tab);}
         if(tab==5 && (pressed&(UP|DOWN|LEFT|RIGHT)))moveRoster(pressed);
         else {
             int n=tab==0?(int)rows.size():tab==1?45:0;
             int delta=(pressed&DOWN?1:0)-(pressed&UP?1:0)+(pressed&RIGHT?LIST_PAGE_SIZE:0)-(pressed&LEFT?LIST_PAGE_SIZE:0);
-            if(n && delta){selected=std::clamp(selected+delta,0,n-1);detailScroll=0;dirty=true;}
+            if(n && delta){selected=std::clamp(selected+delta,0,n-1);detailScroll=0;detailsExpanded=false;dirty=true;}
         }
         return 1;
     }
@@ -528,10 +605,10 @@ static void* hook(unsigned va,void* target,int length) {
 // Roster implementation is kept separate from the read-only dialogue rules.
 #include "roster.h"
 extern "C" __declspec(dllexport) void* __cdecl AssistantState() {
-    static uintptr_t state[8];state[0]=opened;state[1]=tab;state[2]=selected;state[3]=(uintptr_t)pauseOwner;state[4]=detailScroll;state[5]=person;state[6]=motion;state[7]=motionTick;return state;
+    static uintptr_t state[9];state[0]=opened;state[1]=tab;state[2]=selected;state[3]=(uintptr_t)pauseOwner;state[4]=detailScroll;state[5]=person;state[6]=motion;state[7]=motionTick;state[8]=detailsExpanded;return state;
 }
 extern "C" __declspec(dllexport) void* __cdecl AssistantSnapshot() {
-    static int values[184];for(int i=0;i<113;i++)values[i]=flag(DIALOGUES[i].flag)?1:missed(DIALOGUES[i])?2:0;
+    static int values[184];for(int i=0;i<113;i++)values[i]=flag(DIALOGUES[i].flag)?1:missed(DIALOGUES[i])?2:randomBlocked(DIALOGUES[i])?3:0;
     for(int i=0;i<26;i++)values[113+i]=rosterReady(companions[i].rule);
     for(int i=0;i<45;i++)values[139+i]=flag(MAILS[i].flag)?1:mailMissed(MAILS[i])?2:0;
     return values;

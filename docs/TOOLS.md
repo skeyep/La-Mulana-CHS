@@ -16,6 +16,8 @@ python tools/lm1_phonetic_stroke_full_v1.py --catalog --output catalog.png
 
 `tools/achievement_assistant/assistant.cpp`和`roster.h`保留冒险记录界面、输入、判定和结局同行逻辑。目标为本项目所支持的Windows Steam x86版本，需要C++17、Win32／Direct3D 9／XInput头文件及库。
 
+`build_catalog.py`与`trigger_hints.py`按当前中文、原选择器及RCD容器生成对话与邮件目录。房间范围和屏幕范围分别处理；随机区间扣除固定对白覆盖，保留流程点数的原始边界。这两个生成器需要本机提取的源资源与上下文。
+
 助手编译输入还包括`catalog.generated.h`、`skin.generated.h`、`portraits.generated.h`，由本机文本和游戏资源生成。后续迁移资源生成与整包构建入口。
 
 实际使用字体的OFL和版权说明在`licenses/`。
