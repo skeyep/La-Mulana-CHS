@@ -1,5 +1,6 @@
 """Player-facing trigger hints, bound to installed selectors and canonical names."""
 import json
+from dialogue_timing import complete_dialogue_hints
 
 def ranges(values):
     result = []
@@ -40,25 +41,8 @@ def enrich(root, dialogues, mails):
             d['note'] = '装备'+name+'后交谈。'
             if held[1]==25:d['note'] = '时之灯充能后，装备时之灯交谈。'
             if held[1]==31:d['note'] += '须在变成孕妇像之前。'
-        specific={364:'开局首次进入地上的长老帐篷交谈。',
-                  366:'首次见过长老后，离开帐篷再返回交谈。',
-                  396:'唤醒穆尔并听完第一次对话后，流程点数≥56，再返回交谈。',
-                  400:'首次进入无限回廊后，返回穆尔处交谈。',
-                  405:'首次进入产声之碑后，返回穆尔处交谈。',
-                  406:'听完穆尔介绍产声之碑的神明后，立即再交谈。',
-                  367:'收到18号召回邮件后回村交谈；须在击败第2位守卫前返回。',
-                  375:'收到25号邮件后，回村与长老交谈。',
-                  376:'唤醒穆尔后，回村与长老交谈。',
-                  377:'收到43号邮件并回村回应后，按长老要求处理电脑。',
-                  370:'在圣母之祠发现暂时无法取得的日记宝箱后，回村找长老帮忙。',
-                  371:'取得日记后，回村与长老交谈。',
-                  372:'取得穆拉纳护符后，立即再与长老交谈。',
-                  409:'取得贤者陶笛后，经过月光圣殿的月之金字塔玄室，再返回穆尔处交谈。',
-                  1049:'取得危险泳装后，穿上它与长老交谈。',
-                  417:'地狱圣堂入口开启后，返回穆尔处交谈。',
-                  418:'通关地狱圣堂取得危险泳装后，返回穆尔处交谈。'}
-        if d['block'] in specific:d['note']=specific[d['block']]
         d['short_note']=d['note'] if len(d['note'])<=42 else d['note'].split('；')[0]+'。'
+    complete_dialogue_hints(dialogues, range_text)
     # Each location is taken from the actual object's container, translated with the room table.
     room_doc=json.loads((root/'localization/translations/room-names.json').read_text(encoding='utf-8'))
     names={r['source_text']:r['zh'] for row in room_doc['records'] for r in row['translation_runs']}
