@@ -468,7 +468,7 @@
       "resource_id": "data/language/script_code.dat::block:0047",
       "block_index": 47,
       "source_segment_index": 0,
-      "zh": "公会暗中经营店铺。",
+      "zh": "公会暗  经营店  。",
       "units": [
         {
           "character": "公",
@@ -486,9 +486,14 @@
           "route": "phonetic"
         },
         {
-          "character": "中",
-          "reading": "zhong1",
-          "route": "phonetic"
+          "character": " ",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": " ",
+          "reading": null,
+          "route": "literal"
         },
         {
           "character": "经",
@@ -506,9 +511,14 @@
           "route": "phonetic"
         },
         {
-          "character": "铺",
-          "reading": "pu4",
-          "route": "phonetic"
+          "character": " ",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": " ",
+          "reading": null,
+          "route": "literal"
         },
         {
           "character": "。",
@@ -523,7 +533,7 @@
       "resource_id": "data/language/script_code.dat::block:0047",
       "block_index": 47,
       "source_segment_index": 2,
-      "zh": "以金钱为代价，便可换得力量。",
+      "zh": "以金  为代价，便可换得力  。",
       "units": [
         {
           "character": "以",
@@ -536,9 +546,14 @@
           "route": "phonetic"
         },
         {
-          "character": "钱",
-          "reading": "qian2",
-          "route": "phonetic"
+          "character": " ",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": " ",
+          "reading": null,
+          "route": "literal"
         },
         {
           "character": "为",
@@ -586,9 +601,14 @@
           "route": "phonetic"
         },
         {
-          "character": "量",
-          "reading": "liang5",
-          "route": "phonetic"
+          "character": " ",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": " ",
+          "reading": null,
+          "route": "literal"
         },
         {
           "character": "。",

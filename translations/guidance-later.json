@@ -66,7 +66,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0047::s0",
           "source_segment_index": 0,
-          "zh": "公会暗中经营店铺。",
+          "zh": "公会暗  经营店  。",
           "source_token_offset": 0,
           "source_tokens_sha256": "41df023d3b172d295874e274129da2060b46a0f8c08855692d46c75fb632ba4e",
           "source_kind": "glyph_run"
@@ -74,7 +74,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0047::s2",
           "source_segment_index": 2,
-          "zh": "以金钱为代价，便可换得力量。",
+          "zh": "以金  为代价，便可换得力  。",
           "source_token_offset": 15,
           "source_tokens_sha256": "5ffaaa0750162c1fc279bba2cbc1f50ac22f47d9f2e36fdf6aef9e0c340f7334",
           "source_kind": "glyph_run"
