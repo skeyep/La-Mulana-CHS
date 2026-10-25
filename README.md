@@ -11,10 +11,10 @@
 | Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.2/La-Mulana-CHS-0.2.2-Translation-Adventure-Log.zip) |
 
 1. 退出游戏，解压下载的安装包。
-2. 双击 **安装.cmd**，自动查找 Steam，必要时手选游戏目录。
+2. 双击 **Install.cmd**，自动查找 Steam，必要时手选游戏目录。
 3. 启动游戏即可使用简体中文。
 
-新版直接覆盖安装；两个版本也可以直接切换。双击 **还原.cmd** 恢复原版。
+新版直接覆盖安装；两个版本也可以直接切换。双击 **Restore.cmd** 恢复原版。
 
 ## 中文穆拉纳文字
 

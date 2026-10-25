@@ -56,12 +56,12 @@ function Select-LaMulanaDirectory($Candidates) {
     Add-Type -AssemblyName System.Windows.Forms
     $dialog = New-Object Windows.Forms.FolderBrowserDialog
     try {
-        $dialog.Description = '选择包含 LaMulanaWin.exe 的《穆拉纳秘宝》游戏文件夹。'
+        $dialog.Description = 'Select the La-Mulana game folder containing LaMulanaWin.exe.'
         $dialog.ShowNewFolderButton = $false
         if ($Candidates.Count -gt 0) { $dialog.SelectedPath = $Candidates[0] }
-        if ($dialog.ShowDialog() -ne [Windows.Forms.DialogResult]::OK) { throw '已取消选择游戏目录。' }
+        if ($dialog.ShowDialog() -ne [Windows.Forms.DialogResult]::OK) { throw 'Game folder selection canceled.' }
         $selected = [IO.Path]::GetFullPath($dialog.SelectedPath)
-        if (-not [IO.File]::Exists((Join-Path $selected 'LaMulanaWin.exe'))) { throw '所选文件夹中没有 LaMulanaWin.exe。' }
+        if (-not [IO.File]::Exists((Join-Path $selected 'LaMulanaWin.exe'))) { throw 'The selected folder does not contain LaMulanaWin.exe.' }
         return $selected
     } finally { $dialog.Dispose() }
 }
@@ -74,14 +74,14 @@ try {
     }
     if (-not [string]::IsNullOrWhiteSpace($GameDir)) {
         $GameDir = [IO.Path]::GetFullPath($GameDir)
-        if (-not [IO.File]::Exists((Join-Path $GameDir 'LaMulanaWin.exe'))) { throw '指定的目录中没有 LaMulanaWin.exe。' }
+        if (-not [IO.File]::Exists((Join-Path $GameDir 'LaMulanaWin.exe'))) { throw 'The specified folder does not contain LaMulanaWin.exe.' }
     } else {
         $candidates = @(Get-LaMulanaSteamDirectories)
         if ($candidates.Count -eq 1) { $GameDir = $candidates[0] }
         else { $GameDir = Select-LaMulanaDirectory $candidates }
     }
     $patch = Join-Path $PSScriptRoot 'Patch.ps1'
-    if (-not [IO.File]::Exists($patch)) { throw '安装包缺少 Patch.ps1，请完整解压后重试。' }
+    if (-not [IO.File]::Exists($patch)) { throw 'Patch.ps1 is missing. Extract the complete package and try again.' }
     $arguments = @('-NoLogo','-NoProfile','-ExecutionPolicy','Bypass','-File',$patch,'-Action',$Action,'-GameDir',$GameDir,'-PackageDir',$PackageDir)
     & powershell.exe @arguments
     exit $LASTEXITCODE

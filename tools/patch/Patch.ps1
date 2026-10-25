@@ -181,21 +181,21 @@ function Check-ModCompatibility {
         $path = Inside $GameDir $anchor[0]
         if ([IO.File]::Exists($path) -and (Hash-File $path) -eq $anchor[1]) {
             $instructions = @'
-汉化不支持 La-Mulana EX Map Port（EX地图移植包）。它覆盖原版地图和脚本，无法在画面设置中切回原版。
-如需安装汉化，请按以下步骤准备原版游戏：
-1. 退出游戏，保留当前EX游戏目录，并备份“文档\NIGORO\La-Mulana”整个存档与配置文件夹。
-2. 使用安装MOD前的完整原版游戏备份；或将现有EX游戏目录移出Steam原路径，再在Steam中执行“属性→已安装文件→验证游戏文件的完整性”，重新取得原版文件。只在原目录验证完整性会留下MOD新增文件。
-3. 在恢复好的原版目录中重新运行本汉化的“安装.cmd”。EX旧存档单独保留，仅供EX副本使用；汉化原版请重新开局。
-本次已停止安装／检查，当前目录未执行汉化写入。
+This patch does not support La-Mulana EX Map Port. It replaces the original maps and scripts and cannot be switched off in the graphics settings.
+To install this translation, prepare an unmodified Steam game:
+1. Close the game. Keep your EX game folder and back up the entire Documents\NIGORO\La-Mulana save and settings folder.
+2. Use a full backup made before installing the MOD, or move the EX game folder out of its Steam location and use Steam > Properties > Installed Files > Verify integrity of game files to restore the original files. Verifying the existing folder alone leaves MOD-added files behind.
+3. Run Install.cmd to install into the restored original game folder. Keep EX saves separately for your EX copy; start a new game on the restored original maps.
+Installation/check stopped. No translation files were written to the game folder.
 '@
-            throw ($instructions + "`r`n检测文件：" + $anchor[0])
+            throw ($instructions + "`r`nDetected file: " + $anchor[0])
         }
     }
     $graphics = Inside $GameDir 'data/graphics'
     if ([IO.Directory]::Exists($graphics)) {
         $extra = @([IO.Directory]::GetDirectories($graphics) | Where-Object { [IO.Path]::GetFileName($_) -ne '00' -and [IO.File]::Exists((Join-Path $_ '_banner.png')) })
         if ($extra.Count -gt 0) {
-            Write-Warning '检测到额外画面资源包。当前汉化支持原版画面包；选择其他画面包时，其中的图像文字可能保持外文。额外资源包文件将保留。'
+            Write-Warning 'An additional graphics pack was detected. This translation supports the original graphics pack. Image text in other graphics packs may remain untranslated. Extra pack files will be kept.'
         }
     }
 }
@@ -398,6 +398,8 @@ function Check-EngineFiles {
     $engine = Inside $StateDir 'Restore.ps1'; $cmd = Inside $StateDir 'Restore.cmd'; $record = Inside $StateDir 'engine.json'
     $scriptHashes = @($LegacyInstallerHashes) + @((Hash-File $PSCommandPath))
     $cmdHashes = @(
+        '3392e579b344159b3f6d97d31064fce5f43b740510ed7a8be351623fd910aabd'
+        '2cb1c2f54d0d7527b2618cb35eb457c73ef1189a883c6110ad558cbb742964b2'
         (Hash-Bytes ($Utf8.GetBytes($LegacyRestoreCommand)))
         (Hash-Bytes ($Utf8.GetBytes($RestoreCommand)))
     )
@@ -665,8 +667,8 @@ $LegacyInstallerHashes = @('d6fcd08385fddbb8c281a57269a25723732c52f46e7c21e1db0c
     '2e1980d7edb1ec579a405c836b2935f56d94f41ae52f668bea7f41c723230ea1',
     'b785f5ed81e7a3758ac5e1a88354e89008832f788727385831c61ae2c08ebf74',
     '222bd8a52775d05b7609f4d529138aabfcb08cb349b18b40e18b60848c1ea0b2')
-$LegacyRestoreCommand = '@echo off' + "`r`n" + 'powershell.exe -NoLogo -NoProfile -File "%~dp0Restore.ps1" -Action Restore -GameDir "%~dp0.."' + "`r`n" + 'pause' + "`r`n"
-$RestoreCommand = '@echo off' + "`r`n" + 'powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0Restore.ps1" -Action Restore -GameDir "%~dp0.."' + "`r`n" + 'pause' + "`r`n"
+$LegacyRestoreCommand = '@echo off' + "`r`n" + 'powershell.exe -NoLogo -NoProfile -File "%~dp0Restore.ps1" -Action Restore -GameDir "%~dp0.."' + "`r`n" + 'echo Press any key to close...' + "`r`n" + 'pause >nul' + "`r`n"
+$RestoreCommand = '@echo off' + "`r`n" + 'powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0Restore.ps1" -Action Restore -GameDir "%~dp0.."' + "`r`n" + 'echo Press any key to close...' + "`r`n" + 'pause >nul' + "`r`n"
 try {
     $PackageDir = [IO.Path]::GetFullPath($PackageDir)
     if ($Action -ne 'Restore' -and [IO.File]::Exists((Inside $PackageDir 'manifest.json'))) {
@@ -750,7 +752,7 @@ try {
     Write-Output 'PASS: CHS patch installed or upgraded. Startup language is Simplified Chinese. Save files were not accessed.'
     exit 0
 } catch {
-    if ($_.Exception.Message.StartsWith('汉化不支持 La-Mulana EX Map Port', [StringComparison]::Ordinal)) {
+    if ($_.Exception.Message.StartsWith('This patch does not support La-Mulana EX Map Port', [StringComparison]::Ordinal)) {
         [Console]::Error.WriteLine($_.Exception.Message)
     } else { Write-Error $_.Exception.Message }
     exit 1
