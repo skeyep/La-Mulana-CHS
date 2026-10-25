@@ -16,6 +16,8 @@ python tools/lm1_phonetic_stroke_full_v1.py --catalog --output catalog.png
 
 `tools/achievement_assistant/assistant.cpp`和`roster.h`保留冒险记录界面、输入、判定和结局同行逻辑。目标为本项目所支持的Windows Steam x86版本，需要C++17、Win32／Direct3D 9／XInput头文件及库。
 
+收集页的泡温泉进度读取当前存档flag3027，按100次目标显示。地上温泉的原生检测器要求在池内范围连续累计61次更新；上方或右侧离池区域重置当次计数锁。小跳可能未触及重置区，离池后回池还需等待约1秒；满血也可计次。
+
 `build_catalog.py`与`trigger_hints.py`按当前中文、原选择器及RCD容器生成对话与邮件目录。房间范围和屏幕范围分别处理；随机区间扣除固定对白覆盖，保留流程点数的原始边界。这两个生成器需要本机提取的源资源与上下文。
 
 助手编译输入还包括`catalog.generated.h`、`skin.generated.h`、`portraits.generated.h`，由本机文本和游戏资源生成。后续迁移资源生成与整包构建入口。

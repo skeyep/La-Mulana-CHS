@@ -398,13 +398,16 @@ static void paintCollection() {
     for(int n=209;n<=225;n++)if(flag(n)==2)maps++;
     for(int n=85;n<=104;n++)if(item(n))soft++;
     for(int n=3200;n<=3330;n++)if(flag(n))scan++;
-    const wchar_t* labels[]={L"地图",L"软件",L"生命宝珠",L"扫描点",L"妖精点",L"妖精锁",L"金币宝箱"};
-    const int values[]={maps,soft,flag(852),scan,flag(900),flag(902),flag(119)},totals[]={17,20,10,131,9,4,28};
-    for(int n=0;n<7;n++) {
-        int y=92+n*49;bool done=values[n]==totals[n];
+    const wchar_t* labels[]={L"地图",L"软件",L"生命宝珠",L"扫描点",L"妖精点",L"妖精锁",L"金币宝箱",L"泡温泉"};
+    // Native Surface detector rcd@00004aea increments current-save flag 3027.
+    // Its <=100 gate can produce 101; display progress capped at the 100-use goal.
+    const int values[]={maps,soft,flag(852),scan,flag(900),flag(902),flag(119),std::min<int>(flag(3027),100)},totals[]={17,20,10,131,9,4,28,100};
+    for(int n=0;n<8;n++) {
+        int y=88+n*40;bool done=values[n]==totals[n];
         text(34,middleY(y,23,body),244,labels[n]);text(300,middleY(y,23,body),154,std::to_wstring(values[n])+L" / "+std::to_wstring(totals[n]),done?ink:muted);
-        text(496,middleY(y,23,smallFont),100,done?L"已集齐":L"未集齐",done?ink:muted,smallFont);
+        text(496,middleY(y,23,smallFont),100,n==7?(done?L"已达成":L"未达成"):(done?L"已集齐":L"未集齐"),done?ink:muted,smallFont);
     }
+    text(34,418,568,L"地上温泉连续泡约1秒计次；离池重置后可再计数。",muted,smallFont);
 }
 
 static void paintRoster();
