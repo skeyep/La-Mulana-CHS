@@ -2359,31 +2359,16 @@
       "resource_id": "data/language/script_code.dat::block:0171",
       "block_index": 171,
       "source_segment_index": 3,
-      "zh": "去向正确的",
+      "zh": "找对",
       "units": [
         {
-          "character": "去",
-          "reading": "qu4",
+          "character": "找",
+          "reading": "zhao3",
           "route": "phonetic"
         },
         {
-          "character": "向",
-          "reading": "xiang4",
-          "route": "phonetic"
-        },
-        {
-          "character": "正",
-          "reading": "zheng4",
-          "route": "phonetic"
-        },
-        {
-          "character": "确",
-          "reading": "que4",
-          "route": "phonetic"
-        },
-        {
-          "character": "的",
-          "reading": "de5",
+          "character": "对",
+          "reading": "dui4",
           "route": "phonetic"
         }
       ],
@@ -2414,8 +2399,28 @@
       "resource_id": "data/language/script_code.dat::block:0171",
       "block_index": 171,
       "source_segment_index": 7,
-      "zh": "询问。",
+      "zh": "，再向她询问。",
       "units": [
+        {
+          "character": "，",
+          "reading": null,
+          "route": "literal"
+        },
+        {
+          "character": "再",
+          "reading": "zai4",
+          "route": "phonetic"
+        },
+        {
+          "character": "向",
+          "reading": "xiang4",
+          "route": "phonetic"
+        },
+        {
+          "character": "她",
+          "reading": "ta1",
+          "route": "phonetic"
+        },
         {
           "character": "询",
           "reading": "xun2",
@@ -13633,10 +13638,10 @@
       "resource_id": "data/language/script_code.dat::block:0211",
       "block_index": 211,
       "source_segment_index": 4,
-      "zh": "。",
+      "zh": "，",
       "units": [
         {
-          "character": "。",
+          "character": "，",
           "reading": null,
           "route": "literal"
         }
@@ -13758,10 +13763,10 @@
       "resource_id": "data/language/script_code.dat::block:0211",
       "block_index": 211,
       "source_segment_index": 13,
-      "zh": "。",
+      "zh": "，",
       "units": [
         {
-          "character": "。",
+          "character": "，",
           "reading": null,
           "route": "literal"
         }

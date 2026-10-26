@@ -14656,7 +14656,7 @@
       "resource_id": "data/language/script_code.dat::block:0541",
       "block_index": 541,
       "source_segment_index": 18,
-      "zh": "不过我想，您并不需要。",
+      "zh": "不过我想，您并不需要重置。",
       "units": [
         {
           "character": "不",
@@ -14706,6 +14706,16 @@
         {
           "character": "要",
           "reading": "yao4",
+          "route": "phonetic"
+        },
+        {
+          "character": "重",
+          "reading": "chong2",
+          "route": "phonetic"
+        },
+        {
+          "character": "置",
+          "reading": "zhi4",
           "route": "phonetic"
         },
         {

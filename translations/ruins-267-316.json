@@ -76,7 +76,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0267::s16",
           "source_segment_index": 16,
-          "zh": "我将留下，",
+          "zh": "我将这些话留下，",
           "source_token_offset": 104,
           "source_tokens_sha256": "cd60f9c571ce6cb65660876fa50f7e0b78bbd900bececf4692c924c35c23c478",
           "source_kind": "glyph_run"
@@ -84,7 +84,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0267::s18",
           "source_segment_index": 18,
-          "zh": "我将传达，",
+          "zh": "我将它们传达，",
           "source_token_offset": 110,
           "source_tokens_sha256": "b8f999ea3c6a74b08a701b6038957b112ee8364d3f43c4b7d4c8b6b9b698620c",
           "source_kind": "glyph_run"
@@ -130,7 +130,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0268::s6",
           "source_segment_index": 6,
-          "zh": "因哀叹丑陋的容貌而舍弃。",
+          "zh": "蜥蜴因哀叹自己丑陋的容貌而将它舍弃。",
           "source_token_offset": 39,
           "source_tokens_sha256": "7551a7abac596771ef7505a29b2b6313ac61c71bd03705827407541fac3fbf48",
           "source_kind": "glyph_run"
@@ -154,7 +154,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0268::s12",
           "source_segment_index": 12,
-          "zh": "我将留下，",
+          "zh": "我将这些话留下，",
           "source_token_offset": 78,
           "source_tokens_sha256": "cd60f9c571ce6cb65660876fa50f7e0b78bbd900bececf4692c924c35c23c478",
           "source_kind": "glyph_run"
@@ -162,7 +162,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0268::s14",
           "source_segment_index": 14,
-          "zh": "我将传达，",
+          "zh": "我将它们传达，",
           "source_token_offset": 84,
           "source_tokens_sha256": "b8f999ea3c6a74b08a701b6038957b112ee8364d3f43c4b7d4c8b6b9b698620c",
           "source_kind": "glyph_run"
@@ -256,7 +256,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0269::s18",
           "source_segment_index": 18,
-          "zh": "我将留下，",
+          "zh": "我将这些话留下，",
           "source_token_offset": 113,
           "source_tokens_sha256": "cd60f9c571ce6cb65660876fa50f7e0b78bbd900bececf4692c924c35c23c478",
           "source_kind": "glyph_run"
@@ -264,7 +264,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0269::s20",
           "source_segment_index": 20,
-          "zh": "我将传达，",
+          "zh": "我将它们传达，",
           "source_token_offset": 119,
           "source_tokens_sha256": "b8f999ea3c6a74b08a701b6038957b112ee8364d3f43c4b7d4c8b6b9b698620c",
           "source_kind": "glyph_run"
@@ -3420,7 +3420,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0309::s3",
           "source_segment_index": 3,
-          "zh": "真实之眼",
+          "zh": "用真实之眼",
           "source_token_offset": 21,
           "source_tokens_sha256": "826a095b01a99b5f6f5cb7e49d7504815ec9b2007a119d43ea4abb06f6d2b9a2",
           "source_kind": "glyph_run"
@@ -3472,6 +3472,20 @@
           "source_token_offset": 75,
           "source_tokens_sha256": "ceb30e34a57e0d4562da3e4538d70d218d0d89188cf6c1863b3a2da3a8784ec9",
           "source_kind": "glyph_run"
+        }
+      ],
+      "color_adjustments": [
+        {
+          "kind": "range",
+          "source_segment_index": 3,
+          "start": 0,
+          "end": 1,
+          "text": "用",
+          "color": [
+            0,
+            0,
+            0
+          ]
         }
       ]
     },

@@ -1,14 +1,14 @@
 # La-Mulana-CHS
 
 《穆拉纳秘宝》Windows Steam 重制版简体中文汉化。  
-汉化：**Skeyep_目目** · 当前版本 **0.2.3**
+汉化：**Skeyep_目目** · 当前版本 **0.2.4**
 
 ## 下载与安装
 
 | 版本 | 内容 | 下载 |
 | --- | --- | --- |
-| Translation Only | 完整汉化 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.3/La-Mulana-CHS-0.2.3-Translation-Only.zip) |
-| Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.3/La-Mulana-CHS-0.2.3-Translation-Adventure-Log.zip) |
+| Translation Only | 完整汉化 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.4/La-Mulana-CHS-0.2.4-Translation-Only.zip) |
+| Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.4/La-Mulana-CHS-0.2.4-Translation-Adventure-Log.zip) |
 
 1. 退出游戏，解压下载的安装包。
 2. 双击 **Install.cmd**，自动查找 Steam，必要时手选游戏目录。

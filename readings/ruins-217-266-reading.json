@@ -9566,8 +9566,18 @@
       "resource_id": "data/language/script_code.dat::block:0248",
       "block_index": 248,
       "source_segment_index": 1,
-      "zh": "不许再来第２次。",
+      "zh": "再也不许来了。",
       "units": [
+        {
+          "character": "再",
+          "reading": "zai4",
+          "route": "phonetic"
+        },
+        {
+          "character": "也",
+          "reading": "ye3",
+          "route": "phonetic"
+        },
         {
           "character": "不",
           "reading": "bu4",
@@ -9579,28 +9589,13 @@
           "route": "phonetic"
         },
         {
-          "character": "再",
-          "reading": "zai4",
-          "route": "phonetic"
-        },
-        {
           "character": "来",
           "reading": "lai2",
           "route": "phonetic"
         },
         {
-          "character": "第",
-          "reading": "di4",
-          "route": "phonetic"
-        },
-        {
-          "character": "２",
-          "reading": null,
-          "route": "literal"
-        },
-        {
-          "character": "次",
-          "reading": "ci4",
+          "character": "了",
+          "reading": "le5",
           "route": "phonetic"
         },
         {
@@ -10749,7 +10744,7 @@
       "resource_id": "data/language/script_code.dat::block:0254",
       "block_index": 254,
       "source_segment_index": 6,
-      "zh": "圣杯之力在此也无效。",
+      "zh": "圣杯之力在那里也无效。",
       "units": [
         {
           "character": "圣",
@@ -10777,8 +10772,13 @@
           "route": "phonetic"
         },
         {
-          "character": "此",
-          "reading": "ci3",
+          "character": "那",
+          "reading": "na4",
+          "route": "phonetic"
+        },
+        {
+          "character": "里",
+          "reading": "li3",
           "route": "phonetic"
         },
         {
@@ -14642,23 +14642,6 @@
       "policy": "exact original currency-letter token/cell/metrics"
     },
     {
-      "block_index": 248,
-      "source_segment_index": 1,
-      "unit_index0": 5,
-      "character": "２",
-      "source_character": "２",
-      "source_character_index0": 0,
-      "source_token": 1246,
-      "source_token_hex": "0x04DE",
-      "normal_rgba_sha256": "1c5a70b9bbdaa66d6635de7b7509e4fabee3030b2b8ae9aaf94b22c6852e96dc",
-      "ancient_rgba_sha256": "92bd6f1dd598d6434852f0c6a1aa05bfe669172e70f259ea84d5ba82cc471cc6",
-      "source_grif_record": [
-        4,
-        13
-      ],
-      "policy": "exact original fullwidth numeral token/cell/metrics"
-    },
-    {
       "block_index": 252,
       "source_segment_index": 5,
       "unit_index0": 3,
@@ -14900,17 +14883,6 @@
         "policy": "reuse corresponding original digit tokens when compiling"
       },
       {
-        "block_index": 248,
-        "source_segment_index": 1,
-        "source_digits": [
-          "２"
-        ],
-        "source_digit_tokens": [
-          1246
-        ],
-        "policy": "reuse corresponding original digit tokens when compiling"
-      },
-      {
         "block_index": 252,
         "source_segment_index": 5,
         "source_digits": [
@@ -15016,7 +14988,15 @@
     ],
     "deliberate_missing_word_blocks": [],
     "missing_word_space_layout_segments": 0,
-    "control_and_layout_policy": "preserve JP source tokens and order, including shop flags and deliberate spaces"
+    "control_and_layout_policy": "preserve JP source tokens and order, including shop flags and deliberate spaces",
+    "idiom_numeric_exceptions": [
+      {
+        "block_index": 248,
+        "source_segment_index": 1,
+        "source_digit": "２",
+        "source_token": 1246
+      }
+    ]
   },
   "literal_glyph_sources": {
     ",": {

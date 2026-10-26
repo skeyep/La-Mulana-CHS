@@ -4574,7 +4574,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0092::s8",
           "source_segment_index": 8,
-          "zh": "都希望母亲能住到这片土地上。",
+          "zh": "都希望母亲能住在这片土地上。",
           "source_token_offset": 19,
           "source_tokens_sha256": "930d69dcafb52bb61b288ba6447d74c9c62a37930e921c739a06add6ec3346aa",
           "source_kind": "glyph_run",

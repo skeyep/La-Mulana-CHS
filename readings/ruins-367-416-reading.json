@@ -11550,8 +11550,18 @@
       "resource_id": "data/language/script_code.dat::block:0383",
       "block_index": 383,
       "source_segment_index": 27,
-      "zh": "坐上载具，再把那腰包",
+      "zh": "那人坐上载具，再把那腰包",
       "units": [
+        {
+          "character": "那",
+          "reading": "na4",
+          "route": "phonetic"
+        },
+        {
+          "character": "人",
+          "reading": "ren2",
+          "route": "phonetic"
+        },
         {
           "character": "坐",
           "reading": "zuo4",
@@ -11610,7 +11620,7 @@
       "resource_id": "data/language/script_code.dat::block:0383",
       "block_index": 383,
       "source_segment_index": 30,
-      "zh": "咔嚓一声嵌进去。",
+      "zh": "咔嚓一声嵌了进去。",
       "units": [
         {
           "character": "咔",
@@ -11635,6 +11645,11 @@
         {
           "character": "嵌",
           "reading": "qian4",
+          "route": "phonetic"
+        },
+        {
+          "character": "了",
+          "reading": "le5",
           "route": "phonetic"
         },
         {

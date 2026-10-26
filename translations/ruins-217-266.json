@@ -1968,7 +1968,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0248::s1",
           "source_segment_index": 1,
-          "zh": "不许再来第２次。",
+          "zh": "再也不许来了。",
           "source_token_offset": 2,
           "source_tokens_sha256": "26d56a41c5fa6cc2aa6d516db8df477442b1484b2abc5e5c648e84a971a29846",
           "source_kind": "glyph_run"
@@ -2196,7 +2196,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0254::s6",
           "source_segment_index": 6,
-          "zh": "圣杯之力在此也无效。",
+          "zh": "圣杯之力在那里也无效。",
           "source_token_offset": 28,
           "source_tokens_sha256": "f649d8beab69f86753bb8aeaad4c5aea736ad29c3206baa4400c74adec855323",
           "source_kind": "glyph_run"
@@ -2852,17 +2852,6 @@
         "policy": "reuse corresponding original digit tokens when compiling"
       },
       {
-        "block_index": 248,
-        "source_segment_index": 1,
-        "source_digits": [
-          "２"
-        ],
-        "source_digit_tokens": [
-          1246
-        ],
-        "policy": "reuse corresponding original digit tokens when compiling"
-      },
-      {
         "block_index": 252,
         "source_segment_index": 5,
         "source_digits": [
@@ -2968,6 +2957,14 @@
     ],
     "deliberate_missing_word_blocks": [],
     "missing_word_space_layout_segments": 0,
-    "control_and_layout_policy": "preserve JP source tokens and order, including shop flags and deliberate spaces"
+    "control_and_layout_policy": "preserve JP source tokens and order, including shop flags and deliberate spaces",
+    "idiom_numeric_exceptions": [
+      {
+        "block_index": 248,
+        "source_segment_index": 1,
+        "source_digit": "２",
+        "source_token": 1246
+      }
+    ]
   }
 }

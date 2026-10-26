@@ -2293,11 +2293,36 @@
       "resource_id": "data/language/script_code.dat::block:0322",
       "block_index": 322,
       "source_segment_index": 8,
-      "zh": "它便会苏醒。",
+      "zh": "那位虚拟智者便会苏醒。",
       "units": [
         {
-          "character": "它",
-          "reading": "ta1",
+          "character": "那",
+          "reading": "na4",
+          "route": "phonetic"
+        },
+        {
+          "character": "位",
+          "reading": "wei4",
+          "route": "phonetic"
+        },
+        {
+          "character": "虚",
+          "reading": "xu1",
+          "route": "phonetic"
+        },
+        {
+          "character": "拟",
+          "reading": "ni3",
+          "route": "phonetic"
+        },
+        {
+          "character": "智",
+          "reading": "zhi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "者",
+          "reading": "zhe3",
           "route": "phonetic"
         },
         {
@@ -12263,7 +12288,7 @@
       "resource_id": "data/language/script_code.dat::block:0364",
       "block_index": 364,
       "source_segment_index": 21,
-      "zh": "我们世世代代守着这里，老夫也不知里面究竟有什么。",
+      "zh": "我们世世代代只是守着这里，所以老夫也不知里面究竟有什么。",
       "units": [
         {
           "character": "我",
@@ -12296,6 +12321,16 @@
           "route": "phonetic"
         },
         {
+          "character": "只",
+          "reading": "zhi3",
+          "route": "phonetic"
+        },
+        {
+          "character": "是",
+          "reading": "shi4",
+          "route": "phonetic"
+        },
+        {
           "character": "守",
           "reading": "shou3",
           "route": "phonetic"
@@ -12319,6 +12354,16 @@
           "character": "，",
           "reading": null,
           "route": "literal"
+        },
+        {
+          "character": "所",
+          "reading": "suo3",
+          "route": "phonetic"
+        },
+        {
+          "character": "以",
+          "reading": "yi3",
+          "route": "phonetic"
         },
         {
           "character": "老",

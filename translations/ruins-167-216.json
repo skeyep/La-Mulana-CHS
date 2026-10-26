@@ -516,7 +516,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0171::s3",
           "source_segment_index": 3,
-          "zh": "去向正确的",
+          "zh": "找对",
           "source_token_offset": 25,
           "source_tokens_sha256": "bcb834e785777da54c997976db40d4c4e5da3c8513c68aabc7db66a71e9bc2a1",
           "source_kind": "glyph_run"
@@ -532,7 +532,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0171::s7",
           "source_segment_index": 7,
-          "zh": "询问。",
+          "zh": "，再向她询问。",
           "source_token_offset": 38,
           "source_tokens_sha256": "1e07ede0f005e81f73cf736799b9393406ecb5bfb31c0506909602a059d5ccc8",
           "source_kind": "glyph_run"
@@ -3144,7 +3144,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0211::s4",
           "source_segment_index": 4,
-          "zh": "。",
+          "zh": "，",
           "source_token_offset": 21,
           "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
           "source_kind": "glyph_run"
@@ -3176,7 +3176,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0211::s13",
           "source_segment_index": 13,
-          "zh": "。",
+          "zh": "，",
           "source_token_offset": 54,
           "source_tokens_sha256": "877f3713268cdab175893935cd58e2e5c9830c1f4bd1d84995ffc2b7b60b9e03",
           "source_kind": "glyph_run"

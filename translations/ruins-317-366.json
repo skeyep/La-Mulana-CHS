@@ -490,7 +490,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0322::s8",
           "source_segment_index": 8,
-          "zh": "它便会苏醒。",
+          "zh": "那位虚拟智者便会苏醒。",
           "source_token_offset": 55,
           "source_tokens_sha256": "0244802c9215b000a0f58046103b909b6b69d6c0c1639aba1f750aec37f58b45",
           "source_kind": "glyph_run"
@@ -2582,7 +2582,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0364::s21",
           "source_segment_index": 21,
-          "zh": "我们世世代代守着这里，老夫也不知里面究竟有什么。",
+          "zh": "我们世世代代只是守着这里，所以老夫也不知里面究竟有什么。",
           "source_token_offset": 151,
           "source_tokens_sha256": "d0664531959c3864ce56ec667b7102bc98355b58da5d8e5e9568f3266af26e32",
           "source_kind": "glyph_run"

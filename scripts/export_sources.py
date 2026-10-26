@@ -31,7 +31,7 @@ EX_SOURCE = 'localization/translations/drafts/ex-modes.json'
 ABSOLUTE_PATH = re.compile(r'(?i)(?:\b[A-Z]:[\\/]|file:///|\\\\[^\\\s]+\\)')
 DROP_KEYS = {
     'inputs', 'outputs', 'galleries', 'verification', 'validation', 'runtime',
-    'review', 'independent_review', 'evidence', 'evidence_kind', 'reason',
+    'review', 'report', 'independent_review', 'evidence', 'evidence_kind', 'reason',
     'reasons', 'control_review', 'source_run_text', 'source_text',
     'path', 'source_path', 'parsed_path', 'dictionary_source', 'source_section',
     'excerpt', 'source_artifacts', 'source_policy', 'tool_versions',

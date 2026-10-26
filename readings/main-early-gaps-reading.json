@@ -20031,7 +20031,7 @@
       "resource_id": "data/language/script_code.dat::block:0092",
       "block_index": 92,
       "source_segment_index": 8,
-      "zh": "都希望母亲能住到这片土地上。",
+      "zh": "都希望母亲能住在这片土地上。",
       "units": [
         {
           "character": "都",
@@ -20070,8 +20070,8 @@
           "route": "phonetic"
         },
         {
-          "character": "到",
-          "reading": "dao4",
+          "character": "在",
+          "reading": "zai4",
           "route": "phonetic"
         },
         {

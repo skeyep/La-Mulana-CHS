@@ -2960,7 +2960,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0541::s18",
           "source_segment_index": 18,
-          "zh": "不过我想，您并不需要。",
+          "zh": "不过我想，您并不需要重置。",
           "source_token_offset": 107,
           "source_tokens_sha256": "157f33d5a24ece503bb5befaad9cb7cf29a84f206cf10802fda9b5db0bc16c63",
           "source_kind": "glyph_run"

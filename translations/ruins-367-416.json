@@ -2254,7 +2254,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0383::s27",
           "source_segment_index": 27,
-          "zh": "坐上载具，再把那腰包",
+          "zh": "那人坐上载具，再把那腰包",
           "source_token_offset": 112,
           "source_tokens_sha256": "c3b374de1a7231ba6cc8ae0fb2c38e59530720299b50dcdda11aee9e65730545",
           "source_kind": "glyph_run"
@@ -2262,7 +2262,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0383::s30",
           "source_segment_index": 30,
-          "zh": "咔嚓一声嵌进去。",
+          "zh": "咔嚓一声嵌了进去。",
           "source_token_offset": 130,
           "source_tokens_sha256": "1004c62845389150dda659b74d6fd90794d107092533255cee2865e6b09d9745",
           "source_kind": "glyph_run"
