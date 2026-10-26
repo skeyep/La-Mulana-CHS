@@ -1,14 +1,14 @@
 # La-Mulana-CHS
 
 《穆拉纳秘宝》Windows Steam 重制版简体中文汉化。  
-汉化：**Skeyep_目目** · 当前版本 **0.2.4**
+汉化：**Skeyep_目目** · 当前版本 **0.2.5**
 
 ## 下载与安装
 
 | 版本 | 内容 | 下载 |
 | --- | --- | --- |
-| Translation Only | 完整汉化 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.4/La-Mulana-CHS-0.2.4-Translation-Only.zip) |
-| Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.4/La-Mulana-CHS-0.2.4-Translation-Adventure-Log.zip) |
+| Translation Only | 完整汉化 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.5/La-Mulana-CHS-0.2.5-Translation-Only.zip) |
+| Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.5/La-Mulana-CHS-0.2.5-Translation-Adventure-Log.zip) |
 
 1. 退出游戏，解压下载的安装包。
 2. 双击 **Install.cmd**，自动查找 Steam，必要时手选游戏目录。
@@ -26,7 +26,7 @@
 
 ## 汉化独占功能：冒险记录
 
-- 查阅穆尔、长老的对话与邮件，查看已听、未听、暂不可触发及已错过状态。
+- 查阅穆尔、长老的对话与邮件，查看已听、可触发、暂不可及已错过状态。
 - 查看流程点数、收集进度（含泡温泉次数）、通关挑战和结局同行角色。
 - 暂停后按 **跳跃键** 打开；确认键展开触发详情，返回键收起，再按返回键退出。
 

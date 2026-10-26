@@ -9,8 +9,9 @@
 #include <cstdint>
 
 struct Rule { int kind,a,b; };
-struct Dialogue { int flag,block,person,rank; const wchar_t *title,*text,*note,*shortNote; Rule rules[8]; int randomWindows[16][2]; };
+struct Dialogue { int flag,block,person,rank; const wchar_t *title,*text,*note,*shortNote; Rule rules[8]; int randomWindows[24][2]; };
 #include "catalog.generated.h"
+#include "routes.generated.h"
 #include "skin.generated.h"
 static uintptr_t base;
 template<class T> T& mem(unsigned va) { return *reinterpret_cast<T*>(base+va-0x400000); }
@@ -44,9 +45,12 @@ static IDirect3DDevice9* textureDevice;
 static std::vector<int> rows;
 static const COLORREF ink=RGB(255,255,255),muted=RGB(170,170,170),green=RGB(255,255,255),red=RGB(255,128,128),border=RGB(221,221,221);
 
+static bool dialogueBlocked(const Dialogue& d);
 static bool missed(const Dialogue& d) {
+    if(!dialogueBlocked(d))return false;
     if(d.person==0 && flag(874)!=0)return true; // Swimsuit reaction closes ordinary conversation doors.
-    if(d.person==0 && d.randomWindows[0][1]>=0 && flag(898)!=0)return true;
+    if(d.person==0 && flag(898)!=0)return true;
+    if(d.person==1 && flag(254)==3)return true;
     // A future forced score reset can reopen an interval. Never use current score alone.
     int floor=flag(123);
     if(flag(898)==0) {
@@ -61,8 +65,8 @@ static bool missed(const Dialogue& d) {
     for(auto& r:d.rules) if(r.kind==1 || r.kind==5) maxScore=std::max(maxScore,r.b);
     if(maxScore>=0 && floor>maxScore) return true;
     for(auto& r:d.rules) {
-        if(r.kind==2 && (r.a==121 || r.a==124 || r.a==844) && flag(r.a)>r.b) return true;
-        if(r.kind==2 && r.a>=812 && r.a<=817 && flag(r.a)>r.b) return true;
+        if(r.kind==2 && flag(r.a)>r.b) return true;
+        if(r.kind==3 && flag(r.b)!=0)return true;
         if(r.kind==3 && r.a==31 && item(31)==0 && item(81)>0) return true;
     }
     if(d.flag==2806 && flag(193)!=0 && flag(811)==0)return true;
@@ -73,10 +77,53 @@ static int storyBlock(int who) {
     else {for(auto& r:STORY_1)if(flag(r[0])==r[1])return r[2];}
     return -1;
 }
+// Read-only equivalent of 487080: story -> unshown equipped item -> score -> pool.
+// Calling the native function here would consume item flags and advance its RNG.
+static bool doorMatches(const DialogueDoor& door) {
+    for(auto& t:door.tests) {
+        int value=flag(t.kind);
+        if(t.b==0 && value!=t.a)return false;
+        if(t.b==1 && value>t.a)return false;
+        if(t.b==2 && value<t.a)return false;
+        if(t.b==64 && value==t.a)return false;
+    }
+    return true;
+}
+static const SelectorTable* selectorTable(int id) {
+    for(auto& t:SELECTOR_TABLES)if(t.id==id)return &t;
+    return nullptr;
+}
+struct DialogueSelection { int block,kind,pool; };
+static DialogueSelection selectedDialogue(int who) {
+    auto inventory=mem<unsigned char*>(0x6e0f84);
+    int equipped=inventory?inventory[0x2c]:255;
+    for(auto& door:DIALOGUE_DOORS)if(door.person==who && doorMatches(door)) {
+        if(door.direct>=0)return {door.direct,0,-1};
+        for(int id:door.groups) {
+            auto table=selectorTable(id);if(!table)continue;
+            if(table->kind==3)return {-1,3,id};
+            for(int i=0;i<table->count;i++) {
+                auto r=table->rows[i];
+                bool match=table->kind==0?flag(r.a)==r.b:
+                    table->kind==1?equipped==r.a && flag(r.b)==0:
+                    r.a<=flag(123) && flag(123)<=r.b;
+                if(match)return {r.block,table->kind,-1};
+            }
+        }
+    }
+    return {-1,-1,-1};
+}
+static bool dialogueBlocked(const Dialogue& d) {
+    auto selected=selectedDialogue(d.person);
+    if(selected.kind!=3)return selected.block!=d.block;
+    bool inWindow=false;for(auto& r:d.randomWindows)if(r[1]>=0 && r[0]<=flag(123) && flag(123)<=r[1])inWindow=true;
+    if(!inWindow)return true;
+    auto pool=selectorTable(selected.pool);
+    for(int i=0;i<pool->count;i++)if(pool->rows[i].block==d.block)return false;
+    return true;
+}
 static bool randomBlocked(const Dialogue& d) {
-    if(d.randomWindows[0][1]<0)return false;
-    bool inWindow=false;for(auto& r:d.randomWindows)if(r[0]<=flag(123)&&flag(123)<=r[1])inWindow=true;
-    return !inWindow || storyBlock(d.person)>=0;
+    return dialogueBlocked(d);
 }
 static const wchar_t* stage(int who) {
     int score=flag(123);
@@ -89,7 +136,17 @@ static const wchar_t* stageWindow(int who) {
     if(score<=70)return L"前期  流程点数0—70";if(score<=140)return L"中期  流程点数71—140";if(score<=199)return L"后期  流程点数141—199";return L"终盘  流程点数≥200";
 }
 static std::wstring shortTiming(const Dialogue& d) {
-    if(d.randomWindows[0][1]<0)return d.shortNote;
+    if(d.randomWindows[0][1]<0) {
+        if(flag(d.flag))return d.shortNote;
+        if(missed(d))return L"本条已错过。\n"+std::wstring(d.shortNote);
+        if(dialogueBlocked(d)) {
+            auto selected=selectedDialogue(d.person);
+            if(selected.kind==0 && selected.block!=d.block)return L"其他剧情对白优先。\n"+std::wstring(d.shortNote);
+            if(selected.kind==1 && selected.block!=d.block)return L"装备展示对白优先。\n"+std::wstring(d.shortNote);
+            return L"本条暂不可。\n"+std::wstring(d.shortNote);
+        }
+        return d.shortNote;
+    }
     if(!flag(d.flag)&&missed(d)){
         if(d.person==0&&flag(874))return L"泳装对话后不再触发。";
         if(d.person==0&&flag(898))return L"进入终战后不再触发。";
@@ -98,14 +155,19 @@ static std::wstring shortTiming(const Dialogue& d) {
     }
     if(randomBlocked(d)){
         bool inWindow=false;for(auto& r:d.randomWindows)if(r[0]<=flag(123)&&flag(123)<=r[1])inWindow=true;
-        if(inWindow)return L"剧情对白优先，本条暂不可。";
-        for(auto& r:d.randomWindows)if(r[1]>=0&&r[0]>flag(123))return L"本条暂不可。\n流程点数≥"+std::to_wstring(r[0])+L"可再尝试。";
+        if(inWindow) {
+            auto selected=selectedDialogue(d.person);
+            if(selected.kind==1)return L"装备展示对白优先，本条暂不可。";
+            if(selected.kind==0)return L"剧情对白优先，本条暂不可。";
+            return L"当前对话入口未开放，本条暂不可。";
+        }
+        for(auto& r:d.randomWindows)if(r[1]>=0&&r[0]>flag(123))return L"本条暂不可。\n下个点数窗口："+std::to_wstring(r[0])+(r[0]==r[1]?L"":L"—"+std::to_wstring(r[1]))+L"。";
         return L"剧情重设流程点数后可再尝试。";
     }
     return L"在当前窗口反复交谈。";
 }
-static const wchar_t* status(const Dialogue& d) { return flag(d.flag)?L"已听":missed(d)?L"已错过":randomBlocked(d)?L"暂不可":L"未听"; }
-static COLORREF statusColor(const Dialogue& d) { return flag(d.flag)?green:missed(d)?red:muted; }
+static const wchar_t* status(const Dialogue& d) { return flag(d.flag)?L"已听":missed(d)?L"已错过":dialogueBlocked(d)?L"暂不可":L"可触发"; }
+static COLORREF statusColor(const Dialogue& d) { return flag(d.flag)?green:missed(d)?red:dialogueBlocked(d)?muted:ink; }
 static void selectTab(int t) {
     tab=(t+6)%6; selected=0; detailScroll=0; detailsExpanded=false; rows.clear();
     for(int i=0;i<113;i++) if(tab==0 && DIALOGUES[i].person==person) rows.push_back(i);

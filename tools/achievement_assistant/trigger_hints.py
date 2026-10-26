@@ -20,7 +20,7 @@ def enrich(root, dialogues, mails):
     item_doc = json.loads((root/'localization/translations/items-software.json').read_text(encoding='utf-8'))
     item_row = next(r for r in item_doc['records'] if r['block_index'] == 1)
     items = {r['source_segment_index']//2:r['zh'] for r in item_row['translation_runs']}
-    bounds = {484:(0,70),1080:(71,140),1081:(141,255),1019:(141,255),485:(56,120),1082:(121,199),1083:(200,255)}
+    bounds = {484:(0,70),1080:(71,140),1081:(141,255),1019:(141,255),719:(50,55),485:(56,120),1082:(121,199),1083:(200,255)}
     for d in dialogues:
         intervals = []
         if any(r[0] == 4 for r in d['rules']):
