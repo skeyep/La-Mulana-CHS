@@ -1,6 +1,6 @@
 # Steam Deck 安装汉化
 
-SteamOS 用户在 Release 选择 **Linux-Proton** 安装包，使用其中的 **`Install.sh`**；游戏通过 **Proton 运行 Windows 版**。纯汉化版和冒险记录版使用相同步骤。Windows 包单独提供 `.cmd` 入口。
+在 [Release](https://github.com/skeyep/La-Mulana-CHS/releases/tag/v0.2.6) 下载 **Linux-Proton** 安装包。纯汉化版和冒险记录版使用相同步骤，游戏通过 **Proton 运行 Windows 版**。Steam Deck实机兼容性尚待确认。
 
 《La-Mulana》也提供原生 Linux 版。汉化包含修改后的 `LaMulanaWin.exe`，安装前须让 Steam 下载 Windows 版。
 
@@ -23,9 +23,9 @@ SteamOS 用户在 Release 选择 **Linux-Proton** 安装包，使用其中的 **
 
    看到 `PASS` 后返回游戏模式，从 **原有 Steam 游戏条目** 启动。首页左下角应显示 `汉化版本 0.2.6 · 2026-10-27`。
 
-安装使用 SteamOS 自带的 Python 3，无需 `sudo` 或安装系统软件。Windows 用户继续双击 `Install.cmd`。
+安装使用 SteamOS 自带的 Python 3，无需 `sudo` 或安装系统软件。
 
-朋友已有原生 Linux 版进度时，先备份原存档；切换到 Proton 后确认旧进度能加载，再继续保存。汉化安装器保留存档，存档迁移由 Steam 云同步或玩家单独处理。
+已有原生 Linux 版存档时，先备份；切换到 Proton 后确认旧进度能加载，再继续保存。汉化安装器保留存档，存档迁移由 Steam 云同步或玩家单独处理。
 
 ## 手动指定目录
 
@@ -62,12 +62,8 @@ bash ./.lamulana-zh/Restore.sh
 
 若要回到原生 Linux 版，先执行 `Restore.sh`，再在 Steam 中取消强制 Proton，等待 Steam 完成版本切换。
 
-## 冒险记录与验收
+## 冒险记录
 
 冒险记录跟随游戏当前按键绑定：暂停后按 **跳跃** 打开；确认键展开触发详情，返回键收起，再按返回键退出。页签和人物切换沿用游戏菜单动作，可通过 Steam Input 调整。
-
-已验：Windows 主机隔离目录中的真实补丁安装、双向切换、Windows 安装记录接续、配置保留、中断恢复与独立还原，共46项；Ubuntu 24.04上的12项生成数据安装器回归通过，覆盖文件锁、原子写入与运行中检测。[Linux自动回归](https://github.com/skeyep/La-Mulana-CHS/actions/runs/40513344408)。本版正文与字库继承 0.2.5，首页版本同步为 0.2.6。
-
-待验：SteamOS 上实际执行脚本、Proton 加载、Deck 中文画面及实体手柄／Steam Input 操作。朋友首轮确认首页中文、载入存档、打开一段文本，以及冒险记录的进入／退出，即可反馈这四项结果。
 
 参考：[Steam 官方 Proton 切换说明](https://help.steampowered.com/en/faqs/view/7DD4-C618-182E-0E49) · [Valve Proton FAQ](https://github.com/ValveSoftware/Proton/wiki/Proton-FAQ)。

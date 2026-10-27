@@ -18,7 +18,7 @@ Windows安装：
 
 新版直接覆盖安装；两个版本也可以直接切换。双击 **Restore.cmd** 恢复原版。
 
-**Steam Deck / Linux**：先在Steam中强制Proton、启动一次并退出，再在桌面模式解压Linux-Proton包，终端运行 `bash ./Install.sh`；检查用 `bash ./Check.sh`，还原用 `bash ./Restore.sh`。[完整教程与待验范围](docs/steam-deck.md)。Deck画面和实体手柄待实机确认。
+**Steam Deck / Linux**：先在Steam中启用Proton，启动游戏一次并退出；在桌面模式解压Linux-Proton包，终端运行 `bash ./Install.sh`。[安装与还原教程](docs/steam-deck.md)。Steam Deck实机兼容性尚待确认。
 
 ## 中文穆拉纳文字
 
