@@ -26,3 +26,5 @@ jobs:
           python-version: '3.14'
       - name: Validate public sources
         run: python -B scripts/check_sources.py
+      - name: Test Linux Proton installer
+        run: python -B tools/patch/test_portable.py

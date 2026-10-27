@@ -685,6 +685,9 @@ try {
     try { $lockHeld = $mutex.WaitOne(0) } catch [Threading.AbandonedMutexException] { $lockHeld = $true }
     if (-not $lockHeld) { throw 'Another patch operation is running for this game directory' }
     $StateDir = Inside $GameDir '.lamulana-zh'; $StateFile = Inside $StateDir 'state.json'; $JournalFile = Inside $StateDir 'upgrade.json'
+    if ([IO.File]::Exists((Inside $StateDir 'portable-upgrade.json'))) {
+        throw 'An interrupted SteamOS/Linux operation is present. Run Install.sh or Restore.sh under Linux to recover before using the Windows installer.'
+    }
     if ($Action -ne 'Restore' -and -not [IO.File]::Exists($JournalFile)) { Check-ModCompatibility }
     $state = $null
     if ([IO.File]::Exists($StateFile)) { $state = Read-Json $StateFile; Check-State $state }

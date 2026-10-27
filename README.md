@@ -1,20 +1,24 @@
 # La-Mulana-CHS
 
 《穆拉纳秘宝》Windows Steam 重制版简体中文汉化。  
-汉化：**Skeyep_目目** · 当前版本 **0.2.5**
+汉化：**Skeyep_目目** · 当前版本 **0.2.6**
 
 ## 下载与安装
 
-| 版本 | 内容 | 下载 |
+| 平台 | Translation Only（纯汉化） | Translation + Adventure Log（含冒险记录） |
 | --- | --- | --- |
-| Translation Only | 完整汉化 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.5/La-Mulana-CHS-0.2.5-Translation-Only.zip) |
-| Translation + Adventure Log | 完整汉化＋冒险记录 | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.5/La-Mulana-CHS-0.2.5-Translation-Adventure-Log.zip) |
+| Windows | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.6/La-Mulana-CHS-0.2.6-Windows-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.6/La-Mulana-CHS-0.2.6-Windows-Translation-Adventure-Log.zip) |
+| Steam Deck / Linux（Proton） | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.6/La-Mulana-CHS-0.2.6-Linux-Proton-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.6/La-Mulana-CHS-0.2.6-Linux-Proton-Translation-Adventure-Log.zip) |
 
-1. 退出游戏，解压下载的安装包。
+Windows安装：
+
+1. 退出游戏，解压下载的Windows安装包。
 2. 双击 **Install.cmd**，自动查找 Steam，必要时手选游戏目录。
 3. 启动游戏即可使用简体中文，首页左下角显示汉化版本与日期。
 
 新版直接覆盖安装；两个版本也可以直接切换。双击 **Restore.cmd** 恢复原版。
+
+**Steam Deck / Linux**：先在Steam中强制Proton、启动一次并退出，再在桌面模式解压Linux-Proton包，终端运行 `bash ./Install.sh`；检查用 `bash ./Check.sh`，还原用 `bash ./Restore.sh`。[完整教程与待验范围](docs/steam-deck.md)。Deck画面和实体手柄待实机确认。
 
 ## 中文穆拉纳文字
 
