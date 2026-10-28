@@ -16631,7 +16631,7 @@
       "resource_id": "data/language/script_code.dat::block:0549",
       "block_index": 549,
       "source_segment_index": 0,
-      "zh": "［穆拉纳遗迹事典＞起始壁画］",
+      "zh": "［穆拉纳遗迹事典＞启程壁画］",
       "units": [
         {
           "character": "［",
@@ -16679,13 +16679,13 @@
           "route": "literal"
         },
         {
-          "character": "起",
+          "character": "启",
           "reading": "qi3",
           "route": "phonetic"
         },
         {
-          "character": "始",
-          "reading": "shi3",
+          "character": "程",
+          "reading": "cheng2",
           "route": "phonetic"
         },
         {

@@ -12038,7 +12038,7 @@
       "resource_id": "data/language/script_code.dat::block:0297",
       "block_index": 297,
       "source_segment_index": 1,
-      "zh": "守护者所守之物，另在他处。",
+      "zh": "守护者还守护着别的东西。",
       "units": [
         {
           "character": "守",
@@ -12056,8 +12056,8 @@
           "route": "phonetic"
         },
         {
-          "character": "所",
-          "reading": "suo3",
+          "character": "还",
+          "reading": "hai2",
           "route": "phonetic"
         },
         {
@@ -12066,38 +12066,33 @@
           "route": "phonetic"
         },
         {
-          "character": "之",
-          "reading": "zhi1",
+          "character": "护",
+          "reading": "hu4",
           "route": "phonetic"
         },
         {
-          "character": "物",
-          "reading": "wu4",
+          "character": "着",
+          "reading": "zhe5",
           "route": "phonetic"
         },
         {
-          "character": "，",
-          "reading": null,
-          "route": "literal"
-        },
-        {
-          "character": "另",
-          "reading": "ling4",
+          "character": "别",
+          "reading": "bie2",
           "route": "phonetic"
         },
         {
-          "character": "在",
-          "reading": "zai4",
+          "character": "的",
+          "reading": "de5",
           "route": "phonetic"
         },
         {
-          "character": "他",
-          "reading": "ta1",
+          "character": "东",
+          "reading": "dong1",
           "route": "phonetic"
         },
         {
-          "character": "处",
-          "reading": "chu4",
+          "character": "西",
+          "reading": "xi5",
           "route": "phonetic"
         },
         {

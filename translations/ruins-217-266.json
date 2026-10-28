@@ -2060,7 +2060,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0250::s6",
           "source_segment_index": 6,
-          "zh": "道路为贤者开启。",
+          "zh": "道路为睿智之人开启。",
           "source_token_offset": 17,
           "source_tokens_sha256": "8b9267ca2775e1b9bd6765237d8e29fb912edce963d1710fa4cd2986f12756f6",
           "source_kind": "glyph_run"

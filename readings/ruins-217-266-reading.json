@@ -9921,7 +9921,7 @@
       "resource_id": "data/language/script_code.dat::block:0250",
       "block_index": 250,
       "source_segment_index": 6,
-      "zh": "道路为贤者开启。",
+      "zh": "道路为睿智之人开启。",
       "units": [
         {
           "character": "道",
@@ -9939,13 +9939,23 @@
           "route": "phonetic"
         },
         {
-          "character": "贤",
-          "reading": "xian2",
+          "character": "睿",
+          "reading": "rui4",
           "route": "phonetic"
         },
         {
-          "character": "者",
-          "reading": "zhe3",
+          "character": "智",
+          "reading": "zhi4",
+          "route": "phonetic"
+        },
+        {
+          "character": "之",
+          "reading": "zhi1",
+          "route": "phonetic"
+        },
+        {
+          "character": "人",
+          "reading": "ren2",
           "route": "phonetic"
         },
         {

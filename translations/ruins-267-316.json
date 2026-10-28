@@ -2452,7 +2452,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0297::s1",
           "source_segment_index": 1,
-          "zh": "守护者所守之物，另在他处。",
+          "zh": "守护者还守护着别的东西。",
           "source_token_offset": 3,
           "source_tokens_sha256": "9670e6e31b668bf67b47b437a1870b9c085c536cc48e39080ec8ed785a4b8b82",
           "source_kind": "glyph_run"

@@ -3320,7 +3320,7 @@
         {
           "stable_key": "data/language/script_code.dat::block:0549::s0",
           "source_segment_index": 0,
-          "zh": "［穆拉纳遗迹事典＞起始壁画］",
+          "zh": "［穆拉纳遗迹事典＞启程壁画］",
           "source_token_offset": 0,
           "source_tokens_sha256": "a45b4cce470f31b2e2e59c273356dbffb1631925234dfc16c327e2b9e825dce2",
           "source_kind": "glyph_run"
