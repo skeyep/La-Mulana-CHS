@@ -1,14 +1,14 @@
 # La-Mulana-CHS
 
 《穆拉纳秘宝》Windows Steam 重制版简体中文汉化。  
-汉化：**Skeyep_目目** · 当前版本 **0.2.8**
+汉化：**Skeyep_目目** · 当前版本 **0.2.9**
 
 ## 下载与安装
 
 | 平台 | Translation Only（纯汉化） | Translation + Adventure Log（含冒险记录） |
 | --- | --- | --- |
-| Windows | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Windows-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Windows-Translation-Adventure-Log.zip) |
-| Steam Deck / Linux（Proton） | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Linux-Proton-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Linux-Proton-Translation-Adventure-Log.zip) |
+| Windows | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.9/La-Mulana-CHS-0.2.9-Windows-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.9/La-Mulana-CHS-0.2.9-Windows-Translation-Adventure-Log.zip) |
+| Steam Deck / Linux（Proton） | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.9/La-Mulana-CHS-0.2.9-Linux-Proton-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.9/La-Mulana-CHS-0.2.9-Linux-Proton-Translation-Adventure-Log.zip) |
 
 Windows安装：
 

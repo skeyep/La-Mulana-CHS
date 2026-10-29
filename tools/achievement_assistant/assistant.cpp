@@ -607,7 +607,8 @@ static void __cdecl pollKeyboard() {
     pollKeyboardOriginal();
     if(!pauseOwner)return;
     cachedInput=input();
-    if(waitForRelease && !(cachedInput&(OPEN|CLOSE)))waitForRelease=false;
+    // Consume every held modal action until neutral, including Item/directions.
+    if(waitForRelease && cachedInput==0)waitForRelease=false;
     if(opened || waitForRelease || ((cachedInput&OPEN) && *reinterpret_cast<int*>((BYTE*)pauseOwner+0x1c)==0)) {
         memset((void*)(base+0x2dffe0),0,0xc00);
         reinterpret_cast<void (__cdecl*)()>(base+0x271a60)();
