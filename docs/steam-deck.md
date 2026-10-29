@@ -1,6 +1,6 @@
 # Steam Deck 安装汉化
 
-在 [Release](https://github.com/skeyep/La-Mulana-CHS/releases/tag/v0.2.7) 下载 **Linux-Proton** 安装包。纯汉化版和冒险记录版使用相同步骤，游戏通过 **Proton 运行 Windows 版**。Steam Deck实机兼容性尚待确认。
+在 [Release](https://github.com/skeyep/La-Mulana-CHS/releases/tag/v0.2.8) 下载 **Linux-Proton** 安装包。纯汉化版和冒险记录版使用相同步骤，游戏通过 **Proton 运行 Windows 版**。Steam Deck实机兼容性尚待确认。
 
 《La-Mulana》也提供原生 Linux 版。汉化包含修改后的 `LaMulanaWin.exe`，安装前须让 Steam 下载 Windows 版。
 
@@ -21,7 +21,7 @@
    bash ./Check.sh
    ```
 
-   看到 `PASS` 后返回游戏模式，从 **原有 Steam 游戏条目** 启动。首页左下角应显示 `汉化版本 0.2.7 · 2026-10-28`。
+   看到 `PASS` 后返回游戏模式，从 **原有 Steam 游戏条目** 启动。首页左下角应显示 `汉化版本 0.2.8 · 2026-10-29`。
 
 安装使用 SteamOS 自带的 Python 3，无需 `sudo` 或安装系统软件。
 

@@ -1,14 +1,14 @@
 # La-Mulana-CHS
 
 《穆拉纳秘宝》Windows Steam 重制版简体中文汉化。  
-汉化：**Skeyep_目目** · 当前版本 **0.2.7**
+汉化：**Skeyep_目目** · 当前版本 **0.2.8**
 
 ## 下载与安装
 
 | 平台 | Translation Only（纯汉化） | Translation + Adventure Log（含冒险记录） |
 | --- | --- | --- |
-| Windows | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.7/La-Mulana-CHS-0.2.7-Windows-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.7/La-Mulana-CHS-0.2.7-Windows-Translation-Adventure-Log.zip) |
-| Steam Deck / Linux（Proton） | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.7/La-Mulana-CHS-0.2.7-Linux-Proton-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.7/La-Mulana-CHS-0.2.7-Linux-Proton-Translation-Adventure-Log.zip) |
+| Windows | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Windows-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Windows-Translation-Adventure-Log.zip) |
+| Steam Deck / Linux（Proton） | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Linux-Proton-Translation-Only.zip) | [Download](https://github.com/skeyep/La-Mulana-CHS/releases/download/v0.2.8/La-Mulana-CHS-0.2.8-Linux-Proton-Translation-Adventure-Log.zip) |
 
 Windows安装：
 
@@ -32,7 +32,7 @@ Windows安装：
 
 - 查阅穆尔、长老的对话与邮件，查看已听、可触发、暂不可及已错过状态。
 - 查看流程点数、收集进度（含泡温泉次数）、通关挑战和结局同行角色。
-- 暂停后按 **跳跃键** 打开；确认键展开触发详情，返回键收起，再按返回键退出。
+- 暂停后按 **跳跃键**（键盘默认 **Z**，支持改键）打开；确认键展开触发详情，返回键收起，再按返回键退出。
 
 [独占功能介绍与演示](https://www.xiaoheihe.cn/app/bbs/link/194922739)
 

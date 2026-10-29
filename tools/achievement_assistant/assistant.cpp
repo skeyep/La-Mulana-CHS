@@ -556,32 +556,49 @@ static void draw() {
 #endif
 }
 enum {OPEN=1,CLOSE=2,UP=4,DOWN=8,LEFT=16,RIGHT=32,PREV_TAB=64,NEXT_TAB=128,PERSON=256,CONFIRM=512};
-// The original action query takes the action in EDI and held/pressed mode in EAX.
-static bool mappedHeld(int action) {
-    uintptr_t query=base+0x832a0;int result;
-    __asm {
-        push edi
-        mov edi,action
-        xor eax,eax
-        call query
-        mov result,eax
-        pop edi
-    }
-    return result!=0;
-}
-// Same configurable menu actions as the native settings page (30=settings, 5=back).
+// Native menu aliases (Space/Enter confirm, Escape/Backspace back).
 static bool menuHeld(int action) {
     return reinterpret_cast<int (__cdecl*)(int,int)>(base+0xb9ae0)(0,action)!=0;
 }
+// Read the same binding table/device branch as 0x4b9ae0, in held mode.
+// 0x4832a0 instead uses fixed virtual keys (4=Space), not player bindings.
+static bool configuredHeld(int action) {
+    if((mem<unsigned>(0x6e1b90)&0x4000) || (mem<unsigned>(0x6e1b94)&0x1000000))return false;
+    const BYTE* config=mem<const BYTE*>(0xdc0e5c);
+    if(!config)return false;
+    int device=reinterpret_cast<int (__cdecl*)()>(base+0x271ac0)();
+    if(device==4) {
+        int key=config[0x5c+action],result;uintptr_t query=base+0x55920;
+        if(key==255)return false;
+        __asm {
+            push esi
+            xor esi,esi
+            xor ecx,ecx
+            mov edx,key
+            call query
+            movzx eax,al
+            mov result,eax
+            pop esi
+        }
+        return result!=0;
+    }
+    if(device<0 || device>3 || action>22)return false;
+    auto query=reinterpret_cast<int (__fastcall*)(int,int)>(base+0x2712c0);
+    int button=config[(device==1?0x17:0)+action];
+    if(button!=255 && query(button,0))return true;
+    // Native direction fallback for an unassigned pad direction: D-pad/stick.
+    static const int directions[]={0x10000,0x80000,0x20000,0x40000};
+    return action>=18 && action<=21 && query(directions[action-18],0)!=0;
+}
 static DWORD input() {
     DWORD v=0;
-    if(mappedHeld(4))v|=OPEN;
-    if(menuHeld(4))v|=CONFIRM;
-    if(menuHeld(5) || menuHeld(22) || menuHeld(30))v|=CLOSE;
-    if(menuHeld(3))v|=PERSON;
-    if(mappedHeld(0))v|=UP;if(mappedHeld(1))v|=DOWN;
-    if(mappedHeld(2))v|=LEFT;if(mappedHeld(3))v|=RIGHT;
-    if(menuHeld(16))v|=PREV_TAB;if(menuHeld(17))v|=NEXT_TAB;
+    if(configuredHeld(0))v|=OPEN; // Jump, distinct from menu confirm (4).
+    if(configuredHeld(4) || menuHeld(4))v|=CONFIRM;
+    if(configuredHeld(5) || menuHeld(5) || configuredHeld(22) || configuredHeld(30))v|=CLOSE;
+    if(configuredHeld(3))v|=PERSON;
+    if(configuredHeld(18))v|=UP;if(configuredHeld(20))v|=DOWN;
+    if(configuredHeld(21))v|=LEFT;if(configuredHeld(19))v|=RIGHT;
+    if(configuredHeld(16))v|=PREV_TAB;if(configuredHeld(17))v|=NEXT_TAB;
     return v;
 }
 // Read controls before masking the game's input buffers. Other tasks must not
